@@ -21,7 +21,7 @@
 @media (max-width:1000px) {
     .header_box:after, .header_box .wrap:before, .logo .text::before{display: none;}
 	.header_box:before{top: auto;bottom: 0;height: 1px;background: rgba(255, 255, 255, 0.2);}
-	#wrapper[data-nowtop="nontop"] .logo .image{background-image: url(/common/images/layout/logo_white.png);}
+	#wrapper[data-nowtop="nontop"] .logo .image{background-image: url(/portfolio/project/guri-si/common/images/layout/logo_white.png);}
 	#wrapper[data-nowtop="nontop"] .logo .text{color: white;}
 	#wrapper[data-nowtop="nontop"] .search_btn:before{background-position-x: -90px;}
 	.header_box{z-index:10;}

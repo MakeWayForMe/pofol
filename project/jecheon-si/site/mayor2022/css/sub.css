@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 /* Layout */
-@import url('/jecheon-si/newCommon/css/default.css');
-@import url('/jecheon-si/newCommon/css/board.css');
-@import url('/jecheon-si/newCommon/css/template.css');
+@import url('/portfolio/project/jecheon-si/newCommon/css/default.css');
+@import url('/portfolio/project/jecheon-si/newCommon/css/board.css');
+@import url('/portfolio/project/jecheon-si/newCommon/css/template.css');
 @import url('common.css');
 @import url('sub_layout.css');
 @import url('program.css');

@@ -1,0 +1,12 @@
+/* (주)한신정보기술 김진솔 - 2022.10 */
+
+.cycle_map .kakaomap{height: 700px;margin-top: 25px;}
+.cycle_map .info_win{border: 1px solid #ccc;border-radius: 5px;background-color: white;width:150px;color: #4d4d4d;padding: 5px 10px;font-size: 14px;}
+.cycle_map .info_win .name{font-weight: 500;font-size: 15px;}
+.cycle_map .info_win .link{text-align: right;}
+@media (max-width:1000px) {
+    .cycle_map .kakaomap{height: 500px;}
+}
+@media (max-width:640px) {
+    .cycle_map .box_wrap .textbox{font-size: 14px;}
+}

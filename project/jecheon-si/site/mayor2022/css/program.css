@@ -1,0 +1,40 @@
+/* (주)한신정보기술 김진솔 - 2022.10 */
+
+/* 사이트맵 */
+.pgm_sitemap a{color:inherit;}
+.pgm_sitemap .tab_content{display:flex;justify-content:flex-start;align-items:flex-start;padding:33px 0;border-bottom:1px solid #bfbfbf;}
+.pgm_sitemap .tab_content .title{width:326px;color:#0c0b40;font-size:28px;font-weight:600;line-height:40px;}
+.pgm_sitemap .tab_content .depth2{display:flex;justify-content:flex-start;align-items:flex-start;width:calc(100% - 326px);}
+.pgm_sitemap .tab_content .depth2_item{width:20%;font-family:Noto;font-size:20px;line-height:40px;}
+.pgm_sitemap .tab_content .depth2_text{position:relative;}
+.pgm_sitemap .tab_content .depth2_text:hover:before{display:block;position:absolute;bottom:5px;left:-4px;width:calc(100% + 8px);height:10px;border-radius:5px;background-color:#00aeef;content:"";opacity:0.1;}
+.pgm_sitemap .tab_content .depth2_text span{position:relative;}
+.pgm_sitemap .tab_content .depth3{margin-top:4px;color:#444;font-weight:300;white-space:nowrap;}
+.pgm_sitemap .tab_content .depth3 li{position:relative;margin-bottom:5px;padding-left:16px;font-size:16px;line-height:24px;}
+.pgm_sitemap .tab_content .depth3 li:before{display:block;position:absolute;top:calc(50% - 1px);left:0;width:8px;height:2px;background-color:#333;content:"";}
+.pgm_sitemap .tab_content .depth3 li a{position:relative;}
+.pgm_sitemap .tab_content .depth3 li a:hover:before{display:block;position:absolute;bottom:-2px;left:0;width:100%;height:1px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAABCAYAAAD0In+KAAAAAXNSR0IArs4c6QAAABFJREFUGFdjZGBg+M/AwMAIAAUOAQLHCKYWAAAAAElFTkSuQmCC) repeat-x;content:"";}
+@media (max-width:1400px) {
+    .pgm_sitemap .tab_content .title{width:200px;}
+    .pgm_sitemap .tab_content .depth2{width:800px;}
+}
+@media (max-width:1000px) {
+    .pgm_sitemap .tab_content{flex-direction:column;}
+    .pgm_sitemap .tab_content .title{width:100%;margin-bottom:10px;}
+    .pgm_sitemap .tab_content .title:last-child{margin-bottom:0;}
+    .pgm_sitemap .tab_content .depth2{width:100%;}
+}
+@media (max-width:800px) {
+    .pgm_sitemap .tab_content{padding:20px 0;text-align:center;}
+    .pgm_sitemap .tab_content .depth2{flex-direction:column;}
+    .pgm_sitemap .tab_content .depth2_item{width:100%;margin-bottom:10px;}
+    .pgm_sitemap .tab_content .depth2_item:last-child{margin-bottom:0;}
+    .pgm_sitemap .tab_content .depth3{width:200px;margin:0 auto;padding:10px;border-radius:10px;background-color:#f7f7f9;}
+    .pgm_sitemap .tab_content .depth3 li{padding-left:0;}
+    .pgm_sitemap .tab_content .depth3 li:before{display:none;}
+}
+@media (max-width:640px) {
+    .pgm_sitemap .tab_content .title{font-size:22px;line-height:30px;}
+    .pgm_sitemap .tab_content .depth2_item{font-size:18px;line-height:30px;}
+    .pgm_sitemap .tab_content .depth3 li{font-size:15px;}
+}

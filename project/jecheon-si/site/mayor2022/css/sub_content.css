@@ -1,0 +1,435 @@
+/* (주)한신정보기술 김진솔 - 2022.10 */
+
+/* 김창규입니다 > 인사말 */
+.greeting{position:relative;margin-top:150px;margin-bottom:100px;padding-bottom:57px;}
+.greeting:before{display:block;position:absolute;top:-150px;left:1050px;width:650px;height:2000px;background-color:#0c0b40;content:"";}
+.greeting .photo{position:absolute;top:0;right:0;}
+.greeting .photo img{border-radius:50px 50px 50px 0;box-shadow:35px 35px 40px rgba(23, 18, 50, 0.2);}
+.greeting .textbox{padding-top:47px;}
+.greeting .title{color:#444;font-size:42px;font-weight:300;line-height:50px;}
+.greeting .title .color1{color:#0c0b40;font-weight:600;}
+.greeting .title .color2{color:#00a999;font-weight:600;}
+.greeting .title b{color:black;font-weight:600;}
+.greeting .text{margin-top:67px;font-family:NotoCJK;font-size:18px;}
+.greeting .text p{line-height:30px;word-break:keep-all;}
+.greeting .text p:nth-child(n+2){margin-top:30px;}
+.greeting .sign{position:absolute;right:0;bottom:0;width:350px;color:white;font-size:0;text-align:center;}
+.greeting .sign:after{display:block;position:absolute;bottom:0;left:0;width:100%;height:1px;background-color:white;content:"";}
+.greeting .sign .dt{margin-right:53px;font-family:Noto;font-size:18px;}
+.greeting .sign .dd{font-size:42px;font-weight:700;line-height:82px;}
+@media (max-width:1400px) {
+    .greeting:before{left:700px;}
+    .greeting .photo{right:-180px;}
+    .greeting .title{font-size:34px;line-height:40px;}
+    .greeting .text{width:522px;margin-top:47px;}
+    .greeting .text br{display:none;}
+    .greeting .sign{width:300px;}
+    .greeting .sign .dd{font-size:34px;}
+}
+@media (max-width:1000px) {
+    .greeting{margin-top:60px;margin-bottom:0;}
+    .greeting:before{top:-60px;left:40%;width:100vw;height:250px;}
+    .greeting .photo{position:relative;right:auto;text-align:center;}
+    .greeting .photo img{width:50%;border-radius:30px;}
+    .greeting .title{font-size:30px;}
+    .greeting .text{width:100%;margin-top:25px;}
+    .greeting .text p{font-size:16px;line-height:26px;}
+    .greeting .text p:nth-child(n+2){margin-top:26px;}
+    .greeting .sign{position:relative;right:auto;bottom:auto;width:100%;color:black;text-align:right;}
+    .greeting .sign .dt{margin-right:20px;font-size:16px;}
+    .greeting .sign .dd{font-size:30px;line-height:60px;}
+}
+@media (max-width:640px) {
+    .greeting{margin-top:40px;}
+    .greeting:before{top:-40px;height:180px;}
+    .greeting .photo img{width:70%;}
+    .greeting .textbox{padding-top:30px;}
+    .greeting .title{font-size:24px;line-height:32px;}
+    .greeting .text p{font-size:15px;line-height:25px;}
+    .greeting .text p:nth-child(n+2){margin-top:25px;}
+    .greeting .sign .dt{font-size:15px;}
+    .greeting .sign .dd{font-size:24px;}
+}
+@media (max-width:480px) {
+    .greeting .title{font-size:20px;line-height:30px;}
+    .greeting .text p:nth-child(n+2){margin-top:22px;}
+    .greeting .sign .dd{font-size:20px;}
+}
+
+
+/* 김창규입니다 > 걸어온길 */
+.career{position:relative;margin-top:100px;margin-bottom:100px;padding-left:770px;}
+.career:before{display:block;position:absolute;top:-100px;right:1050px;width:650px;height:2000px;background-color:#00a999;content:"";}
+.career .photo{position:absolute;top:0;left:30px;}
+.career .photo img{border-radius:50%;box-shadow:18px 18px 30px rgba(0, 0, 0, 0.2);}
+.career .textbox{position:relative;padding-top:46px;padding-bottom:155px;}
+.career .textbox:before{display:block;position:absolute;right:4px;bottom:0;width:993px;height:277px;background:url(../images/contents/career_02.png) no-repeat center / contain;content:"";}
+.career .name{margin-bottom:10px;font-size:42px;font-weight:600;line-height:50px;}
+.career .birth{margin-bottom:34px;font-size:30px;font-weight:300;line-height:40px;}
+.career .info{display:flex;justify-content:flex-start;align-items:flex-start;position:relative;padding:45px 0 42px;}
+.career .info:before{display:block;position:absolute;top:0;left:0;width:100%;height:1px;background-color:black;content:"";}
+.career .info .title{margin-right:50px;color:#0c0b40;font-size:30px;font-weight:600;line-height:40px;}
+.career .info .list li{font-family:NotoCJK;font-size:18px;line-height:30px;}
+@media (max-width:1400px) {
+    .career{padding-left:450px;}
+    .career:before{right: 905px;}
+    .career .photo{left:-210px;}
+}
+@media (max-width:1000px) {
+    .career{margin-top:60px;margin-bottom:0;padding-left:0;}
+    .career:before{width: 50vw;right: calc(50vw - 30px);height: 300px;}
+    .career .photo{position:relative;left:auto;text-align:center;}
+    .career .photo img{width:50%;}
+    .career .textbox{padding-top:30px;padding-bottom:120px;}
+    .career .textbox:before{right:0;width:100%;}
+    .career .name{font-size:30px;line-height:40px;}
+    .career .birth{margin-bottom:20px;font-size:22px;line-height:30px;}
+    .career .info{padding:30px 0 26px;}
+    .career .info .title{font-size:22px;line-height:30px;}
+    .career .info .list li{font-size:16px;line-height:26px;}
+}
+@media (max-width:640px) {
+    .career:before{right: calc(50vw - 15px);height: 200px;}
+    .career .photo img{width:70%;}
+    .career .textbox{padding-top:30px;padding-bottom:60px;}
+    .career .textbox:before{height:160px;}
+    .career .name{font-size:24px;line-height:32px;}
+    .career .birth{font-size:18px;line-height:26px;}
+    .career .info{flex-direction:column;}
+    .career .info .title{margin-right:0;margin-bottom:10px;font-size:18px;line-height:26px;}
+    .career .info .list li{padding-left:5px;font-size:15px;}
+}
+
+
+/* 김창규입니다 > 취임사 */
+.speech{position:relative;margin-bottom:100px;}
+.speech:before{display:block;position:absolute;top:145px;left:calc((100% - 100vw) / 2);width:100vw;height:5000px;background-color:#f7f7f9;content:"";}
+.speech .titlebox{position:relative;margin-bottom:72px;padding:27px 30px;border-radius:20px;background-color:#0c0b40;color:white;text-align:center;}
+.speech .titlebox .box_wrap{position:relative;padding:2px;background-color:white;}
+.speech .titlebox .box_wrap:before, .speech .titlebox .box_wrap:after{display:block;position:absolute;top:-1px;width:18px;height:18px;background:#0c0b40 url(../images/contents/speech_deco.png) no-repeat;content:"";}
+.speech .titlebox .box_wrap:before{left:-1px;}
+.speech .titlebox .box_wrap:after{right:-1px;transform:scaleX(-1);}
+.speech .titlebox .box_wrap .box_fill{padding-top:71px;padding-bottom:48px;background-color:#0c0b40;}
+.speech .titlebox .box_wrap .box_fill:before, .speech .titlebox .box_wrap .box_fill:after{display:block;position:absolute;bottom:-1px;width:18px;height:18px;background:#0c0b40 url(../images/contents/speech_deco.png) no-repeat;content:"";}
+.speech .titlebox .box_wrap .box_fill:before{left:-1px;transform:scaleY(-1);}
+.speech .titlebox .box_wrap .box_fill:after{right:-1px;transform:scale(-1, -1);}
+.speech .titlebox span{display:block;}
+.speech .titlebox span.label{position:absolute;top:-11px;left:calc(50% - 158px);width:316px;background-color:#0c0b40;font-size:20px;font-weight:300;line-height:30px;}
+.speech .titlebox span.name{margin-bottom:18px;font-family:NanumMyeongjo;font-size:50px;font-weight:700;line-height:60px;}
+.speech .titlebox span.theme{font-family:NanumMyeongjo;font-size:25px;font-weight:600;line-height:35px;word-break:keep-all;}
+.speech .textbox{position:relative;}
+.speech .textbox .context{margin-bottom:39px;font-family:NotoCJK;}
+.speech .context .title{margin-bottom:18px;color:#0c0b40;font-family:NanumMyeongjo;font-size:30px;font-weight:600;line-height:40px;word-break:keep-all;}
+.speech .context p{font-size:18px;font-weight:300;line-height:30px;word-break:keep-all;}
+.speech .context .conbox{margin-top:40px;padding:54px 60px;background-color:white;box-shadow:11px 11px 20px rgba(0, 0, 0, 0.05);}
+.speech .context .conbox div{margin-bottom:12px;font-family:Noto;font-size:30px;font-weight:500;line-height:40px;word-break:keep-all;}
+.speech .context .conbox div span{color:#00a999;}
+.speech .end{margin-top:36px;text-align:right;}
+.speech .end span.date{margin-right:20px;font-family:NotoCJK;font-size:18px;font-weight:300;vertical-align:bottom;}
+.speech .end span.name{color:#0c0b40;font-family:NanumMyeongjo;font-size:30px;font-weight:600;line-height:40px;}
+@media (max-width:1400px) {
+    .speech .context .conbox:nth-child(3) p br:first-child{display:none;}
+    .speech .context .conbox:nth-child(6) p br{display:none;}
+}
+@media (max-width:1000px) {
+    .speech .titlebox{margin-bottom:40px;}
+    .speech .titlebox .box_wrap .box_fill{padding-top:51px;padding-bottom:34px;}
+    .speech .titlebox span.label{left:calc(50% - 130px);width:260px;font-size:18px;}
+    .speech .titlebox span.name{font-size:40px;line-height:50px;}
+    .speech .titlebox span.theme{font-size:22px;line-height:30px;}
+    .speech .textbox .context{margin-bottom:24px;}
+    .speech .context .title{margin-bottom:14px;font-size:26px;line-height:34px;}
+    .speech .context p{font-size:16px;line-height:24px;}
+    .speech .context .conbox{padding:30px 38px;}
+    .speech .context .conbox div{margin-bottom:10px;font-size:26px;line-height:34px;}
+    .speech .end span.date{font-size:16px;}
+    .speech .end span.name{font-size:26px;}
+}
+@media (max-width:640px) {
+    .speech .titlebox{margin-bottom:30px;}
+    .speech .titlebox .box_wrap .box_fill{padding-top:41px;padding-bottom:24px;}
+    .speech .titlebox span.label{left:calc(50% - 100px);width:200px;font-size:16px;}
+    .speech .titlebox span.name{font-size:26px;line-height:34px;}
+    .speech .titlebox span.theme{font-size:18px;}
+    .speech .context .title{font-size:20px;line-height:30px;}
+    .speech .context p{font-size:15px;}
+    .speech .context .conbox{margin-top:20px;padding:16px 20px;}
+    .speech .context .conbox div{font-size:20px;line-height:30px;}
+    .speech .end span.date{font-size:15px;}
+    .speech .end span.name{font-size:20px;}
+}
+
+
+/* 역대시장/군수 > 역대군수 & 역대시장 */
+.history{display:flex;justify-content:flex-start;align-items:flex-start;flex-wrap:wrap;margin-bottom:100px;font-family:NotoCJK;}
+.history .list{overflow:hidden;width:452px;margin-right:22px;margin-bottom:20px;border:1px solid #153667;border-radius:20px;box-sizing:border-box;}
+.history .title{padding-left:39px;background-color:#0c0b40;color:white;font-size:18px;line-height:50px;}
+.history .conbox{display:flex;justify-content:flex-start;align-items:center;position:relative;padding:40px;}
+.history .conbox:before{display:block;position:absolute;right:21px;bottom:-13px;width:154px;height:156px;background:url(../images/contents/history_deco.png) no-repeat;content:"";}
+.history .conbox img{position:relative;margin-right:30px;}
+.history .conbox ul li{position:relative;color:#444;font-size:18px;line-height:30px;}
+.history .conbox ul li span{width:49px;margin-right:30px;color:#010101;}
+@media (min-width:1001px) {
+    .history .list:nth-child(3n){margin-right:0;}
+}
+@media (max-width:1400px) {
+    .history .list{width:320px;margin-right:20px;}
+    .history .title{padding-left:20px;}
+    .history .conbox{padding:40px 20px;}
+    .history .conbox img, .history .conbox ul li span{margin-right:20px;}
+}
+@media (max-width:1000px) {
+    .history .title{font-size:16px;}
+    .history .list{justify-content:space-between;width:48%;margin-right:4%;}
+    .history .list:nth-child(2n){margin-right:0;}
+    .history .conbox{padding:30px 20px;}
+    .history .conbox ul li{font-size:16px;}
+}
+@media (max-width:800px) {
+    .history .list{width:100%;margin-right:0;}
+}
+@media (max-width:640px) {
+    .history .conbox ul li{font-size:15px;}
+}
+
+
+/* 공약사업총괄 & 공약사업 추진현황 테이블 */
+.promise_table .table thead tr:nth-child(2) th:last-child{border-right:1px solid #55557a;}
+.promise_table .table tbody tr th:first-child{text-align: left;}
+.promise_table .table tbody td{text-align:center;}
+.promise_table .table .total td{background-color: #f7f7f9;font-weight: 400;}
+.promise_table .list{width:100%;}
+.promise_table .list:nth-child(n+2){margin-top:10px;}
+.promise_table .list li{position:relative;padding-left:15px;}
+.promise_table .list li:nth-child(n+2){margin-top:5px;}
+.promise_table .list > li:before{display:block;position:absolute;top:9px;left:0;width:4px;height:4px;border-radius:50%;background-color:#444;content:"";}
+.promise_table .list ul{margin-top:5px;}
+.promise_table .list ul li{position:relative;padding-left:10px;font-size:13px;}
+.promise_table .list ul li:before{display:block;position:absolute;top:7px;left:0;width:4px;height:2px;background-color:#666;content:"";}
+@media (max-width:1000px) {
+    .promise_table .table_wrap{overflow:auto;width:100%;}
+    .promise_table .table{width:1000px;}
+}
+
+
+/* 시민과의 약속 > 매니페스토란 */
+.manifesto{position:relative;padding-top: 100px;word-break: keep-all;}
+.manifesto:before{content: "";display: block;position: absolute;top: -50px;left: 960px;width: 700px;height: 2000px;background-color: #f2fbfe;}
+.manifesto .textbox{height: 790px;}
+.manifesto .titlebox{padding-top: 30px;margin-bottom: 90px;position:relative;}
+.manifesto .titlebox:after{content: "";display: block;position: absolute;bottom: -45px;left: calc((100% - 100vw) / 2);width: 84vw;height: 1px;background-color: #ceced9;}
+.manifesto .titlebox .subject{font-size: 30px;font-weight: 600;font-family: Montserrat;line-height: 40px;color: #00aeef;padding-left: 3px;margin-bottom: 22px;}
+.manifesto .titlebox .title{font-size: 70px;font-weight: 600;color: #0c0b40;line-height: 80px;margin-bottom: 27px;letter-spacing: -0.04em;}
+.manifesto .titlebox .mean{font-size: 30px;line-height: 36px;letter-spacing: -0.04em;}
+.manifesto .titlebox .mean span{color: #00a999;display: inline;}
+.manifesto .context p{font-size: 18px;font-family: NotoCJK;line-height: 30px;}
+.manifesto .context p:first-child{margin-bottom: 30px;}
+.manifesto .imgbox{position: absolute;top: 100px;left:770px;width: 930px;}
+.manifesto .imgbox img{border-top-left-radius: 100px;display: block;}
+@media (max-width:1400px) {
+    .manifesto:before{left: 790px;}
+    .manifesto .titlebox .title{font-size: 60px;}
+    .manifesto .titlebox .mean{font-size: 26px;}
+    .manifesto .imgbox{width: 600px;left: 600px;}
+}
+@media (max-width:1000px) {
+    .manifesto{padding-top: 0;}
+    .manifesto:before{left: calc(84vw - 30px);}
+    .manifesto .textbox{height: 114vw;}
+    .manifesto .imgbox{left: 30vw;top: auto;bottom: 0;width: 70vw;height: 45vw;}
+    .manifesto .imgbox img{border-top-left-radius: 70px;}
+}
+@media (max-width:800px) {
+    .manifesto .textbox{height: 107vw;}
+    .manifesto .titlebox{margin-bottom: 50px;}
+    .manifesto .titlebox:after{bottom: -25px;}
+    .manifesto .titlebox .subject{font-size: 20px;line-height: 30px;margin-bottom: 5px;}
+    .manifesto .titlebox .title{font-size: 45px;line-height: 55px;margin-bottom: 20px;}
+    .manifesto .titlebox .mean{font-size: 20px;line-height: 30px;}
+    .manifesto .context p{font-size: 16px;line-height: 24px;}
+    .manifesto .context p:first-child{margin-bottom: 24px;}
+}
+@media (max-width:640px) {
+    .manifesto:before{display: none;}
+    .manifesto .textbox{height: auto;margin-bottom: 30px;}
+    .manifesto .titlebox:after{width: 100%;left: 0;}
+    .manifesto .titlebox .subject{font-size: 18px;}
+    .manifesto .titlebox .title{font-size: 32px;line-height: 40px;}
+    .manifesto .titlebox .mean{font-size: 18px;}
+    .manifesto .titlebox .mean br{display: none;}
+    .manifesto .context p{font-size: 15px;}
+    .manifesto .context p br{display: none;}
+    .manifesto .imgbox{position:relative;left: 15px;width: 100%;height: auto;}
+}
+
+
+/* 시민과의 약속 > 시정방침 */
+.vision{text-align: center;margin-bottom: 80px;}
+.vision p{font-size: 18px;line-height: 30px;font-family: NotoCJK;word-break: keep-all;}
+.vision .ribbon{font-size: 28px;line-height: 60px;font-weight: 600;border-radius: 30px;width: 190px;margin: 0 auto;position:relative;}
+.vision .conbox{background: url(../images/contents/vision_01.jpg) no-repeat center / cover;color: white;border-radius: 50px;padding: 40px 20px 70px;margin-bottom: 80px;}
+.vision .conbox .jc_icon{width: 269px;height: 177px;background: url(../images/contents/vision_02.png) no-repeat center / contain;display: block;margin: 0 auto;margin-bottom: 24px;}
+.vision .conbox .textbox:last-child{margin-top: 33px;}
+.vision .conbox .textbox .ribbon{background-color: #00a999;}
+.vision .conbox .textbox .ribbon:before{content: "";display: block;position: absolute;width: 1px;height: 20px;top: -20px;left: 50%;background-color: white;}
+.vision .conbox .textbox .title{font-size: 26px;line-height: 34px;font-weight: 600;margin: 15px 0 9px;}
+.vision .context{border-radius: 50px;border: 1px solid #0c0b40;position:relative;padding: 130px 60px 92px;}
+.vision .context .ribbon{background-color: #0c0b40;color: white;position: absolute;top: -30px;left: calc(50% - 95px);}
+.vision .context .flexbox{display: flex;justify-content: center;align-items: flex-start;flex-wrap: wrap;}
+.vision .context .prop{width: 394px;}
+.vision .context .prop:nth-child(n+2){margin-left: 48px;}
+.vision .context .prop .bg{height: 394px;border-radius: 80px 80px 30px 80px;}
+.vision .context .prop:nth-child(1) .bg{background: url(../images/contents/vision_03.png) no-repeat center / cover;}
+.vision .context .prop:nth-child(2) .bg{background: url(../images/contents/vision_04.png) no-repeat center / cover;}
+.vision .context .prop:nth-child(3) .bg{background: url(../images/contents/vision_05.png) no-repeat center / cover;}
+.vision .context .prop:nth-child(4) .bg{background: url(../images/contents/vision_06.png) no-repeat center / cover;}
+.vision .context .prop:nth-child(5) .bg{background: url(../images/contents/vision_07.png) no-repeat center / cover;}
+.vision .context .prop .title{font-size: 30px;line-height: 40px;font-weight: 600;margin: 24px 0 9px;}
+.vision .context .prop .title span{color: #00a999;}
+@media (min-width:1001px) {
+    .vision .context .prop:nth-child(4){margin-left: 0;}
+    .vision .context .prop:nth-child(n+4){margin-top: 43px;}
+}
+@media (max-width:1400px) {
+    .vision .context{padding: 100px 29px 70px;}
+    .vision .context .prop{width: 300px;}
+    .vision .context .prop:nth-child(n+2){margin-left: 20px;}
+    .vision .context .prop .bg{height: 300px;border-radius: 70px 70px 30px 70px;}
+}
+@media (max-width:1000px) {
+    .vision p{font-size: 16px;line-height: 24px;}
+    .vision .ribbon{font-size: 24px;line-height: 50px;width: 180px;}
+    .vision .conbox .textbox .title{font-size: 22px;line-height: 30px;}
+    .vision .conbox p br{display: none;}
+    .vision .context{padding: 100px 6vw 70px;}
+    .vision .context .ribbon{top: -25px;left: calc(50% - 90px);}
+    .vision .context .flexbox{justify-content: space-between;}
+    .vision .context .prop:nth-child(n+2){margin-left: 0;}
+    .vision .context .prop:nth-child(n+3){margin-top: 30px;}
+    .vision .context .prop .bg{border-radius: 50px 50px 20px 50px;}
+    .vision .context .prop .title{font-size: 24px;line-height: 30px;}
+}
+@media (max-width:800px) {
+    .vision .context .flexbox{justify-content: flex-start;flex-direction: column;align-items: center;}
+    .vision .context .prop:nth-child(n+2){margin-top: 30px;}
+    .vision .context .prop{width: 100%;}
+    .vision .context .prop .bg{width: 50vw;height: 50vw;max-width: 394px;max-height: 394px;margin: 0 auto;}
+}
+@media (max-width:640px) {
+    .vision p{font-size: 14px;}
+    .vision .ribbon{font-size: 20px;line-height: 40px;width: 160px;}
+    .vision .conbox{padding: 30px 10px 50px;margin-bottom: 40px;}
+    .vision .conbox .jc_icon{width: 200px;height: 135px;}
+    .vision .conbox .textbox .title{font-size: 18px;}
+    .vision .context{padding: 40px 10px 20px;}
+    .vision .context .ribbon{top: -20px;left: calc(50% - 80px);}
+    .vision .context .prop .bg{width: 70vw;height: 70vw;}
+    .vision .context .prop .title{margin-top: 16px;font-size: 18px;}
+}
+
+/* 시장과의 대화 */
+.communication .headbox{border-radius: 50px 50px 0 50px;background: linear-gradient(to top, rgba(129,239,229,0.3), rgba(205,204,242,0.3));padding-left: 490px;padding-top: 75px;height: 316px;box-sizing: border-box;position:relative;overflow: hidden;word-break: keep-all;}
+.communication .headbox:before{content: "";display: block;position: absolute;bottom: 0;left: 62px;width: 389px;height: 270px;background: url(../images/contents/communication_03.png) no-repeat center / contain;}
+.communication .headbox div{font-size: 22px;font-weight: 300;line-height: 27px;margin-bottom: 13px;letter-spacing: -0.04em;}
+.communication .headbox div span{font-weight: 600;display: inline;}
+.communication .headbox p{font-family: NotoCJK;padding-left: 23px;background: url(../images/contents/communication_01.png) no-repeat left 3px;margin-bottom: 25px;}
+.communication .headbox .minwon{width: 200px;line-height: 62px;color: white;background-color: #0c0b40;border-radius: 31px;font-family: NotoCJK;font-size: 18px;position:relative;padding-left: 40px;box-sizing: border-box;}
+.communication .headbox .minwon:after{content: "";display: block;width: 16px;height: 14px;background: url(../images/contents/communication_02.png) no-repeat center;position:absolute;top: calc(50% - 7px);right: 30px;}
+.communication .headbox .minwon:hover{box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);}
+.communication .headbox .minwon:hover:after{background-color: #00a999;width: 30px;height: 30px;border-radius: 50%;top: calc(50% - 15px);right: 14px;}
+@media (max-width:1400px) {
+    .communication .headbox{padding-left: 300px;height: 270px;padding-top: 42px;}
+    .communication .headbox:before{width: 281px;left: 0;height: 195px;}
+}
+@media (max-width:1000px) {
+    .communication .headbox{padding-left: 20px;height: 350px;padding-right: 20px;}
+    .communication .headbox:before{left: auto;right: 0;}
+    .communication .headbox div{font-size: 20px;margin-bottom: 25px;}
+    .communication .headbox p{width: 72%;}
+    .communication .headbox .minwon{font-size: 16px;line-height: 50px;border-radius: 25px;position: absolute;bottom: 20px;left: 40px;}
+}
+@media (max-width:800px) {
+    .communication .headbox div br{display: none;}
+    .communication .headbox p{width: 67%;}
+}
+@media (max-width:640px) {
+    .communication .headbox{padding-top: 20px;}
+    .communication .headbox:before{width: 45vw;height: 30vw;}
+    .communication .headbox div{font-size: 18px;}
+    .communication .headbox p{width: 100%;font-size: 15px;}
+    .communication .headbox .minwon{width: 150px;padding-left: 20px;left: 20px;font-size: 15px;}
+    .communication .headbox .minwon:after{right: 20px;}
+    .communication .headbox .minwon:hover:after{right: 6px;}
+}
+
+
+/* 시민과의 약속 > 공약사업총괄 > 공약 실천계획 수립과정 */
+.promise_process{position:relative;}
+.promise_process:before{content: "";display: block;position: absolute;top: -50px;right: 950px;width: 710px;height: 3000px;background-color: #f7f7f9;}
+.promise_process .down_btn{position:relative;background: white linear-gradient(to top, rgba(129,239,229,0.3), rgba(205,204,242,0.3));border-radius: 50px 50px 0 50px;height: 225px;box-sizing: border-box;text-align: center;padding-top: 58px;}
+.promise_process .down_btn div{font-size: 22px;font-weight: 600;line-height: 30px;margin-bottom: 16px;letter-spacing: -0.04em;}
+.promise_process .down_btn a{width: 200px;line-height: 62px;color: white;background-color: #0c0b40;border-radius: 31px;font-family: NotoCJK;font-size: 18px;position:relative;padding-left: 40px;box-sizing: border-box;text-align: left;}
+.promise_process .down_btn a:after{content: "";display: block;width: 14px;height: 17px;background: url(../images/contents/process_01.png) no-repeat;position:absolute;top: calc(50% - 8px);right: 30px;}
+.promise_process .conlist{position:relative;padding-left: 150px;}
+.promise_process .conlist:before{content: "";display: block;position: absolute;top: -60px;left: 450px;width: 1px;height: 3000px;background-color: #0fae9f;}
+.promise_process .conbox{display: flex;justify-content: flex-start;margin-top: 60px;align-items: center;}
+.promise_process .conbox .bg{width: 220px;height: 170px;margin-right: 80px;}
+.promise_process .conbox:nth-child(1) .bg{background: url(../images/contents/process_02.png) no-repeat center;}
+.promise_process .conbox:nth-child(2) .bg{background: url(../images/contents/process_03.png) no-repeat center;}
+.promise_process .conbox:nth-child(3) .bg{background: url(../images/contents/process_04.png) no-repeat center;}
+.promise_process .conbox:nth-child(4) .bg{background: url(../images/contents/process_05.png) no-repeat center;}
+.promise_process .conbox:nth-child(5) .bg{background: url(../images/contents/process_06.png) no-repeat center;}
+.promise_process .conbox:nth-child(6) .bg{background: url(../images/contents/process_07.png) no-repeat center;}
+.promise_process .conbox:nth-child(7) .bg{background: url(../images/contents/process_08.png) no-repeat center;}
+.promise_process .conbox .text{padding-left: 125px;padding-top: 26px;position:relative;box-sizing: border-box;min-height: 170px;}
+.promise_process .conbox .text:before{content: "";display: block;position: absolute;width: 85px;height: 1px;background-color: #00a999;top: 50%;left: 0;}
+.promise_process .conbox .text:after{content: "";display: block;position: absolute;width: 20px;height: 20px;border: 5px solid #00a999;background-color: white;border-radius: 50%;top: calc(50% - 10px);left: -10px;box-sizing: border-box;}
+.promise_process .conbox .text .date{font-size: 20px;font-weight: 500;line-height: 30px;color: #0c0b40;}
+.promise_process .conbox .text .title{font-size: 30px;font-weight: 600;line-height: 40px;color: #0c0b40;margin: 7px 0;}
+.promise_process .conbox .text p{font-size: 18px;line-height: 30px;color: #444;font-weight: 300;padding-left: 21px;position:relative;}
+.promise_process .conbox .text p:before{content: "";display: block;position: absolute;width: 10px;height: 10px;left: 0;top: 10px;box-sizing: border-box;border-radius: 50%;background-color: white;border: 4px solid #9fe1ea;}
+@media (max-width:1400px) {
+    .promise_process:before{right: 690px;}
+    .promise_process .conlist{padding-left: 50px;}
+    .promise_process .conlist:before{left: 310px;}
+    .promise_process .conbox .bg{margin-right: 40px;}
+    .promise_process .conbox .text{width: 690px;padding-left: 65px;}
+    .promise_process .conbox .text:before{width: 40px;}
+    .promise_process .conbox .text .title{font-size: 27px;}
+}
+@media (max-width:1000px) {
+    .promise_process:before{right: calc(100% - 240px);}
+    .promise_process .down_btn a{font-size: 16px;line-height: 50px;border-radius: 25px;}
+    .promise_process .conlist{padding-left: 0;padding-bottom: 50px;}
+    .promise_process .conlist:before{left: 240px;}
+    .promise_process .conbox .bg{margin-right: 20px;}
+    .promise_process .conbox .text{width: calc(100% - 240px);}
+    .promise_process .conbox .text .date{font-size: 18px;}
+    .promise_process .conbox .text .title{font-size: 26px;}
+    .promise_process .conbox .text p{font-size: 18px;}
+}
+@media (max-width:800px) {
+    .promise_process:before{right: calc(100% - 50px);}
+    .promise_process .down_btn div{font-size: 20px;}
+    .promise_process .conlist{padding-left: 50px;}
+    .promise_process .conlist:before{left: 50px;top: -40px;}
+    .promise_process .conbox{margin-top: 40px;}
+    .promise_process .conbox .bg{display: none;}
+    .promise_process .conbox .text{width: 100%;min-height: 140px;}
+    .promise_process .conbox .text .date{font-size: 16px;line-height: 24px;}
+    .promise_process .conbox .text .title{font-size: 22px;line-height: 30px;}
+    .promise_process .conbox .text p{font-size: 16px;line-height: 24px;}
+}
+@media (max-width:640px) {
+    .promise_process:before{right: calc(100% - 20px);}
+    .promise_process .down_btn{height: 150px;padding-top: 30px;}
+    .promise_process .down_btn div{font-size: 18px;}
+    .promise_process .down_btn a{width: 150px;padding-left: 20px;font-size: 15px;}
+    .promise_process .conlist{padding-left: 20px;}
+    .promise_process .conlist:before{left: 20px;top: -50px;}
+    .promise_process .conbox .text{padding-left: 20px;}
+    .promise_process .conbox .text:before{display: none;}
+    .promise_process .conbox .text .date{font-size: 15px;}
+    .promise_process .conbox .text .title{font-size: 19px;}
+    .promise_process .conbox .text p{font-size: 15px;}
+}

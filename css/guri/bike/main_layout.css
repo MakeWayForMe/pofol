@@ -4,13 +4,13 @@
 @font-face{
 	font-family: 'NotoKr';
 	font-weight: 900;
-	src: url("/font/noto-sans-kr-v13-latin_korean-900.woff2") format('woff2'),
-	url("/font/noto-sans-kr-v13-latin_korean-900.woff") format('woff');
+	src: url("/portfolio/font/noto-sans-kr-v13-latin_korean-900.woff2") format('woff2'),
+	url("/portfolio/font/noto-sans-kr-v13-latin_korean-900.woff") format('woff');
 }
 @font-face{
 	font-family: 'Montserrat';
 	font-weight: 900;
-	src: url("/font/Montserrat-Black.woff") format('woff');
+	src: url("/portfolio/font/Montserrat-Black.woff") format('woff');
 }
 
 /* 헤더 */
@@ -21,7 +21,7 @@
 @media (max-width:1000px) {
     .header_box:after, .header_box .wrap:before, .logo .text::before{display: none;}
 	.header_box:before{top: auto;bottom: 0;height: 1px;background: rgba(255, 255, 255, 0.2);}
-	#wrapper[data-nowtop="nontop"] .logo .image{background-image: url(/images/guri/common/layout/logo_white.png);}
+	#wrapper[data-nowtop="nontop"] .logo .image{background-image: url(/portfolio/images/guri/common/layout/logo_white.png);}
 	#wrapper[data-nowtop="nontop"] .logo .text{color: white;}
 	#wrapper[data-nowtop="nontop"] .search_btn:before{background-position-x: -90px;}
 	.header_box{z-index:10;}
@@ -35,25 +35,25 @@
 .rowgroup1 .visual_slide{position:relative;height: 835px;}
 .rowgroup1 .visual_slide .slide_list{width: 100vw;position: absolute;top: -150px;left: calc((100% - 100vw) / 2);}
 .rowgroup1 .visual_slide .slide_item{height: 985px;font-size: 0;color: transparent;background-repeat: no-repeat;background-position: -35px center;background-size: cover;}
-.rowgroup1 .visual_slide .slide_item[data-slick-index="0"]{background-image: url(/images/guri/bike/main/visual01.jpg);}
-.rowgroup1 .visual_slide .slide_item[data-slick-index="1"]{background-image: url(/images/guri/bike/main/visual02.jpg);}
-.rowgroup1 .visual_slide .slide_item[data-slick-index="2"]{background-image: url(/images/guri/bike/main/visual03.jpg);}
-.rowgroup1 .visual_slide .slide_item[data-slick-index="3"]{background-image: url(/images/guri/bike/main/visual04.jpg);}
+.rowgroup1 .visual_slide .slide_item[data-slick-index="0"]{background-image: url(/portfolio/images/guri/bike/main/visual01.jpg);}
+.rowgroup1 .visual_slide .slide_item[data-slick-index="1"]{background-image: url(/portfolio/images/guri/bike/main/visual02.jpg);}
+.rowgroup1 .visual_slide .slide_item[data-slick-index="2"]{background-image: url(/portfolio/images/guri/bike/main/visual03.jpg);}
+.rowgroup1 .visual_slide .slide_item[data-slick-index="3"]{background-image: url(/portfolio/images/guri/bike/main/visual04.jpg);}
 .rowgroup1 .visual_slide .textbox{position:relative;z-index:10;}
 .rowgroup1 .visual_slide .textbox{font-size: 120px;color: white;font-weight: 900;line-height: 130px;letter-spacing: 0;}
-.rowgroup1 .visual_slide .textbox .stroke{color: transparent;background: url(/images/guri/bike/main/visual_text.png) no-repeat 5px 30px;line-height: 156px;margin-top: 120px;}
+.rowgroup1 .visual_slide .textbox .stroke{color: transparent;background: url(/portfolio/images/guri/bike/main/visual_text.png) no-repeat 5px 30px;line-height: 156px;margin-top: 120px;}
 .rowgroup1 .visual_slide .countbox{position: absolute;z-index:10;top: 147px;right: 0;}
 .rowgroup1 .visual_slide .countbox div{font-size: 18px;color: white;font-family: Montserrat;font-weight: 900;line-height: 20px;}
 .rowgroup1 .visual_slide .countbox div.slick-gage{width: 1px;height: 120px;background-color: rgba(255, 255, 255, 0.5);position:relative;left: 9px;margin: 17px 0;}
 .rowgroup1 .visual_slide .countbox div.slick-gage .gage-bar{background-color: white;width: 100%;height: 0%;transition: 3000ms linear;}
 .rowgroup1 .visual_slide .countbox div.total{opacity:0.5;}
-.rowgroup1 .visual_slide .countbox .auto{color: transparent;font-size: 0;width: 22px;height: 22px;background: url(/images/guri/bike/main/visual_play_cion.png) no-repeat;display: block;margin-top: 35px;}
+.rowgroup1 .visual_slide .countbox .auto{color: transparent;font-size: 0;width: 22px;height: 22px;background: url(/portfolio/images/guri/bike/main/visual_play_cion.png) no-repeat;display: block;margin-top: 35px;}
 .rowgroup1 .visual_slide .countbox .auto.slick-play{background-position-x: -22px;}
 .rowgroup1 .linkbox{position: absolute;display: flex;justify-content: space-between;bottom: 0;left: 0;width: 100%;z-index:10;}
 .rowgroup1 .linkbox li a{color: white;font-size: 20px;font-weight: 600;line-height: 30px;height: 260px;width: 260px;padding-top: 93px;position:relative;}
 .rowgroup1 .linkbox li a:before{content: "";display: block;position: absolute;width: 100%;height: 100%;left: -25px;top: 0;background: linear-gradient(-60deg, #00ab4e, #cbdb2a);opacity:0;}
 .rowgroup1 .linkbox li a span{position:relative;width: 100%;}
-.rowgroup1 .linkbox li a span:before{content: "";display: block;position: absolute;bottom: 42px;left: 0;background: url(/images/guri/bike/main/menu_icon.png) no-repeat;width: 35px;height: 30px;}
+.rowgroup1 .linkbox li a span:before{content: "";display: block;position: absolute;bottom: 42px;left: 0;background: url(/portfolio/images/guri/bike/main/menu_icon.png) no-repeat;width: 35px;height: 30px;}
 .rowgroup1 .linkbox li a span:after{content: "";display: block;position: absolute;width: 100%;height: 2px;bottom: -25px;left: 0;background-color: white;}
 .rowgroup1 .linkbox li:first-child a span:before{height: 28px;}
 .rowgroup1 .linkbox li:nth-child(2) a span:before{background-position-x: -35px;}

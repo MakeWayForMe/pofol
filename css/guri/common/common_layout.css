@@ -97,7 +97,7 @@ body.visualtype .site_link ul .link_item .linkbtn:before{bottom:0; background-co
 
 
 .site_link ul .link_item.dongbox .linkbtn{padding-right:16px;}
-.site_link ul .link_item.dongbox .linkbtn i{display:block; position:absolute; top:17px; right:0; width:11px; height:7px; background-repeat:no-repeat; background-position:-150px -30px; background-image:url(/images/guri/common/layout/common_icons2.svg); transition-property:transform; transition-duration:200ms; transition-timing-function:ease-in-out;}
+.site_link ul .link_item.dongbox .linkbtn i{display:block; position:absolute; top:17px; right:0; width:11px; height:7px; background-repeat:no-repeat; background-position:-150px -30px; background-image:url(/portfolio/images/guri/common/layout/common_icons2.svg); transition-property:transform; transition-duration:200ms; transition-timing-function:ease-in-out;}
 body.visualtype .site_link ul .link_item.dongbox .linkbtn i{background-position:-180px -30px; transform:rotateX(180deg);}
 .site_link ul .link_item.dongbox.active .linkbtn i{transform:rotateX(180deg);}
 body.visualtype .site_link ul .link_item.dongbox.active .linkbtn i{transform:rotateX(0deg);}
@@ -125,12 +125,12 @@ body.visualtype .site_link ul .link_item.active .linkbtn{font-weight:500;}
 body.normal .familybtn{color:#00893e;}
 body.normal .familybtn i{background-image:linear-gradient(150deg, #cbdb2a 10%,#cbdb2a 31%,#00ab4e 100%); padding:2px; overflow:hidden;}
 body.normal .familybtn i:before{display:block; height:100%; background-color:#f2f2f2; border-radius:26px;}
-body.normal .familybtn span:before{background-position:left top; background-image:url('/images/guri/common/layout/common_icons2.svg');}
+body.normal .familybtn span:before{background-position:left top; background-image:url('/portfolio/images/guri/common/layout/common_icons2.svg');}
 
 
 body.visualtype .familybtn{color:#FFF;}
 body.visualtype .familybtn i{border-width:2px; border-style:solid; border-color:#FFF;}
-body.visualtype .familybtn span:before{background-position:-30px top; background-image:url('/images/guri/common/layout/common_icons2.svg');}
+body.visualtype .familybtn span:before{background-position:-30px top; background-image:url('/portfolio/images/guri/common/layout/common_icons2.svg');}
 
 .logo{position:absolute; top:27px; left:0; z-index:10;}
 .logo a{display:block; line-height:0; font-size:0;}
@@ -138,13 +138,13 @@ body.visualtype .familybtn span:before{background-position:-30px top; background
 .logo .text{display:inline-block; margin-top:11px; line-height:32px; vertical-align:top; font-family:'SCoreDream','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif; font-size:24px; font-weight:600; letter-spacing:-0.04em;}
 
 body.normal .logo a{color:#000;}
-.logo .image{background-image:url('/images/guri/common/layout/logo_color.png');}
+.logo .image{background-image:url('/portfolio/images/guri/common/layout/logo_color.png');}
 
 
 
 .header_box .menu_show{display:none; visibility:visible; position:absolute; top:19px; right:0; z-index:11; width:28px;}
 .header_box .menu_show .menu_button{display:block; position:relative; width:100%; height:28px; border:none; color:transparent; font-size:0;}
-.header_box .menu_show .menu_button:before{display:block; position:absolute; top:7px; right:0; width:25px; height:13px; background-repeat:no-repeat; background-position:-150px top; background-image:url('/images/guri/common/layout/common_icons2.svg'); content:'';}
+.header_box .menu_show .menu_button:before{display:block; position:absolute; top:7px; right:0; width:25px; height:13px; background-repeat:no-repeat; background-position:-150px top; background-image:url('/portfolio/images/guri/common/layout/common_icons2.svg'); content:'';}
 
 .lnb_curtain{display:none;}
 
@@ -155,13 +155,13 @@ body.normal .logo a{color:#000;}
 .lnb .lnb_topbox .lnb_gnb .loginbox{float:left; width:75px; margin-right:13px;}
 .lnb .lnb_topbox .lnb_gnb .loginbox a{display:block; position:relative; padding-left:22px; line-height:26px; color:#FFF; font-size:15px; font-weight:500; letter-spacing:-0.04em; text-shadow:rgba(0, 0, 0, 0.25) 1px 1px 0;}
 .lnb .lnb_topbox .lnb_gnb .loginbox a:before{display:block; position:absolute; top:4px; left:0; width:19px; height:21px; background-repeat:no-repeat; background-size:19px auto; content:'';}
-.lnb .lnb_topbox .lnb_gnb .loginbox.login a:before{background-image:url(/images/guri/common/layout/login.svg);}
-.lnb .lnb_topbox .lnb_gnb .loginbox.logout a:before{background-image:url(/images/guri/common/layout/logout.svg);}
+.lnb .lnb_topbox .lnb_gnb .loginbox.login a:before{background-image:url(/portfolio/images/guri/common/layout/login.svg);}
+.lnb .lnb_topbox .lnb_gnb .loginbox.logout a:before{background-image:url(/portfolio/images/guri/common/layout/logout.svg);}
 
 .lnb .lnb_topbox .lnb_gnb .language{display:none; position:relative; z-index:31; float:left; width:75px;}
 .lnb .lnb_topbox .lnb_gnb .language .language_btn{position:relative; width:100%; margin:0; padding:0 17px 0 25px; box-sizing:border-box; border:none; line-height:26px; text-align:left; vertical-align:top; color:#FFF; font-size:15px; font-weight:500; letter-spacing:-0.04em; text-shadow:rgba(0, 0, 0, 0.25) 1px 1px 0;}
-.lnb .lnb_topbox .lnb_gnb .language .language_btn:before{display:block; position:absolute; top:5px; left:0; width:19px; height:19px; background-repeat:no-repeat; background-position:left top; background-image:url(/images/guri/common/layout/language.svg); background-size:19px auto; content:'';}
-.lnb .lnb_topbox .lnb_gnb .language .language_btn:after{display:block; position:absolute; top:12px; right:6px; width:9px; height:6px; background-repeat:no-repeat; background-position:-210px top; background-image:url(/images/guri/common/layout/lnb_icons.svg); content:'';}
+.lnb .lnb_topbox .lnb_gnb .language .language_btn:before{display:block; position:absolute; top:5px; left:0; width:19px; height:19px; background-repeat:no-repeat; background-position:left top; background-image:url(/portfolio/images/guri/common/layout/language.svg); background-size:19px auto; content:'';}
+.lnb .lnb_topbox .lnb_gnb .language .language_btn:after{display:block; position:absolute; top:12px; right:6px; width:9px; height:6px; background-repeat:no-repeat; background-position:-210px top; background-image:url(/portfolio/images/guri/common/layout/lnb_icons.svg); content:'';}
 .lnb .lnb_topbox .lnb_gnb .language.active .language_btn:after{background-position:-210px -30px;}
 .lnb .lnb_topbox .lnb_gnb .language .layer{display:none; position:absolute; top:35px; left:0; width:100%; background-color:#FFF; border-radius:10px; box-shadow:rgba(204, 204, 204, 0.5) 3px 4px 20px;}
 .lnb .lnb_topbox .lnb_gnb .language .layer ul{padding:5px 5px 7px;}
@@ -183,10 +183,10 @@ body.normal .logo a{color:#000;}
 
 #header .lnb .menu_hide{display:none; visibility:visible; position:absolute; top:17px; right:15px; width:35px; z-index:33;}
 #header .lnb .menu_hide .menu_button{display:block; width:100%; height:35px; border:none; margin:0; padding:0; background-color:#FFF; border-radius:14px; color:transparent; font-size:0; box-shadow:rgba(204, 204, 204, 0.35) 3px 4px 20px;}
-#header .lnb .menu_hide .menu_button:before{display:block; position:absolute; top:12px; left:12px; width:13px; height:12px; background-repeat:no-repeat; background-position:-90px top; background-image:url(/images/guri/common/layout/lnb_icons.svg); content:'';}
+#header .lnb .menu_hide .menu_button:before{display:block; position:absolute; top:12px; left:12px; width:13px; height:12px; background-repeat:no-repeat; background-position:-90px top; background-image:url(/portfolio/images/guri/common/layout/lnb_icons.svg); content:'';}
 
 .header_bottom .member{display:block; position:absolute; top:42px; right:94px; z-index:10; width:26px; height:26px; color:transparent; font-size:0; transition-property:top; transition-duration:250ms; transition-timing-function:ease-in-out;}
-.header_bottom .member:before{display:block; position:absolute; top:5px; left:3px; width:20px; height:19px; background-repeat:no-repeat; background-position:-30px top; background-image:url(/images/guri/common/layout/common_icons.png); content:'';}
+.header_bottom .member:before{display:block; position:absolute; top:5px; left:3px; width:20px; height:19px; background-repeat:no-repeat; background-position:-30px top; background-image:url(/portfolio/images/guri/common/layout/common_icons.png); content:'';}
 body.visualtype .header_bottom .member:before{background-position:-30px -30px;}
 .lnb_open body.visualtype .header_bottom .member:before{background-position:-30px top;}
 
@@ -199,26 +199,26 @@ body.visualtype #wrapper[data-nowtop="nontop"] .header_bottom .member:before{bac
 #wrapper[data-nowtop="nontop"] .header_bottom .member{top:30px;}
 
 .sitemapbtn{display:block; position:absolute; top:42px; right:0; z-index:10; width:25px; height:26px; color:transparent; font-size:0; transition-property:top; transition-duration:250ms; transition-timing-function:ease-in-out;}
-.sitemapbtn:before{display:block; position:absolute; top:7px; right:0; width:25px; height:13px; background-repeat:no-repeat; background-image:url(/images/guri/common/layout/common_icons2.svg); content:'';}
+.sitemapbtn:before{display:block; position:absolute; top:7px; right:0; width:25px; height:13px; background-repeat:no-repeat; background-image:url(/portfolio/images/guri/common/layout/common_icons2.svg); content:'';}
 body.normal .sitemapbtn:before{background-position:-120px top;}
 body.visualtype .sitemapbtn:before{background-position:-150px top;}
 .lnb_open body.visualtype .sitemapbtn:before{background-position:-120px top;}
 body.visualtype #wrapper[data-nowtop="nontop"] .sitemapbtn:before{background-position:-120px top;}
 
 .search_btn{position:absolute; top:42px; right:62px; z-index:10; width:25px; height:26px; margin:0; padding:0; border:none; color:transparent; font-size:0; transition-property:top; transition-duration:250ms; transition-timing-function:ease-in-out;}
-.search_btn:before{display:block; position:absolute; top:4px; left:3px; width:20px; height:20px; background-repeat:no-repeat; background-position:-60px top; background-image:url(/images/guri/common/layout/common_icons2.svg); content:'';}
+.search_btn:before{display:block; position:absolute; top:4px; left:3px; width:20px; height:20px; background-repeat:no-repeat; background-position:-60px top; background-image:url(/portfolio/images/guri/common/layout/common_icons2.svg); content:'';}
 
 .searchbox_curtain{display:none; position:absolute; top:0; left:0; z-index:11; width:100%; height:100vh; margin:0; padding:0; border:none; background-color:rgba(0, 0, 0, 0.6); content:'';}
 .searchbox{display:none; position:absolute; top:107px; left:0; z-index:11; width:100%;}
 .searchbox .search{padding:0 13px;}
 .searchbox .search .search_con{position:relative; padding:28px 2% 29px; background-color:#00ab4e; border-radius:28px;}
 .searchbox .search .search_con .search_close{position:absolute; top:-34px; right:34px; width:45px; height:45px; margin:0; padding:0; border:none; background-color:#FFF; border-radius:20px; color:transparent; font-size:0; box-shadow:rgba(0, 137, 62, 0.35) 3px 4px 20px;}
-.searchbox .search .search_con .search_close:before{display:block; position:absolute; top:16px; left:16px; width:13px; height:12px; background-repeat:no-repeat; background-position:-180px top; background-image:url(/images/guri/common/layout/common_icons2.svg); content:'';}
+.searchbox .search .search_con .search_close:before{display:block; position:absolute; top:16px; left:16px; width:13px; height:12px; background-repeat:no-repeat; background-position:-180px top; background-image:url(/portfolio/images/guri/common/layout/common_icons2.svg); content:'';}
 .searchbox .search .search_con .inputbox{position:relative; max-width:750px; margin:auto; border-bottom:3px solid #FFF; padding-bottom:13px; line-height:0; font-size:0;}
 .searchbox .search .search_con .inputbox .total_search{width:calc(100% - 26px); margin:0; padding:2px 0; border:none; background-color:transparent; box-sizing:border-box; line-height:28px; vertical-align:top; color:#FFF; font-size:17px; font-weight:200; letter-spacing:-0.03em;}
 .searchbox .search .search_con .inputbox .total_search::placeholder{color:#FFF;}
 .searchbox .search .search_con .inputbox .submitbox{display:inline-block; position:relative; width:26px; vertical-align:top;}
-.searchbox .search .search_con .inputbox .submitbox:before{display:block; position:absolute; top:7px; right:0; z-index:1; width:19px; height:19px; background-repeat:no-repeat; background-position:-90px top; background-image:url(/images/guri/common/layout/common_icons2.svg); content:'';}
+.searchbox .search .search_con .inputbox .submitbox:before{display:block; position:absolute; top:7px; right:0; z-index:1; width:19px; height:19px; background-repeat:no-repeat; background-position:-90px top; background-image:url(/portfolio/images/guri/common/layout/common_icons2.svg); content:'';}
 .searchbox .search .search_con .inputbox .submitbox input[type="submit"]{position:relative; z-index:2; width:100%; height:32px; margin:0; padding:0; border:none; background-color:transparent; vertical-align:top; color:transparent; font-size:0;}
 
 
@@ -227,18 +227,18 @@ body.visualtype #wrapper[data-nowtop="nontop"] .sitemapbtn:before{background-pos
 .footer_banner .wrap{padding:17px 0 19px;}
 .footer_banner .banner{position:relative; padding-right:125px; padding-left:142px;}
 .footer_banner .banner .titlebox{position:absolute; top:0; left:0; padding-right:35px; padding-left:36px;}
-.footer_banner .banner .titlebox:before{display:block; position:absolute; top:0; left:1px; width:24px; height:23px; background-repeat:no-repeat; background-position:left -30px; background-image:url(/images/guri/common/layout/common_icons2.svg); content:'';}
+.footer_banner .banner .titlebox:before{display:block; position:absolute; top:0; left:1px; width:24px; height:23px; background-repeat:no-repeat; background-position:left -30px; background-image:url(/portfolio/images/guri/common/layout/common_icons2.svg); content:'';}
 .footer_banner .banner .titlebox:after{display:block; position:absolute; top:10px; right:0; width:5px; height:5px; background-color:#cccccc; border-radius:5px; content:'';}
 .footer_banner .banner .titlebox h2{line-height:24px; color:#4d4d4d; font-family:'SCoreDream','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif; font-size:16px; font-weight:600; letter-spacing:-0.04em;}
 .footer_banner .banner .banner_list{height:24px;}
 .footer_banner .banner .banner_list .slick-slide{position:relative; margin-right:19px; padding-left:18px;}
-.footer_banner .banner .banner_list .slick-slide:before{display:block; position:absolute; top:8px; left:0; width:1px; height:10px; background-repeat:repeat-y; background-position:center top; background-image:url(/images/guri/common/layout/dot_vertical.png); content:'';}
+.footer_banner .banner .banner_list .slick-slide:before{display:block; position:absolute; top:8px; left:0; width:1px; height:10px; background-repeat:repeat-y; background-position:center top; background-image:url(/portfolio/images/guri/common/layout/dot_vertical.png); content:'';}
 .footer_banner .banner .banner_list .slick-slide.slick-current:before{display:none;}
 .footer_banner .banner .banner_list .banner_item a{display:block; line-height:24px; color:#8c8c8c; font-size:15px; font-weight:200; letter-spacing:0;}
 .footer_banner .banner .banner_list .slick-rows{line-height:0;}
 .footer_banner .banner .banner_control{position:absolute; top:0; right:0; width:59px; line-height:0; font-size:0;}
 .footer_banner .banner .banner_control button{position:relative; height:24px; margin:0; padding:0; border:none; vertical-align:top; color:transparent; font-size:0;}
-.footer_banner .banner .banner_control button:before{display:block; position:absolute; background-repeat:no-repeat; background-image:url(/images/guri/common/layout/common_icons2.svg); content:'';}
+.footer_banner .banner .banner_control button:before{display:block; position:absolute; background-repeat:no-repeat; background-image:url(/portfolio/images/guri/common/layout/common_icons2.svg); content:'';}
 .footer_banner .banner .banner_control .arrow{width:16px;}
 .footer_banner .banner .banner_control .arrow:before{top:7px; width:9px; height:12px;}
 .footer_banner .banner .banner_control .prev:before{left:0; background-position:-30px -30px;}
@@ -272,7 +272,7 @@ body.visualtype #wrapper[data-nowtop="nontop"] .sitemapbtn:before{background-pos
 .footer_link ul li.list.active .site_btn{background-color:#8c8c8c; color:#FFF;}
 .footer_link ul li.list .site_btn:before{display:block; position:absolute; bottom:5px; left:11px; width:calc(100% - 22px); height:2px; background-color:#8c8c8c; content:'';}
 .footer_link ul li.list .site_btn span{display:block; position:relative; padding-right:12px; line-height:24px;}
-.footer_link ul li.list .site_btn span:before{display:block; position:absolute; top:10px; right:0; width:11px; height:7px; background-repeat:no-repeat; background-position:-150px -30px; background-image:url(/images/guri/common/layout/common_icons2.svg); content:'';}
+.footer_link ul li.list .site_btn span:before{display:block; position:absolute; top:10px; right:0; width:11px; height:7px; background-repeat:no-repeat; background-position:-150px -30px; background-image:url(/portfolio/images/guri/common/layout/common_icons2.svg); content:'';}
 .footer_link ul li.list.active .site_btn span:before{background-position:-180px -30px;}
 .footer_link ul li.list .layer{display:none; position:absolute; bottom:53px; left:0; width:100%; background-color:#8c8c8c;}
 .footer_link ul li.list .layer ul{position:relative; padding:11px;}
@@ -318,13 +318,13 @@ body.visualtype #wrapper[data-nowtop="nontop"] #header .lnb .menu .depth1_text{c
 
 #header .lnb .depth2_text{padding:7px 28px 9px 13px; border-width:1px; border-style:solid; border-color:#cccccc; border-radius:4px; line-height:22px; color:#4d4d4d; font-size:16px; font-weight:400; letter-spacing:-0.03em; transition-property:border-color, color; transition-duration:250ms; transition-timing-function:ease-in-out;}
 #header .lnb .depth2_item.active .depth2_text{border-color:#00ab4e; color:#00ab4e;}
-#header .lnb .depth2_item .depth2_text:before{display:block; position:absolute; top:12px; right:13px; width:8px; height:13px; background-repeat:no-repeat; background-position:-30px top; background-image:url(/images/guri/common/layout/lnb_icons.svg); content:'';}
+#header .lnb .depth2_item .depth2_text:before{display:block; position:absolute; top:12px; right:13px; width:8px; height:13px; background-repeat:no-repeat; background-position:-30px top; background-image:url(/portfolio/images/guri/common/layout/lnb_icons.svg); content:'';}
 #header .lnb .depth2_item.active .depth2_text:before{background-position:-60px -30px;}
 
 #header .lnb .depth2_item.has .depth2_text:before{top:16px; right:13px; width:13px; height:8px; background-position:left top; }
 #header .lnb .depth2_item.has.active .depth2_text:before{background-position:-60px top;}
 
-#header .lnb .depth2_item .depth2_text[target="_blank"]:before{display:block; position:absolute; top:12px; right:13px; width:13px; height:13px; background-repeat:no-repeat; background-position:-120px -30px; background-image:url(/images/guri/common/layout/lnb_icons.svg); content:'';}
+#header .lnb .depth2_item .depth2_text[target="_blank"]:before{display:block; position:absolute; top:12px; right:13px; width:13px; height:13px; background-repeat:no-repeat; background-position:-120px -30px; background-image:url(/portfolio/images/guri/common/layout/lnb_icons.svg); content:'';}
 #header .lnb .depth2_item.active .depth2_text[target="_blank"]:before{background-position:-120px -60px;}
 
 #header .lnb .depth3{transition-property:visibility, opacity; transition-duration:250ms; transition-timing-function:ease-in-out;}
@@ -344,7 +344,7 @@ body.visualtype #wrapper[data-nowtop="nontop"] #header .lnb .menu .depth1_text{c
 #header .lnb .depth3_text:hover:before{background-color:#00ab4e;}
 #header .lnb .depth3_text span{position:relative;}
 #header .lnb .depth3_text[target="_blank"] span{padding-right:17px;}
-#header .lnb .depth3_text[target="_blank"] span:after{display:block; position:absolute; top:4px; right:0; width:11px; height:11px; background-repeat:no-repeat; background-position:-150px -30px; background-image:url(/images/guri/common/layout/lnb_icons.svg); content:'';}
+#header .lnb .depth3_text[target="_blank"] span:after{display:block; position:absolute; top:4px; right:0; width:11px; height:11px; background-repeat:no-repeat; background-position:-150px -30px; background-image:url(/portfolio/images/guri/common/layout/lnb_icons.svg); content:'';}
 #header .lnb .depth3_text[target="_blank"]:hover span:after{background-position:-180px -30px;}
 
 
@@ -384,15 +384,15 @@ body.visualtype #wrapper[data-nowtop="nontop"] .search_btn:before{background-pos
 
 /* visualtype */
 body.visualtype .logo a{color:#FFF;}
-body.visualtype .logo .image{background-image:url('/images/guri/common/layout/logo_white.png');}
+body.visualtype .logo .image{background-image:url('/portfolio/images/guri/common/layout/logo_white.png');}
 body.visualtype #wrapper[data-nowtop="nontop"] .lnb{background-color:#FFF;}
 body.visualtype #wrapper[data-nowtop="nontop"] .lnb .menu:after{background-color:#e6e6e6;}
-body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url('/images/guri/common/layout/logo_color.png');}
+body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url('/portfolio/images/guri/common/layout/logo_color.png');}
 
 body.visualtype #wrapper[data-nowtop="nontop"] .lnb{background-color:#FFF;}
 body.visualtype #wrapper[data-nowtop="nontop"] .lnb .menu:after{background-color:#e6e6e6;}
 body.visualtype #wrapper[data-nowtop="nontop"] .logo a{color:#000;}
-body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url('/images/guri/common/layout/logo_color.png');}
+body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url('/portfolio/images/guri/common/layout/logo_color.png');}
 
 .lnb_open body.visualtype .familybtn{color:#00893e;}
 .lnb_open body.visualtype .familybtn i{background-image:linear-gradient(150deg, #cbdb2a 10%,#cbdb2a 31%,#00ab4e 100%); padding:2px; overflow:hidden;}
@@ -401,12 +401,12 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 
 .lnb_open body.visualtype .lnb{background-color:#FFF;}
 .lnb_open body.visualtype .lnb .menu:after{background-color:#e6e6e6;}
-.lnb_open body.visualtype .logo .image{background-image:url('/images/guri/common/layout/logo_color.png');}
+.lnb_open body.visualtype .logo .image{background-image:url('/portfolio/images/guri/common/layout/logo_color.png');}
 
 .lnb_open body.visualtype .lnb{background-color:#FFF;}
 .lnb_open body.visualtype .lnb .menu:after{background-color:#e6e6e6;}
 .lnb_open body.visualtype .logo a{color:#000;}
-.lnb_open body.visualtype .logo .image{background-image:url('/images/guri/common/layout/logo_color.png');}
+.lnb_open body.visualtype .logo .image{background-image:url('/portfolio/images/guri/common/layout/logo_color.png');}
 
 }
 
@@ -437,13 +437,13 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 .header_box:before{display:block; position:absolute; top:0; left:0; z-index:1; width:100%; height:5px; background-image:linear-gradient(to right, #cbdb2a 13%,#cbdb2a 34%,#cbdb2a 34%,#8ccc35 59%,#00ab4e 83%); content:'';}
 .header_box:after{display:block; position:absolute; top:0; right:0; z-index:1; width:3%; height:65px; background-color:#00ab4e; content:'';}
 .header_box .wrap{z-index:2; padding-top:26px;}
-.header_box .wrap:before{display:block; position:absolute; top:0; right:0; z-index:1; width:146px; height:65px; background-repeat:no-repeat; background-position:right top; background-image:url(/images/guri/common/layout/headerbox_bg.png); content:'';}
+.header_box .wrap:before{display:block; position:absolute; top:0; right:0; z-index:1; width:146px; height:65px; background-repeat:no-repeat; background-position:right top; background-image:url(/portfolio/images/guri/common/layout/headerbox_bg.png); content:'';}
 
 .logo{position:relative; top:0; line-height:0;}
 .logo a{display:inline-block; vertical-align:top;}
 .logo .image{width:96px; height:39px; margin-right:15px; background-size:contain;}
 .logo .text{position:relative; margin-top:4px; padding-right:23px; line-height:28px; color:#00893e; font-size:20px;}
-.logo .text:before{display:block; position:absolute; top:5px; right:0; width:19px; height:19px; background-repeat:no-repeat; background-position:-210px top; background-image:url(/images/guri/common/layout/common_icons2.svg); content:'';}
+.logo .text:before{display:block; position:absolute; top:5px; right:0; width:19px; height:19px; background-repeat:no-repeat; background-position:-210px top; background-image:url(/portfolio/images/guri/common/layout/common_icons2.svg); content:'';}
 
 .header_bottom .member{display:none;}
 .search_btn{top:-46px; right:43px; width:28px; height:28px;}
@@ -467,9 +467,9 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 #header .lnb .menu .depth1_item:first-child{margin-top:0;}
 .lnb_open #header .lnb .menu .depth1_item{width:42%;}
 #header .lnb .menu .depth1_text{z-index:13; padding:9px 0; line-height:22px; text-align:center; color:#FFF; font-size:15px; font-weight:500;}
-#header .lnb .menu .depth1_item.has .depth1_text:before{display:block; position:absolute; top:0; left:9px; width:calc(100% + 5px); height:100%; background-color:#00ab4e; border-radius:19px; overflow:hidden; background-repeat:no-repeat; background-position:left bottom; background-image:url(/images/guri/common/layout/lnb_depth1_bg.png); content:''; opacity:0; transition-property:opacity; transition-duration:250ms; transition-timing-function:ease-in-out;}
+#header .lnb .menu .depth1_item.has .depth1_text:before{display:block; position:absolute; top:0; left:9px; width:calc(100% + 5px); height:100%; background-color:#00ab4e; border-radius:19px; overflow:hidden; background-repeat:no-repeat; background-position:left bottom; background-image:url(/portfolio/images/guri/common/layout/lnb_depth1_bg.png); content:''; opacity:0; transition-property:opacity; transition-duration:250ms; transition-timing-function:ease-in-out;}
 #header .lnb .menu .depth1_item.has.active .depth1_text:before{opacity:1;}
-#header .lnb .menu .depth1_item.has .depth1_text:after{display:block; position:absolute; top:18px; right:-4px; z-index:2; width:10px; height:6px; background-repeat:no-repeat; background-position:left -30px; background-image:url(/images/guri/common/layout/lnb_icons.svg); content:''; transform:scale(0); transition-property:transform; transition-duration:250ms; transition-timing-function:ease-in-out;}
+#header .lnb .menu .depth1_item.has .depth1_text:after{display:block; position:absolute; top:18px; right:-4px; z-index:2; width:10px; height:6px; background-repeat:no-repeat; background-position:left -30px; background-image:url(/portfolio/images/guri/common/layout/lnb_icons.svg); content:''; transform:scale(0); transition-property:transform; transition-duration:250ms; transition-timing-function:ease-in-out;}
 #header .lnb .menu .depth1_item.has.active .depth1_text:after{transform:scale(1);}
 #header .lnb .menu .depth1_text span{position:relative; z-index:3;}
 
@@ -482,16 +482,16 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 #header .lnb .depth2_text{padding-top:12px; padding-bottom:15px; line-height:22px; color:#4d4d4d; font-size:14px; font-weight:400; letter-spacing:-0.04em; transition-property:color; transition-duration:250ms; transition-timing-function:ease-in-out;}
 #header .lnb .depth2_item.active .depth2_text{color:#00893e;}
 #header .lnb .depth2_item.has .depth2_text{padding-right:17px;}
-#header .lnb .depth2_item.has .depth2_text:before{display:block; position:absolute; top:17px; right:3px; width:8px; height:13px; background-repeat:no-repeat; background-position:-30px -30px; background-image:url(/images/guri/common/layout/lnb_icons.svg); content:'';}
+#header .lnb .depth2_item.has .depth2_text:before{display:block; position:absolute; top:17px; right:3px; width:8px; height:13px; background-repeat:no-repeat; background-position:-30px -30px; background-image:url(/portfolio/images/guri/common/layout/lnb_icons.svg); content:'';}
 #header .lnb .depth2_item.has.active .depth2_text:before{top:21px; width:13px; height:8px; background-position:-90px -30px;}
 #header .lnb .depth2_item.has .depth2_text[target="_blank"]:before{display:none;}
-#header .lnb .depth2_item .depth2_text[target="_blank"]:after{display:block; position:absolute; top:17px; right:4px; width:13px; height:13px; background-repeat:no-repeat; background-position:-120px -30px; background-image:url(/images/guri/common/layout/lnb_icons.svg); content:'';}
+#header .lnb .depth2_item .depth2_text[target="_blank"]:after{display:block; position:absolute; top:17px; right:4px; width:13px; height:13px; background-repeat:no-repeat; background-position:-120px -30px; background-image:url(/portfolio/images/guri/common/layout/lnb_icons.svg); content:'';}
 #header .lnb .depth2_item.active .depth2_text[target="_blank"]:after{background-position:-120px -60px;}
 
 
 #header .lnb .depth3{transition-property:visibility, opacity; transition-duration:250ms; transition-timing-function:ease-in-out;}
 #header .lnb .depth2_item.active .depth3{visibility:visible; opacity:1;}
-#header .lnb .depth3_list{padding-left:3px; background-repeat:repeat-x; background-position:left top; background-image:url(/images/guri/common/layout/dot_horizontal.png); transition-property:padding-top, padding-bottom; transition-duration:250ms; transition-timing-function:ease-in-out;}
+#header .lnb .depth3_list{padding-left:3px; background-repeat:repeat-x; background-position:left top; background-image:url(/portfolio/images/guri/common/layout/dot_horizontal.png); transition-property:padding-top, padding-bottom; transition-duration:250ms; transition-timing-function:ease-in-out;}
 #header .lnb .depth2_item.active .depth3_list{padding-top:14px; padding-bottom:15px;}
 #header .lnb .depth3_item{position:relative; transition-property:margin-top; transition-duration:250ms; transition-timing-function:ease-in-out;}
 #header .lnb .depth2_item.active .depth3_item{margin-top:4px;}
@@ -506,7 +506,7 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 #header .lnb .depth3_item.active .depth3_text:before,
 #header .lnb .depth3_text:hover:before{background-color:#00ab4e;}
 #header .lnb .depth3_text[target="_blank"] span{position:relative; padding-right:18px;}
-#header .lnb .depth3_text[target="_blank"] span:after{display:block; position:absolute; top:5px; right:0; width:11px; height:11px; background-repeat:no-repeat; background-position:-150px -30px; background-image:url(/images/guri/common/layout/lnb_icons.svg); content:''; transform:scale(0); transition-property:top, transform; transition-duration:250ms; transition-timing-function:ease-in-out;}
+#header .lnb .depth3_text[target="_blank"] span:after{display:block; position:absolute; top:5px; right:0; width:11px; height:11px; background-repeat:no-repeat; background-position:-150px -30px; background-image:url(/portfolio/images/guri/common/layout/lnb_icons.svg); content:''; transform:scale(0); transition-property:top, transform; transition-duration:250ms; transition-timing-function:ease-in-out;}
 #header .lnb .depth2_item.active .depth3_text[target="_blank"] span:after{top:5px; transform:scale(1);}
 #header .lnb .depth3_item.active .depth3_text[target="_blank"] span:after,
 #header .lnb .depth3_text[target="_blank"]:hover span:after{background-position:-180px -30px;}
@@ -526,7 +526,7 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 #header .lnb .depth2_item.active .depth3_item.active .depth4_text:before{top:10px; transform:scale(1);}
 #header .lnb .depth4_item.active .depth4_text:before{background-color:#333333;}
 #header .lnb .depth4_text[target="_blank"] span{position:relative; padding-right:18px;}
-#header .lnb .depth4_text[target="_blank"] span:after{display:block; position:absolute; top:5px; right:0; width:11px; height:11px; background-repeat:no-repeat; background-position:-150px -30px; background-image:url(/images/guri/common/layout/lnb_icons.svg); content:''; transform:scale(0); transition-property:top, transform; transition-duration:250ms; transition-timing-function:ease-in-out;}
+#header .lnb .depth4_text[target="_blank"] span:after{display:block; position:absolute; top:5px; right:0; width:11px; height:11px; background-repeat:no-repeat; background-position:-150px -30px; background-image:url(/portfolio/images/guri/common/layout/lnb_icons.svg); content:''; transform:scale(0); transition-property:top, transform; transition-duration:250ms; transition-timing-function:ease-in-out;}
 #header .lnb .depth2_item.active .depth3_item.active .depth4_text[target="_blank"] span:after{top:5px; transform:scale(1);}
 #header .lnb .depth4_item.active .depth4_text[target="_blank"] span:after{background-position:-180px -30px;}
 
@@ -556,7 +556,7 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 /* mobile */
 @media all and (max-width:640px){
 .header_box:before{background-image:linear-gradient(to right, #cbdb2a 46%,#c5da2b 67%);}
-.header_box:after{width:calc(3% + 146px); background-color:transparent; background-repeat:no-repeat; background-position:left top; background-image:url(/images/guri/common/layout/headerbox_bg_m.png);}
+.header_box:after{width:calc(3% + 146px); background-color:transparent; background-repeat:no-repeat; background-position:left top; background-image:url(/portfolio/images/guri/common/layout/headerbox_bg_m.png);}
 .header_box .wrap{padding-top:23px; padding-bottom:11px;}
 .header_box .wrap:before{display:none;}
 .logo .image{width:77px; height:31px; margin-right:12px;}
@@ -594,17 +594,17 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 .family_layer .layerbox{position:relative;}
 .family_layer .layerbox:before{display:block; position:absolute; top:0; right:-45px; z-index:1; width:calc(100% - 245px + 45px); height:calc(100% - 155px); background-image:linear-gradient(150deg, #cbdb2a 0%,#00ab4e 100%); border-top-right-radius:60px; border-bottom-right-radius:7px; border-bottom-left-radius:7px; border-top-left-radius:200px; content:'';}
 .family_layer .layerbox .close{position:absolute; top:29px; right:0; z-index:3; width:35px; height:35px; margin:0; padding:0; border:none; background-color:#fcce0d; border-radius:15px; color:transparent; font-size:0;}
-.family_layer .layerbox .close:before{display:block; position:absolute; top:12px; left:12px; width:13px; height:12px; background-repeat:no-repeat; background-position:-90px top; background-image:url(/images/guri/common/layout/lnb_icons.svg); content:'';}
+.family_layer .layerbox .close:before{display:block; position:absolute; top:12px; left:12px; width:13px; height:12px; background-repeat:no-repeat; background-position:-90px top; background-image:url(/portfolio/images/guri/common/layout/lnb_icons.svg); content:'';}
 .family_layer .layerbox .innerbox{position:relative; z-index:2;}
 .family_layer .layerbox .innerbox .titlebox{padding:31px 0 26px; line-height:0; text-align:center;}
 .family_layer .layerbox .innerbox .titlebox h2{display:inline-block; position:relative; vertical-align:top; color:#FFF; font-family:'SCoreDream','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif; font-size:30px; font-weight:600; letter-spacing:-0.04em;}
-.family_layer .layerbox .innerbox .titlebox h2:before{display:block; position:absolute; bottom:-26px; right:-240px; width:205px; height:123px; background-repeat:no-repeat; background-position:right bottom; background-image:url(/images/guri/common/layout/family_deco.png); content:'';}
+.family_layer .layerbox .innerbox .titlebox h2:before{display:block; position:absolute; bottom:-26px; right:-240px; width:205px; height:123px; background-repeat:no-repeat; background-position:right bottom; background-image:url(/portfolio/images/guri/common/layout/family_deco.png); content:'';}
 .family_layer .layerbox .innerbox .titlebox h2 span{display:block; position:relative; z-index:2; line-height:38px; text-shadow:rgba(0, 0, 0, 0.25) 1px 2px 3px;}
 .family_layer .layerbox .innerbox .listbox{padding:63px 60px 62px; background-color:#FFF; border-radius:35px;}
 .family_layer .layerbox .innerbox .listbox ul li.item{position:relative; float:left; width:18.72%; margin-right:1.6%; padding-top:35px;}
 .family_layer .layerbox .innerbox .listbox ul li.item:nth-child(5n){margin-right:0;}
 .family_layer .layerbox .innerbox .listbox ul li.item .icon{display:block; position:absolute; top:0; left:calc(50% - 35px); z-index:2; width:70px; height:70px; background-color:#FFF; border-radius:30px; box-shadow:rgba(204, 204, 204, 0.25) 3px 4px 20px;}
-.family_layer .layerbox .innerbox .listbox ul li.item .icon:before{display:block; position:absolute; top:calc(50% - 22px); left:calc(50% - 25px); width:51px; height:44px; background-repeat:no-repeat; background-image:url(/images/guri/common/layout/family_icons.png); content:'';}
+.family_layer .layerbox .innerbox .listbox ul li.item .icon:before{display:block; position:absolute; top:calc(50% - 22px); left:calc(50% - 25px); width:51px; height:44px; background-repeat:no-repeat; background-image:url(/portfolio/images/guri/common/layout/family_icons.png); content:'';}
 .family_layer .layerbox .innerbox .listbox ul li.item[data-category="1"] .icon:before{background-position:left center;}
 .family_layer .layerbox .innerbox .listbox ul li.item[data-category="2"] .icon:before{background-position:-51px center;}
 .family_layer .layerbox .innerbox .listbox ul li.item[data-category="3"] .icon:before{background-position:-102px center;}
@@ -613,7 +613,7 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 .family_layer .layerbox .innerbox .listbox ul li.item[data-category="6"] .icon:before{background-position:-255px center;}
 .family_layer .layerbox .innerbox .listbox ul li.item .item_btn{display:none; position:relative; width:100%; margin:0; padding:21px 25px 21px 86px; border:none; text-align:left; vertical-align:top; color:#4d4d4d;}
 .family_layer .layerbox .innerbox .listbox ul li.item .item_btn i{display:block; position:absolute; top:0; left:0; z-index:2; width:70px; height:70px; background-color:#FFF; border-radius:30px; box-shadow:rgba(204, 204, 204, 0.25) 3px 4px 20px;}
-.family_layer .layerbox .innerbox .listbox ul li.item .item_btn i:before{display:block; position:absolute; top:calc(50% - 18px); left:calc(50% - 21px); width:42px; height:36px; background-repeat:no-repeat; background-image:url(/images/guri/common/layout/family_icons.png); background-size:252px auto; content:'';}
+.family_layer .layerbox .innerbox .listbox ul li.item .item_btn i:before{display:block; position:absolute; top:calc(50% - 18px); left:calc(50% - 21px); width:42px; height:36px; background-repeat:no-repeat; background-image:url(/portfolio/images/guri/common/layout/family_icons.png); background-size:252px auto; content:'';}
 .family_layer .layerbox .innerbox .listbox ul li.item[data-category="1"] .item_btn i:before{background-position:left center;}
 .family_layer .layerbox .innerbox .listbox ul li.item[data-category="2"] .item_btn i:before{background-position:-42px center;}
 .family_layer .layerbox .innerbox .listbox ul li.item[data-category="3"] .item_btn i:before{background-position:-84px center;}
@@ -622,7 +622,7 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 .family_layer .layerbox .innerbox .listbox ul li.item[data-category="6"] .item_btn i:before{background-position:-210px center;}
 
 .family_layer .layerbox .innerbox .listbox ul li.item .item_btn span{display:block; position:relative; padding-right:14px; line-height:28px; font-family:'SCoreDream','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif; font-size:17px; font-weight:600; letter-spacing:-0.04em;}
-.family_layer .layerbox .innerbox .listbox ul li.item .item_btn span:before{display:block; position:absolute; top:7px; right:0; width:13px; height:13px; background-repeat:no-repeat; background-position:left top; background-image:url(/images/guri/common/layout/familybtn_arrow.png); content:'';}
+.family_layer .layerbox .innerbox .listbox ul li.item .item_btn span:before{display:block; position:absolute; top:7px; right:0; width:13px; height:13px; background-repeat:no-repeat; background-position:left top; background-image:url(/portfolio/images/guri/common/layout/familybtn_arrow.png); content:'';}
 .family_layer .layerbox .innerbox .listbox ul li.item.active .item_btn span:before{background-position:-13px top;}
 
 .family_layer .layerbox .innerbox .listbox ul li.item .layer{padding:58px 16px 29px 24px; background-color:#f9f9f9;}
@@ -633,7 +633,7 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 .family_layer .layerbox .innerbox .listbox ul li.item .layer ul li a:hover{color:#000; text-decoration:none;}
 .family_layer .layerbox .innerbox .listbox ul li.item .layer ul li a:before{display:block; position:absolute; top:10px; left:0; width:4px; height:4px; background-color:#4d4d4d; border-radius:4px; content:''; transition-property:background-color; transition-duration:200ms; transition-timing-function:ease-in-out;}
 .family_layer .layerbox .innerbox .listbox ul li.item .layer ul li a:hover:before{background-color:#00ab4e;}
-.family_layer .layerbox .innerbox .listbox ul li.item .layer ul li a:after{display:block; position:absolute; top:6px; right:0; width:11px; height:11px; background-repeat:no-repeat; background-position:-150px -30px; background-image:url(/images/guri/common/layout/lnb_icons.svg); content:'';}
+.family_layer .layerbox .innerbox .listbox ul li.item .layer ul li a:after{display:block; position:absolute; top:6px; right:0; width:11px; height:11px; background-repeat:no-repeat; background-position:-150px -30px; background-image:url(/portfolio/images/guri/common/layout/lnb_icons.svg); content:'';}
 .family_layer .layerbox .innerbox .listbox ul li.item .layer ul li a:hover:after{background-position:-180px -30px;}
 .family_layer .layerbox .innerbox .listbox ul li.item .layer ul li a span{display:block; position:relative; padding-right:2px; line-height:24px; font-size:15px; font-weight:200; letter-spacing:-0.04em;}
 .family_layer .layerbox .innerbox .listbox ul li.item .layer ul li a span:before{display:block; position:absolute; bottom:2px; left:0; width:100%; height:1px; background-color:#000; content:''; transform:scaleX(0); transition-property:transform; transition-duration:200ms; transition-timing-function:ease-in-out;}
@@ -644,7 +644,7 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 .lnb .lnb_topbox .lnb_gnb .loginbox{margin-right:1px;}
 .lnb_gnb .familybtnbox{float:left;}
 .lnb_gnb .familybtnbox .familybtn_m{display:block; position:relative; width:100%; margin:0; padding:0 0 0 20px; border:none; line-height:26px; text-align:left; vertical-align:top; color:#FFF; font-size:15px; font-weight:500; letter-spacing:-0.04em; text-shadow:rgba(0, 0, 0, 0.25) 1px 1px 0;}
-.lnb_gnb .familybtnbox .familybtn_m:before{display:block; position:absolute; top:6px; left:0; width:17px; height:17px; background-repeat:no-repeat; background-position:left top; background-image:url(/images/guri/common/layout/familybtn_m.png); content:'';}
+.lnb_gnb .familybtnbox .familybtn_m:before{display:block; position:absolute; top:6px; left:0; width:17px; height:17px; background-repeat:no-repeat; background-position:left top; background-image:url(/portfolio/images/guri/common/layout/familybtn_m.png); content:'';}
 
 @media all and (min-width:1001px){
 .family_layer .layerbox .innerbox .titlebox h2 span br{display:none;}
@@ -669,7 +669,7 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 .family_layer .layerbox .close{top:17px; right:calc(3vw - 17px); background-color:#FFF;}
 .family_layer .layerbox .innerbox{padding:21px 3% 0;}
 .family_layer .layerbox .innerbox .titlebox{position:relative; padding:0 0 38px 18px; text-align:left;}
-.family_layer .layerbox .innerbox .titlebox:before{display:block; position:absolute; bottom:0; right:calc(3vw + 15px); width:173px; height:89px; background-repeat:no-repeat; background-position:right top; background-image:url(/images/guri/common/layout/family_deco.png); background-size:100% auto; content:'';}
+.family_layer .layerbox .innerbox .titlebox:before{display:block; position:absolute; bottom:0; right:calc(3vw + 15px); width:173px; height:89px; background-repeat:no-repeat; background-position:right top; background-image:url(/portfolio/images/guri/common/layout/family_deco.png); background-size:100% auto; content:'';}
 .family_layer .layerbox .innerbox .titlebox h2{display:block; z-index:2; font-size:22px;}
 .family_layer .layerbox .innerbox .titlebox h2:before{display:none;}
 .family_layer .layerbox .innerbox .titlebox h2 span{line-height:28px;}
@@ -694,7 +694,7 @@ body.visualtype #wrapper[data-nowtop="nontop"] .logo .image{background-image:url
 
 /* 2022-07-01 로고수정 */
 @media all and (max-width:1000px){
-	body.visualtype .logo .image{background-image:url('/images/guri/common/layout/logo_white.png');}
+	body.visualtype .logo .image{background-image:url('/portfolio/images/guri/common/layout/logo_white.png');}
 }
 @media all and (max-width:1000px) and (min-width:641px){
  .logo .text{margin-top:5px}

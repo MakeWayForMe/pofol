@@ -17,13 +17,13 @@
 .side_menu .depth1_text:hover:before{border-color:#4d4d4d;}
 .side_menu .depth1_item.active .depth1_text:before{border-color:transparent; background-color:#4d4d4d; border-top-right-radius:20px; transition-duration:180ms;}
 
-.side_menu .depth1_text:after{display:block; position:absolute; top:0; right:0; z-index:2; width:41px; height:0; background-repeat:no-repeat; background-position:right bottom; background-image:url(/images/guri/common/layout/side_depth1_icon.png); border-top-right-radius:18px; content:''; transition-property:height; transition-duration:250ms; transition-timing-function:ease-in-out;}
+.side_menu .depth1_text:after{display:block; position:absolute; top:0; right:0; z-index:2; width:41px; height:0; background-repeat:no-repeat; background-position:right bottom; background-image:url(/portfolio/images/guri/common/layout/side_depth1_icon.png); border-top-right-radius:18px; content:''; transition-property:height; transition-duration:250ms; transition-timing-function:ease-in-out;}
 .side_menu .depth1_item.active .depth1_text:after{height:29px;}
 
 .side_menu .depth1_text span{display:block; position:relative; z-index:4; padding:12px 43px 14px 20px; line-height:24px;word-break:break-all;}
-.side_menu .depth1_text span:before{display:block; position:absolute; bottom:0; right:0; z-index:3; width:43px; height:0; background-repeat:no-repeat; background-position:right top; background-image:url(/images/guri/common/layout/side_depth1_bg.png); content:''; transition-property:height; transition-duration:250ms; transition-timing-function:ease-in-out;}
+.side_menu .depth1_text span:before{display:block; position:absolute; bottom:0; right:0; z-index:3; width:43px; height:0; background-repeat:no-repeat; background-position:right top; background-image:url(/portfolio/images/guri/common/layout/side_depth1_bg.png); content:''; transition-property:height; transition-duration:250ms; transition-timing-function:ease-in-out;}
 .side_menu .depth1_item.active .depth1_text span:before{height:43px;}
-.side_menu .depth1_item .depth1_text span:after{display:block; position:absolute; top:18px; right:18px; z-index:5; width:8px; height:13px; background-repeat:no-repeat; background-position:-30px top; background-image:url(/images/guri/common/layout/side_icons.svg); content:'';}
+.side_menu .depth1_item .depth1_text span:after{display:block; position:absolute; top:18px; right:18px; z-index:5; width:8px; height:13px; background-repeat:no-repeat; background-position:-30px top; background-image:url(/portfolio/images/guri/common/layout/side_icons.svg); content:'';}
 .side_menu .depth1_item.active .depth1_text span:after{top:21px; right:15px; width:13px; height:8px; background-position:left top;}
 .side_menu .depth1_item .depth1_text[target="_blank"] span:after{top:20px; right:17px; width:13px; height:13px; background-position:-60px top;}
 .side_menu .depth1_item.active .depth1_text[target="_blank"] span:after{background-position:-60px -15px;}
@@ -43,7 +43,7 @@
 .side_menu .depth2_item.active .depth2_text{color:#333333;}
 .side_menu .depth2_text span{display:block;}
 .side_menu .depth2_text[target="_blank"]{padding-right:13px;}
-.side_menu .depth2_text[target="_blank"]:after{display:block; position:absolute; top:0; right:0; width:11px; height:11px; background-repeat:no-repeat; background-position:-90px top; background-image:url(/images/guri/common/layout/side_icons.svg); content:'';transform:scale(0); transition-property:top, transform; transition-duration:200ms; transition-timing-function:ease-in-out;}
+.side_menu .depth2_text[target="_blank"]:after{display:block; position:absolute; top:0; right:0; width:11px; height:11px; background-repeat:no-repeat; background-position:-90px top; background-image:url(/portfolio/images/guri/common/layout/side_icons.svg); content:'';transform:scale(0); transition-property:top, transform; transition-duration:200ms; transition-timing-function:ease-in-out;}
 .side_menu .depth1_item.active .depth2_text[target="_blank"]:after{top:7px; transform:scale(1);}
 .side_menu .depth2_item.active .depth2_text[target="_blank"]:after{background-position:-120px top;}
 
@@ -58,7 +58,7 @@
 .sharebox .share{position:relative; float:left; width:45px;}
 .sharebox .share .share_btn{position:relative; width:100%; height:45px; margin:0; padding:0; border:none; background-color:#f8f8f8; border-radius:19px; color:transparent; font-size:0; transition-property:background-color, box-shadow; transition-duration:200ms; transition-timing-function:ease-in-out;}
 .sharebox .share.active .share_btn{background-color:#4d4d4d; box-shadow:rgba(204, 204, 204, 0.25) 3px 4px 20px;}
-.sharebox .share .share_btn:before{display:block; position:absolute; top:14px; left:13px; width:19px; height:18px; background-repeat:no-repeat; background-position:left top; background-image:url(/images/guri/common/layout/sub_icons.svg); content:'';}
+.sharebox .share .share_btn:before{display:block; position:absolute; top:14px; left:13px; width:19px; height:18px; background-repeat:no-repeat; background-position:left top; background-image:url(/portfolio/images/guri/common/layout/sub_icons.svg); content:'';}
 .sharebox .share.active .share_btn:before{top:17px; left:16px; width:13px; height:12px; background-position:-30px top;}
 
 .sharebox .share .layer{display:none; position:absolute; top:51px; left:0; width:100%; background-color:#FFF; border-radius:19px; box-shadow:rgba(204, 204, 204, 0.25) 3px 4px 20px;}
@@ -66,7 +66,7 @@
 .sharebox .share .layer ul li{margin-top:3px;}
 .sharebox .share .layer ul li:first-child{margin-top:0;}
 .sharebox .share .layer ul li .snslink{display:block; position:relative; width:30px; height:29px; margin:0; padding:0; border:none; color:transparent; font-size:0;}
-.sharebox .share .layer ul li .snslink:before{display:block; position:absolute; top:3px; left:3px; width:22px; height:23px; background-repeat:no-repeat; background-image:url(/images/guri/common/layout/sns_icons.svg); content:'';}
+.sharebox .share .layer ul li .snslink:before{display:block; position:absolute; top:3px; left:3px; width:22px; height:23px; background-repeat:no-repeat; background-image:url(/portfolio/images/guri/common/layout/sns_icons.svg); content:'';}
 .sharebox .share .layer ul li.kakaochannel .snslink:before{background-position:left center;}
 .sharebox .share .layer ul li.blog .snslink:before{background-position:-22px center;}
 .sharebox .share .layer ul li.facebook .snslink:before{background-position:-44px center;}
@@ -78,38 +78,38 @@
 
 .sharebox .printbox{position:relative; float:right;}
 .sharebox .printbox .print{position:relative; width:100%; margin:0; padding:0; border:none; color:transparent; font-size:0;}
-.sharebox .printbox .print:before{display:block; position:absolute; top:14px; left:13px; width:19px; height:18px; background-repeat:no-repeat; background-position:-60px top; background-image:url(/images/guri/common/layout/sub_icons.svg); content:'';}
+.sharebox .printbox .print:before{display:block; position:absolute; top:14px; left:13px; width:19px; height:18px; background-repeat:no-repeat; background-position:-60px top; background-image:url(/portfolio/images/guri/common/layout/sub_icons.svg); content:'';}
 .sharebox .printbox{width:45px;}
 .sharebox .printbox .print{height:45px; background-color:#f8f8f8; border-radius:19px;}
 
 .sub_head .pathbox .path ul li{position:relative; float:left; padding-right:17px;}
 .sub_head .pathbox .path ul li.home{width:35px; margin-right:7px; box-sizing:border-box;}
 .sub_head .pathbox .path ul li.home a{display:block; position:relative; height:24px; color:transparent; font-size:0;}
-.sub_head .pathbox .path ul li.home a:before{display:block; position:absolute; top:4px; left:0; width:18px; height:18px; background-repeat:no-repeat; background-position:-90px top; background-image:url(/images/guri/common/layout/sub_icons.svg); content:'';}
+.sub_head .pathbox .path ul li.home a:before{display:block; position:absolute; top:4px; left:0; width:18px; height:18px; background-repeat:no-repeat; background-position:-90px top; background-image:url(/portfolio/images/guri/common/layout/sub_icons.svg); content:'';}
 .sub_head .pathbox .path ul li.list{margin-right:9px;}
 .sub_head .pathbox .path ul li.list:last-child{margin-right:0; padding-right:0;}
-.sub_head .pathbox .path ul li:before{display:block; position:absolute; top:9px; right:0; width:6px; height:9px; background-repeat:no-repeat; background-position:-120px top; background-image:url(/images/guri/common/layout/sub_icons.svg); content:'';}
+.sub_head .pathbox .path ul li:before{display:block; position:absolute; top:9px; right:0; width:6px; height:9px; background-repeat:no-repeat; background-position:-120px top; background-image:url(/portfolio/images/guri/common/layout/sub_icons.svg); content:'';}
 .sub_head .pathbox .path ul li:last-child:before{display:none;}
 .sub_head .pathbox .path ul li.list .text{display:block; line-height:24px; color:#8c8c8c; font-size:16px; font-weight:200; letter-spacing:-0.03em;}
 .sub_head .pathbox .path ul li.list:last-child .text{color:#333333;}
 
 .contain_top{position:relative; z-index:4;}
-.contain_top:before{display:block; position:absolute; top:0; left:0; z-index:2; width:100%; height:100%; background-repeat:no-repeat; background-position:center center; background-image:url(/images/guri/common/layout/visual_bg.png); background-size:cover; content:'';}
+.contain_top:before{display:block; position:absolute; top:0; left:0; z-index:2; width:100%; height:100%; background-repeat:no-repeat; background-position:center center; background-image:url(/portfolio/images/guri/common/layout/visual_bg.png); background-size:cover; content:'';}
 .contain_top:after{display:block; position:absolute; bottom:0; left:0; z-index:1; width:100%; height:65px; background-color:rgba(0, 0, 0, 0.45); content:'';}
 .contain_top .wrap{z-index:3;}
 .contain_top .pathbox{height:80px; padding-top:36px; padding-right:92px; padding-bottom:20px; padding-left:50%; box-sizing:border-box;}
 .contain_top .pathbox .path ul li.home{position:relative; float:left; padding-right:17px;}
-.contain_top .pathbox .path ul li.home:before{display:block; position:absolute; top:9px; right:0; width:6px; height:9px; background-repeat:no-repeat; background-position:-120px -30px; background-image:url(/images/guri/common/layout/sub_icons.svg); content:'';}
+.contain_top .pathbox .path ul li.home:before{display:block; position:absolute; top:9px; right:0; width:6px; height:9px; background-repeat:no-repeat; background-position:-120px -30px; background-image:url(/portfolio/images/guri/common/layout/sub_icons.svg); content:'';}
 .contain_top .pathbox .path ul li.list{position:relative; float:left; padding-right:17px;}
-.contain_top .pathbox .path ul li.list:before{display:block; position:absolute; top:9px; right:0; width:6px; height:9px; background-repeat:no-repeat; background-position:-120px -30px; background-image:url(/images/guri/common/layout/sub_icons.svg); content:'';}
+.contain_top .pathbox .path ul li.list:before{display:block; position:absolute; top:9px; right:0; width:6px; height:9px; background-repeat:no-repeat; background-position:-120px -30px; background-image:url(/portfolio/images/guri/common/layout/sub_icons.svg); content:'';}
 .contain_top .pathbox .path ul li.list:last-child:before{display:none;}
 .contain_top .pathbox .path ul li.home{width:35px; margin-right:7px; box-sizing:border-box;}
 .contain_top .pathbox .path ul li.home a{display:block; position:relative; height:24px; color:transparent; font-size:0;}
-.contain_top .pathbox .path ul li.home a:before{display:block; position:absolute; top:4px; left:0; width:18px; height:18px; background-repeat:no-repeat; background-position:-90px -30px; background-image:url(/images/guri/common/layout/sub_icons.svg); content:'';}
+.contain_top .pathbox .path ul li.home a:before{display:block; position:absolute; top:4px; left:0; width:18px; height:18px; background-repeat:no-repeat; background-position:-90px -30px; background-image:url(/portfolio/images/guri/common/layout/sub_icons.svg); content:'';}
 .contain_top .pathbox .path ul li.list{margin-right:9px;}
 .contain_top .pathbox .path ul li.list:last-child{margin-right:0; padding-right:0;}
 .contain_top .pathbox .path ul li.list button{position:relative; margin:0; padding:0 25px 0 0; border:none; line-height:24px; text-align:left; vertical-align:top; color:#FFF; font-size:16px; font-weight:200; letter-spacing:-0.03em;}
-.contain_top .pathbox .path ul li.list button:before{display:block; position:absolute; top:4px; right:0; width:18px; height:18px; background-repeat:no-repeat; background-position:-150px top; background-image:url(/images/guri/common/layout/sub_icons.svg); content:''; transition-property:transform; transition-duration:200ms; transition-timing-function:ease-in-out;}
+.contain_top .pathbox .path ul li.list button:before{display:block; position:absolute; top:4px; right:0; width:18px; height:18px; background-repeat:no-repeat; background-position:-150px top; background-image:url(/portfolio/images/guri/common/layout/sub_icons.svg); content:''; transition-property:transform; transition-duration:200ms; transition-timing-function:ease-in-out;}
 .contain_top .pathbox .path ul li.list.active button:before{background-position:-150px -30px; transform:rotateX(180deg);}
 
 .contain_top .pathbox .path ul li.list .layer{display:none; position:absolute; top:29px; left:-19px; min-width:calc(100% + 38px); background-color:#FFF; border-radius:10px; box-shadow:rgba(204, 204, 204, 0.5) 3px 4px 20px;}
@@ -134,34 +134,34 @@ body.normal[data-layout="regular"] .colgroup{float:right; width:1100px;}
 body.normal[data-layout="wide"] .side{display:none;}
 
 /* visualtype */
-.sub_visual{height:450px; background-repeat:no-repeat; background-position:center top; background-image:url(/images/guri/common/layout/sub_visual02.jpg); background-size:auto 450px;}
+.sub_visual{height:450px; background-repeat:no-repeat; background-position:center top; background-image:url(/portfolio/images/guri/common/layout/sub_visual02.jpg); background-size:auto 450px;}
 /*열린시장실 비주얼이미지*/
-/*.mayor.sub1 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_mayor01.jpg);}*/
-.mayor.sub1 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_mayor06.png);}
-.mayor.sub2 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_mayor02.jpg);}
-.mayor.sub3 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_mayor03.jpg);}
-.mayor.sub4 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_mayor04.jpg);}
-.mayor.sub5 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_mayor05.jpg);}
+/*.mayor.sub1 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_mayor01.jpg);}*/
+.mayor.sub1 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_mayor06.png);}
+.mayor.sub2 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_mayor02.jpg);}
+.mayor.sub3 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_mayor03.jpg);}
+.mayor.sub4 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_mayor04.jpg);}
+.mayor.sub5 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_mayor05.jpg);}
 /*문화관광 비주얼이미지*/
-.culture.sub1 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_culture01.jpg);}
-.culture.sub2 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_culture02.jpg);}
-.culture.sub3 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_culture03.jpg);}
-.culture.sub4 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_culture04.jpg);}
-.culture.sub5 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_culture05.jpg);}
-.culture.sub6 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_culture06.jpg);}
+.culture.sub1 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_culture01.jpg);}
+.culture.sub2 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_culture02.jpg);}
+.culture.sub3 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_culture03.jpg);}
+.culture.sub4 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_culture04.jpg);}
+.culture.sub5 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_culture05.jpg);}
+.culture.sub6 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_culture06.jpg);}
 /*평생학습관 비주얼이미지*/
-.lll.sub1 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_lll01.jpg);}
-.lll.sub2 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_lll02.jpg);}
-.lll.sub3 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_lll03.jpg);}
-.lll.sub4 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_lll04.jpg);}
-.lll.sub5 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_lll05.jpg);}
+.lll.sub1 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_lll01.jpg);}
+.lll.sub2 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_lll02.jpg);}
+.lll.sub3 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_lll03.jpg);}
+.lll.sub4 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_lll04.jpg);}
+.lll.sub5 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_lll05.jpg);}
 /*고구려대장간마을 비주얼이미지*/
-.gbv.sub1 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_gbv01.jpg);}
-.gbv.sub2 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_gbv02.jpg);}
-.gbv.sub3 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_gbv03.jpg);}
-.gbv.sub4 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_gbv04.jpg);}
-.gbv.sub5 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_gbv05.jpg);}
-.gbv.sub6 .sub_visual {background-image:url(/images/guri/common/layout/sub_visual_gbv06.jpg);}
+.gbv.sub1 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_gbv01.jpg);}
+.gbv.sub2 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_gbv02.jpg);}
+.gbv.sub3 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_gbv03.jpg);}
+.gbv.sub4 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_gbv04.jpg);}
+.gbv.sub5 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_gbv05.jpg);}
+.gbv.sub6 .sub_visual {background-image:url(/portfolio/images/guri/common/layout/sub_visual_gbv06.jpg);}
 
 html:not(.ie) .sub_visual{background-attachment:fixed;}
 body.visualtype #container{position:relative;}

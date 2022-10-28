@@ -3,13 +3,13 @@
 @font-face {
 	font-family: 'SBAggroB';
 	font-weight: 400;
-	src: url("/font/SBAggroB.woff") format('woff');
+	src: url("/portfolio/font/SBAggroB.woff") format('woff');
 }
 
 /* 리빙랩이란? */
 .whats_livinglab .conbox{border-radius: 90px;background-color: #faf6de;text-align: center;padding-top: 99px;overflow: hidden;position:relative;padding-bottom: 513px;}
 .whats_livinglab .conbox:before{content: "";display: block;position: absolute;width: 750px;height: 750px;border-radius: 50%;background-color: #fffdf2;bottom: -367px;right: -249px;}
-.whats_livinglab .conbox:after{content: "";display: block;position: absolute;width: 849px;height: 454px;bottom: 0;background: url(/images/guri/livinglab/contents/livinglab_02.png) no-repeat bottom / contain;left: 276px;}
+.whats_livinglab .conbox:after{content: "";display: block;position: absolute;width: 849px;height: 454px;bottom: 0;background: url(/portfolio/images/guri/livinglab/contents/livinglab_02.png) no-repeat bottom / contain;left: 276px;}
 .whats_livinglab .decobox{position:relative;}
 .whats_livinglab .decobox:before, .whats_livinglab .decobox:after{content: "";display: block;position: absolute;border-radius: 50%;}
 .whats_livinglab .decobox:before{width: 544px;height: 544px;top: -247px;left: -2px;background-color: #f5eba9;opacity:0.5;}

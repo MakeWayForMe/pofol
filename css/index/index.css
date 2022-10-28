@@ -7,17 +7,17 @@
 @font-face {
     font-family: Score;
     font-weight: 400;
-    src: url(/font/S-CoreDream-4Regular.woff);
+    src: url(/portfolio/font/S-CoreDream-4Regular.woff);
 }
 @font-face {
     font-family: Score;
     font-weight: 600;
-    src: url(/font/S-CoreDream-6Bold.woff);
+    src: url(/portfolio/font/S-CoreDream-6Bold.woff);
 }
 @font-face {
     font-family: Score;
     font-weight: 700;
-    src: url(/font/S-CoreDream-7ExtraBold.woff);
+    src: url(/portfolio/font/S-CoreDream-7ExtraBold.woff);
 }
 
 *{margin:0;padding:0;font-family:'Noto Sans KR', sans-serif;font-size:10px;font-weight:normal;}
@@ -109,7 +109,7 @@ body[data-top="nontop"] .nav-container{top:0;bottom:auto;}
 /* 커리어 */
 .about{padding-top: 100px;}
 .about .conbox:first-child{margin-bottom: 150px;}
-.about button.doc{width: 30px;height: 30px;background-color: transparent;border: none;background-image: url(/images/index/docs.png);vertical-align: middle;cursor:pointer;font-size: 0;color: transparent;margin-left: 20px;animation: rotate 2000ms infinite ease-in-out;}
+.about button.doc{width: 30px;height: 30px;background-color: transparent;border: none;background-image: url(/portfolio/images/index/docs.png);vertical-align: middle;cursor:pointer;font-size: 0;color: transparent;margin-left: 20px;animation: rotate 2000ms infinite ease-in-out;}
 .about .popup{display: none;position: fixed;top: 0;left: 0;width: 100vw;height: 100vh;background-color: rgba(0, 0, 0, 0.5);z-index:200;}
 .about .popup .popup_wrap{position: absolute;top: 10vh;left: 10vw;border-radius: 30px;background-color: rgba(30, 31, 38, 0.98);width: 80vw;height: 70vh;padding: 30px;overflow-y: auto;box-sizing: border-box;}
 .about .popup.on{display: block;}

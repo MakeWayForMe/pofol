@@ -15,7 +15,7 @@ a:active { color:#444; text-decoration:underline; }
 .satisfaction .kogl_open{padding:24px 3% 20px;min-height:75px}
 .satisfaction .kogl_open img{float:left;margin-top:-4px;margin-right:20px}
 .satisfaction .satisfaction_list{padding:20px 3%;background:#f7f7f7}
-.satisfaction .question{padding:2px 0 2px 36px;background:url(/images/guri/common/program/comment_smile.png) no-repeat left top;color:#000}
+.satisfaction .question{padding:2px 0 2px 36px;background:url(/portfolio/images/guri/common/program/comment_smile.png) no-repeat left top;color:#000}
 .satisfaction .satisfaction_list label{vertical-align:middle}
 .satisfaction .satisfaction_list .input_radio{display:block;margin-top:8px}
 .satisfaction .satisfaction_list .input_radio input[type=radio]{width:16px;height:16px}

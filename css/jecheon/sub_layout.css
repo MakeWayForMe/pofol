@@ -2,12 +2,12 @@
 
 /* 서브비주얼 */
 .sub_visual{position:relative;z-index:5;margin-bottom:50px;}
-.sub_visual .visual_text{display:flex;justify-content:center;align-items:center;width:100%;height:400px;background:url(/images/jecheon/sub/sub_visual.jpg) no-repeat center top / cover;color:white;font-size:46px;font-weight:700;}
+.sub_visual .visual_text{display:flex;justify-content:center;align-items:center;width:100%;height:400px;background:url(/portfolio/images/jecheon/sub/sub_visual.jpg) no-repeat center top / cover;color:white;font-size:46px;font-weight:700;}
 .sub_visual .home{width:74px;height:70px;border-right:1px solid #d2d2d2;border-left:1px solid #d2d2d2;font-size:0;}
-.sub_visual .home a{width:100%;height:100%;background:url(/images/jecheon/sub/home_icon.png) no-repeat center;color:transparent;}
+.sub_visual .home a{width:100%;height:100%;background:url(/portfolio/images/jecheon/sub/home_icon.png) no-repeat center;color:transparent;}
 .sub_visual .list{position:relative;width:247px;height:70px;border-right:1px solid #d2d2d2;}
 .sub_visual .list .list_btn{display:flex;justify-content:flex-start;align-items:center;position:relative;width:100%;height:100%;padding-right:40px;padding-left:21px;background-color:white;color:#0c0b40;font-size:18px;}
-.sub_visual .list .list_btn:after{display:block;position:absolute;top:calc(50% - 3px);right:21px;width:11px;height:7px;background:url(/images/jecheon/sub/btn_arrow.png) no-repeat;content:"";}
+.sub_visual .list .list_btn:after{display:block;position:absolute;top:calc(50% - 3px);right:21px;width:11px;height:7px;background:url(/portfolio/images/jecheon/sub/btn_arrow.png) no-repeat;content:"";}
 .sub_visual .list .list_btn.active{background-color:#0c0b40;color:white;}
 .sub_visual .list .list_btn.active:after{background-position-y:-7px;}
 .sub_visual .list .layer{visibility:hidden;position:absolute;top:70px;left:0;width:100%;border-right:1px solid #d2d2d2;border-left:1px solid #d2d2d2;box-sizing:border-box;transform:scaleY(0);opacity:0;transform-origin:center top;}
@@ -37,19 +37,19 @@
 .sub_visual .path .addon{display:flex;justify-content:flex-start;align-items:center;position:absolute;top:0;right:19px;height:100%;}
 .sub_visual .path .addon button{display:block;color:transparent;font-size:0;}
 .sub_visual .sns_share{position:relative;margin-right:30px;}
-.sub_visual .sns_share .share_open{width:20px;height:20px;background:url(/images/jecheon/sub/addon_icon.png) no-repeat;}
+.sub_visual .sns_share .share_open{width:20px;height:20px;background:url(/portfolio/images/jecheon/sub/addon_icon.png) no-repeat;}
 .sub_visual .sns_share .sns_wrap{display:none;position:absolute;top:2px;left:-166px;}
 .sub_visual .sns_share.active .sns_wrap{display:block;}
 .sub_visual .sns_wrap .sns_list{font-size:0;}
 .sub_visual .share_item{display:inline-block;}
-.sub_visual .share_item a{width:14px;height:17px;background:url(/images/jecheon/sub/addon_icon.png) no-repeat;}
+.sub_visual .share_item a{width:14px;height:17px;background:url(/portfolio/images/jecheon/sub/addon_icon.png) no-repeat;}
 .sub_visual .share_item.n1 a{margin-right:27px;background-position-x:-40px;}
 .sub_visual .share_item.n2 a{margin-right:28px;background-position-x:-60px;}
 .sub_visual .share_item.n3 a{margin-right:32px;background-position-x:-80px;}
 .sub_visual .share_item.n4 a{margin-right:14px;background-position-x:-100px;}
 .sub_visual .share_close{position:absolute;top:-12px;right:-40px;width:40px;height:40px;border-radius:50%;background-color:#0c0b40;}
-.sub_visual .share_close:after{display:block;position:absolute;top:15px;left:15px;width:10px;height:10px;background:url(/images/jecheon/sub/addon_icon.png) no-repeat -120px 0;content:"";}
-.sub_visual .print .print_btn{width:20px;height:20px;background:url(/images/jecheon/sub/addon_icon.png) no-repeat -20px 0;}
+.sub_visual .share_close:after{display:block;position:absolute;top:15px;left:15px;width:10px;height:10px;background:url(/portfolio/images/jecheon/sub/addon_icon.png) no-repeat -120px 0;content:"";}
+.sub_visual .print .print_btn{width:20px;height:20px;background:url(/portfolio/images/jecheon/sub/addon_icon.png) no-repeat -20px 0;}
 @media (max-width:1000px) {
     .sub_visual .path .addon{top:auto;right:26px;bottom:20px;height:auto;}
     .sub_visual .sns_share{margin-right:0;}

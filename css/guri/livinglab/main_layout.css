@@ -12,22 +12,22 @@
 body.normal .familybtn{color: black;}
 body.normal .familybtn i{background-image: none;background-color: transparent;border: 2px solid black;}
 .site_link ul .link_item .linkbtn:after{background-color: black;}
-.site_link ul .link_item.dongbox .linkbtn i{background: url(/images/guri/livinglab/common/icon.png) no-repeat;}
+.site_link ul .link_item.dongbox .linkbtn i{background: url(/portfolio/images/guri/livinglab/common/icon.png) no-repeat;}
 
 #container{font-family:SCoreDream;font-weight:400;}
 
 .rowgroup1{position:relative;}
 .rowgroup1:before{display:block;position:absolute;top:0;left:calc((100% - 100vw) / 2);width:100vw;height:1311px;background:linear-gradient(to bottom, #eceeff 50%, transparent 80%);content:"";}
 .rowgroup1 .titlebox{position:relative;height:489px;padding-top:135px;padding-left:705px;box-sizing:border-box;}
-.rowgroup1 .titlebox:before{content: "";display: block;position: absolute;width: 570px;height: 369px;top: 66px;left: 49px;background:url(/images/guri/livinglab/main/visual_img.png) no-repeat top / contain;}
-.rowgroup1 .titlebox:after{display:block;position:absolute;top:0;right:-38px;width:248px;height:81px;background:url(/images/guri/livinglab/main/visual_deco.png) no-repeat;content:"";opacity:0.08;}
+.rowgroup1 .titlebox:before{content: "";display: block;position: absolute;width: 570px;height: 369px;top: 66px;left: 49px;background:url(/portfolio/images/guri/livinglab/main/visual_img.png) no-repeat top / contain;}
+.rowgroup1 .titlebox:after{display:block;position:absolute;top:0;right:-38px;width:248px;height:81px;background:url(/portfolio/images/guri/livinglab/main/visual_deco.png) no-repeat;content:"";opacity:0.08;}
 .rowgroup1 .titlebox div{position:relative;margin-bottom:37px;font-family:NexonFootball;font-size:0;letter-spacing:0;}
-.rowgroup1 .titlebox div:before{display:block;justify-content:center;align-items:center;position:absolute;top:-38px;right:229px;width:66px;height:66px;border-radius:50%;background:white url(/images/guri/livinglab/main/visual_text_deco.png) no-repeat center;font-size:40px;content:"";animation: textfloat 800ms both ease-in-out;animation-delay: 500ms;}
+.rowgroup1 .titlebox div:before{display:block;justify-content:center;align-items:center;position:absolute;top:-38px;right:229px;width:66px;height:66px;border-radius:50%;background:white url(/portfolio/images/guri/livinglab/main/visual_text_deco.png) no-repeat center;font-size:40px;content:"";animation: textfloat 800ms both ease-in-out;animation-delay: 500ms;}
 .rowgroup1 .titlebox div br{display: none;}
 .rowgroup1 .titlebox div .small{position:relative;background:linear-gradient(to top, #1f2dba, #5d13d0);-webkit-background-clip:text;font-size:60px;line-height:76px;-webkit-text-fill-color:transparent;animation: textfloat 800ms both ease-in-out;}
 .ie .rowgroup1 .titlebox div .small{background:none;color:#1f2dba;}
 .rowgroup1 .titlebox div .big{position:relative;top:-4px;width:197px;height:77px;margin-left:44px;color:transparent;font-size:0;vertical-align:top;animation: textfloat 800ms both ease-in-out;animation-delay: 500ms;}
-.rowgroup1 .titlebox div .big:after{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url(/images/guri/livinglab/main/visual_text.png) no-repeat bottom / contain;content:"";}
+.rowgroup1 .titlebox div .big:after{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url(/portfolio/images/guri/livinglab/main/visual_text.png) no-repeat bottom / contain;content:"";}
 .rowgroup1 .titlebox p{color:black;font-size:20px;font-weight:300;line-height:24px;letter-spacing:-0.03em;word-break: keep-all;position:relative;animation: textfloat 800ms both ease-in-out;animation-delay: 1000ms;}
 .rowgroup1 .titlebox p span{color:#420aa5;display: inline;}
 @media (max-width:1400px) {
@@ -73,9 +73,9 @@ body.normal .familybtn i{background-image: none;background-color: transparent;bo
 .rowgroup2 .linkbox{display:flex;justify-content:space-between;position:relative;}
 .rowgroup2 .linkbox a{display:flex;justify-content:center;align-items:center;overflow:hidden;position:relative;width:447px;height:170px;border:1px solid #bdbdbd;border-radius:30px;background-color:white;color:black;font-size:26px;font-weight:600;box-shadow:0 20px 20px rgba(0, 0, 0, 0.1);}
 .rowgroup2 .linkbox a:before{display:block;position:absolute;right:-62px;bottom:-24px;width:132px;height:50px;border-radius:25px;background-color:#efefef;transform:rotateZ(45deg);content:"";}
-.rowgroup2 .linkbox a:after{display:block;position:absolute;right:25px;bottom:23px;width:17px;height:17px;background:url(/images/guri/livinglab/main/more_icon.png) no-repeat center;content:"";}
+.rowgroup2 .linkbox a:after{display:block;position:absolute;right:25px;bottom:23px;width:17px;height:17px;background:url(/portfolio/images/guri/livinglab/main/more_icon.png) no-repeat center;content:"";}
 .rowgroup2 .linkbox a span{position:relative;padding-left:103px;}
-.rowgroup2 .linkbox a span:before{display:block;position:absolute;left:0;width:75px;background:url(/images/guri/livinglab/main/link_icon.png) no-repeat;content:"";}
+.rowgroup2 .linkbox a span:before{display:block;position:absolute;left:0;width:75px;background:url(/portfolio/images/guri/livinglab/main/link_icon.png) no-repeat;content:"";}
 .rowgroup2 .linkbox a:first-child span:before{top:calc(50% - 34px);height:67px;}
 .rowgroup2 .linkbox a:nth-child(2) span:before{top:calc(50% - 37px);height:73px;background-position-x:-75px;}
 .rowgroup2 .linkbox a:last-child span:before{top:calc(50% - 37px);height:74px;background-position-x:-150px;}
@@ -129,7 +129,7 @@ body.normal .familybtn i{background-image: none;background-color: transparent;bo
 .rowgroup3 .suggest_slide .slide_item .date{color:black;font-family:NotoKr;font-size:15px;font-weight:300;line-height:19px;}
 .rowgroup3 .suggest_slide .slide_item .social{position:absolute;right:0;bottom:0;font-family:NotoKr;font-size:15px;line-height:19px;letter-spacing:0.05em;}
 .rowgroup3 .suggest_slide .slide_item .social span{position:relative;padding-left:23px;}
-.rowgroup3 .suggest_slide .slide_item .social span:before{display:block;position:absolute;top:1px;left:0;width:20px;height:19px;background:url(/images/guri/livinglab/main/com_like_icon.png) no-repeat;content:"";}
+.rowgroup3 .suggest_slide .slide_item .social span:before{display:block;position:absolute;top:1px;left:0;width:20px;height:19px;background:url(/portfolio/images/guri/livinglab/main/com_like_icon.png) no-repeat;content:"";}
 .rowgroup3 .suggest_slide .slide_item .social span.comment{margin-right:14px;color:#0e119d;}
 .rowgroup3 .suggest_slide .slide_item .social span.like{color:#d23162;}
 .rowgroup3 .suggest_slide .slide_item .social span.like:before{top:2px;height:18px;background-position-x:-20px;}
@@ -178,8 +178,8 @@ body.normal .familybtn i{background-image: none;background-color: transparent;bo
 }
 
 .rowgroup4{position:relative;padding-bottom:80px;}
-.rowgroup4 .decobox{position:absolute;right:calc((100% - 100vw) / 2);bottom:0;width:calc(50vw + 50px);height:571px;background:#f2f2f2 url(/images/guri/livinglab/main/deco_02.png) no-repeat;background-size:cover;}
-.rowgroup4 .decobox:before{display:block;position:absolute;bottom:0;left:343px;width:428px;height:389px;background:url(/images/guri/livinglab/main/deco_01.png) no-repeat;content:"";}
+.rowgroup4 .decobox{position:absolute;right:calc((100% - 100vw) / 2);bottom:0;width:calc(50vw + 50px);height:571px;background:#f2f2f2 url(/portfolio/images/guri/livinglab/main/deco_02.png) no-repeat;background-size:cover;}
+.rowgroup4 .decobox:before{display:block;position:absolute;bottom:0;left:343px;width:428px;height:389px;background:url(/portfolio/images/guri/livinglab/main/deco_01.png) no-repeat;content:"";}
 .rowgroup4 .comu_map{display:flex;justify-content:space-between;align-items:flex-start;position:relative;width:924px;padding:50px 82px;border:1px solid #bdbdbd;border-radius:30px;box-sizing:border-box;background-color:white;}
 .rowgroup4 .comu_map .conbox{width:332px;padding-top:39px;color:black;}
 .rowgroup4 .comu_map .conbox .titlebox div{margin-bottom:4px;font-size:36px;font-weight:800;line-height:50px;}

@@ -3,8 +3,8 @@
 @font-face {
 	font-family:'NexonFootball';
 	font-weight:400;
-	src:url("/font/NEXONFootballGothicB.woff2") format('woff2'),
-    url("/font/NEXONFootballGothicB.woff") format('woff');
+	src:url("/portfolio/font/NEXONFootballGothicB.woff2") format('woff2'),
+    url("/portfolio/font/NEXONFootballGothicB.woff") format('woff');
 }
 
 @keyframes textfloat {0%{opacity:0;visibility: hidden;transform: translateY(80px);}100%{opacity:1;visibility: visible;transform: translateY(0);}}

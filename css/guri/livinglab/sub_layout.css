@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+
+@media all and (min-width:1401px ) {
+    #header .lnb .menu .depth1_list{width: 590px; padding-right: 134px;}
+    #header .lnb .menu .depth1_text{padding: 42px 30px;}
+}
+
+@media (min-width: 1001px) and (max-width: 1400px) {
+    #header .lnb .menu .depth1_list{width: 440px; padding-right: 60px;}
+}
+
+@media (min-width:1001px) {
+    body.visualtype .logo .image{background-image: url(/images/guri/common/layout/logo_white.png);}
+}
+@media (max-width:1000px) {
+    body.visualtype .logo .image{background-image: url(/images/guri/common/layout/logo_color.png);}
+    .logo .text{margin-top: 5px;color: #00893e;}
+}

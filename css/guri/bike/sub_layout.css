@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+@media all and (min-width:1401px ) {
+    #header .lnb .menu .depth1_list{width: 1053px; padding-right: 134px;}
+    #header .lnb .menu .depth1_text{padding: 42px 21px;}
+}
+
+@media (min-width: 1001px) and (max-width: 1400px) {
+    #header .lnb .menu .depth1_list{width: 755px; padding-right: 60px;}
+    #header .lnb .menu .depth1_text{padding: 42px 10px; font-size: 18px;}
+
+}
+@media (min-width: 1001px) {
+    body.visualtype .logo .image{background-image: url(/images/guri/common/layout/logo_white.png);}
+    #header .lnb .depth2_item{display: inline-block; float: none; vertical-align: top;}
+    #header .lnb .depth2_item:nth-child(-n+5).open .depth3_list{min-height:auto;}
+    #header .lnb .depth2_item:nth-child(n+6):nth-child(-n+10).open .depth3_list{min-height: auto;}
+}
+
+@media (max-width:1000px) {
+    body.visualtype .logo .image{background-image: url(/images/guri/common/layout/logo_color.png);}
+    .logo .text{margin-top: 5px;color: #00893e;}
+}

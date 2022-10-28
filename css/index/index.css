@@ -125,7 +125,7 @@ body[data-top="nontop"] .nav-container{top:0;bottom:auto;}
 .works:after{display: none;height: auto;}
 .works .imgbox{width: 600px;}
 .works .imgbox img{object-fit: cover;}
-.works .swiper{width: 1000px;margin: 0 auto;overflow: hidden;}
+.works .swiper{width: 1000px;margin: 0 auto;}
 .works .swiper-pagination-bullet{width: 50px;height: 10px;border-radius: 0;}
 .works .context:nth-child(n+2){margin-top: 50px;}
 .works .textbox{color: white;}

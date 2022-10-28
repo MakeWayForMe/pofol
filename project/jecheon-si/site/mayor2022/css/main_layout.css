@@ -227,8 +227,6 @@
 .rowgroup3 .back .text{max-height:138px;font-size:15px;line-height:23px;opacity:0.5;}
 .rowgroup3 .back .abtn{position:absolute;color:transparent;font-size:0;}
 .rowgroup3 .flip:focus, .rowgroup3 .flip:hover{box-shadow:18px 18px 30px rgba(23, 18, 50, 0.2);}
-.rowgroup3 .flip:focus .flipcard, .rowgroup3 .flip:hover .flipcard{transform:rotateY(-180deg);}
-.rowgroup3 .flip:focus .back, .rowgroup3 .flip:hover .back{visibility:visible;}
 @media (min-width:1001px){
     .rowgroup3 h2:before{display:block;position:absolute;top:50px;left:-178px;width:1294px;height:202px;background:url(../images/main/deco02.png) no-repeat left top / contain;content:"";}
     .rowgroup3 .more a:hover:after{transform:rotateZ(360deg);transition:400ms linear;}
@@ -240,6 +238,8 @@
     .rowgroup3 .card_slide .slide_control button:hover:after{background-position-x:-11px;}
     .rowgroup3 .back .abtn{top:75px;right:0;width:80px;height:50px;border-radius:10px 0 0 10px;background-color:#f3f3f5;}
     .rowgroup3 .back .abtn:after{display:block;position:absolute;top:calc(50% - 6px);left:calc(50% - 10px);width:21px;height:12px;background:url(../images/main/link_arrow.png) no-repeat -21px 0;content:"";}
+    .rowgroup3 .flip:focus .flipcard, .rowgroup3 .flip:hover .flipcard{transform:rotateY(-180deg);}
+    .rowgroup3 .flip:focus .back, .rowgroup3 .flip:hover .back{visibility:visible;}
     .rowgroup3 .flip:focus .back .abtn:after, .rowgroup3 .flip:hover .back .abtn:after{animation:arrowShake2 700ms infinite linear;}
     .ie .rowgroup3 .back{z-index:1;transform:rotateY(0);transition:none;}
     .ie .rowgroup3 .flip:hover .flipcard{transform:rotateY(0);}

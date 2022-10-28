@@ -1,211 +1,143 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <title>KIMJINSOL</title>
-    <link rel="icon" href="img/favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" media="all and (max-width:1199px)" href="css/indext.css">
-    <link rel="stylesheet" media="all and (max-width:767px)" href="css/indexm.css">
+    <title>KIMJINSOL</title>
 </head>
-
-<body>
-    <section class="nav" id="bg">
-        <div class="span loader">
-            <p>
-                <span class='m'>W</span>
-                <span class='m'>E</span>
-                <span class='m'>B</span>
-                <span class='m'>&nbsp;</span>
-            </p>
-            <p>
-                <span class='m'>P</span>
-                <span class='m'>U</span>
-                <span class='m'>B</span>
-                <span class='m'>L</span>
-                <span class='m'>I</span>
-                <span class='m'>S</span>
-                <span class='m'>H</span>
-                <span class='m'>I</span>
-                <span class='m'>N</span>
-                <span class='m'>G</span>
-                <span class='m'>&nbsp;</span>
-            </p>
-            <p>
-                <span class='m'>P</span>
-                <span class='m'>O</span>
-                <span class='m'>R</span>
-                <span class='m'>T</span>
-                <span class='m'>F</span>
-                <span class='m'>O</span>
-                <span class='m'>L</span>
-                <span class='m'>I</span>
-                <span class='m'>O</span>
-            </p>
-        </div>
-        <div class="nav-container">
+<body data-top="top">
+    <section class="visual">
+        <h1 class="skip">비주얼영역</h1>
+        <div id="bg"></div>
+        <nav class="nav-container">
             <a class="nav-tab" href="#">MAIN</a>
             <a class="nav-tab" href="#">ABOUT</a>
             <a class="nav-tab" href="#">WORKS</a>
-            <a class="nav-tab" href="#">CONTACT</a>
-        </div>
-        <div class="menu"></div>
-    </section>
-    <section class="slider about">
-        <h1>ABOUT</h1>
-        <ul class="me">
-            <li>Name : 김진솔</li>
-            <li>Education : 충청대학교 일본어통역 전공 (12.03 ~ 14.02)</li>
-            <li>웹디자인 UI/UX & 퍼블리셔 교육과정 수료 (21.09 ~ 22.02)</li>
-        </ul>
-        <h1>career</h1>
-        <p>열공시간, 넌얼마나쓰니 등 앱 개발 기획팀 근무 (리나소프트, 19.02 ~ 20.02)</p>
-    </section>
-    <section class="slider">
-        <h1>WORKS</h1>
-        <div class="swiper works">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="imgbox imgbox1">
-                        <img class="img1" src="img/pa1.png" alt="PAimg">
-                        <img class="img2" src="img/pa2.png" alt="PAimg">
-                    </div>
-                    <div class="textbox">
-                        <h4>효고/기후 여행정보</h4>
-                        <div>
-                            <p>일본 3대 온천을 가진 지역 중 두곳을 선정하여 온천테마여행을 소개하는 페이지를 제작했습니다. Google Map API를 활용하여 등록된 관광지를 표시했으며, 클러스터링을 이용해 지도 축소시 핀이 겹쳐보이는것을 방지했습니다. 인기있는 관광지와 맛집을 소개하는 자료는 json에서 파싱하여 html에 삽입해 modal로 확인할 수 있도록 했고, 추천코스와 관광지를 연동시켜서 코스에 있는 관광지의 정보를 쉽게 확인할 수 있도록 했습니다. 또, 일본 관광지이기 때문에 현지인들도 정보를 확인할 수 있게끔 일본어 페이지도 준비했습니다.</p>
-                        </div>
-                        <div>
-                            <h5>Cross-Browsing</h5>
-                            <div class="browser">
-                                <img src="img/chrome.svg" alt="크롬">
-                                <img src="img/firefox.svg" alt="파이어폭스">
-                                <img src="img/edge.png" alt="엣지">
-                            </div>
-                        </div>
-                        <div class="link">
-                            <a href="https://makewayforme.github.io/portfolio/pa/" target="_black">WEB</a>
-                            <a href="https://makewayforme.github.io/portfolio/PA_UI.pdf" target="_black">UI 정의서</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="imgbox imgbox2">
-                        <img class="img1" src="img/pb1.png" alt="PAimg">
-                        <img class="img2" src="img/pb2.png" alt="PAimg">
-                    </div>
-                    <div class="textbox">
-                        <h4>한국교통연구원</h4>
-                        <div>
-                            <p>기존 페이지에 있는 불필요한 요소를 제거하고 사이즈가 제각각인 배너들의 사이즈 통합과 블럭요소를 재배치하여 보다 정돈된 분위기를 연출했습니다. 조직도 페이지에서는 부서 클릭시 해당 부서 직원들이 검색결과에 출력되어 불편했던 점을 modal로 처리하여 편의성을 개선했습니다.</p>
-                        </div>
-                        <div>
-                            <h5>Cross-Browsing</h5>
-                            <div class="browser">
-                                <img src="img/chrome.svg" alt="크롬">
-                                <img src="img/firefox.svg" alt="파이어폭스">
-                                <img src="img/edge.png" alt="엣지">
-                                <img src="img/ie10.svg" alt="ie10">
-                                <img src="img/ie11.svg" alt="ie11">
-                            </div>
-                        </div>
-                        <div class="link">
-                            <a href="https://makewayforme.github.io/portfolio/pb/" target="_black">WEB</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="imgbox imgbox3">
-                        <img class="img1" src="img/pc1.png" alt="PAimg">
-                        <img class="img2" src="img/pc2.png" alt="PAimg">
-                    </div>
-                    <div class="textbox">
-                        <h4>생활계산기</h4>
-                        <div>
-                            <p>조건문과 정규식을 활용해 일상생활에서 자주 찾는 도량형 계산기와 디데이 계산기, 직장인들을 위한 퇴직금과 4대보험 계산기, 알바생들을 위한 주휴수당 계산기를 구현했습니다. 레이아웃 구조가 단순하여 반응형으로 구성하지 않아도 모바일에서 충분히 사용이 편리하기 때문에 viewport를 사용하지 않았습니다.</p>
-                        </div>
-                        <div>
-                            <h5>Cross-Browsing</h5>
-                            <div class="browser">
-                                <img src="img/chrome.svg" alt="크롬">
-                                <img src="img/firefox.svg" alt="파이어폭스">
-                                <img src="img/edge.png" alt="엣지">
-                                <img src="img/ie10.svg" alt="ie10">
-                                <img src="img/ie11.svg" alt="ie11">
-                            </div>
-                        </div>
-                        <div class="link">
-                            <a href="https://makewayforme.github.io/portfolio/pc/" target="_black">WEB</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="imgbox imgbox4">
-                        <img class="img1" src="img/pd1.png" alt="PAimg">
-                        <img class="img2" src="img/pd2.png" alt="PAimg">
-                    </div>
-                    <div class="textbox">
-                        <h4>레츠코레일</h4>
-                        <div>
-                            <p>기존의 오래된 페이지 디자인을 여행이라는 테마와 잘 맞도록 오밀조밀했던 UI를 여유있고 밝은 느낌으로 새롭게 구성했습니다. 또, 별도로 존재했던 예매페이지를 메인페이지의 중앙에 배치하고 조건문과 ajax를 활용하여 한 화면 내에서 티켓 옵션을 모두 선택할 수 있도록 재구성하여 편의성을 증진시켰습니다.</p>
-                        </div>
-                        <div>
-                            <h5>Cross-Browsing</h5>
-                            <div class="browser">
-                                <img src="img/chrome.svg" alt="크롬">
-                                <img src="img/firefox.svg" alt="파이어폭스">
-                                <img src="img/edge.png" alt="엣지">
-                                <img src="img/ie10.svg" alt="ie10">
-                                <img src="img/ie11.svg" alt="ie11">
-                            </div>
-                        </div>
-                        <div class="link">
-                            <a href="https://makewayforme.github.io/portfolio/pd/" target="_black">WEB</a>
-                        </div>
-                    </div>
-                </div>
+        </nav>
+        <div class="menu_open"></div>
+        <div class="loader">
+            <div class="text1">
+                <span class="m">W</span>
+                <span class="m">E</span>
+                <span class="m">B</span>
+                <span class="m">&nbsp;</span>
+                <span class="m">P</span>
+                <span class="m">U</span>
+                <span class="m">B</span>
+                <span class="m">L</span>
+                <span class="m">I</span>
+                <span class="m">S</span>
+                <span class="m">H</span>
+                <span class="m">I</span>
+                <span class="m">N</span>
+                <span class="m">G</span>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="text2">
+                <span class="m">P</span>
+                <span class="m">O</span>
+                <span class="m">R</span>
+                <span class="m">T</span>
+                <span class="m">F</span>
+                <span class="m">O</span>
+                <span class="m">L</span>
+                <span class="m">I</span>
+                <span class="m">O</span>
+            </div>
         </div>
     </section>
-    <section class="slider contact">
-        <h1>CONTACT</h1>
-        <div class="info">
-            <p><a href="tel:010-6432-5003">010 - 6432 - 5003</a></p>
-            <p>neojs89@gmail.com</p>
+    <section class="about">
+        <div class="wrap">
+            <div class="conbox">
+                <h1><span>ABOUT</span></h1>
+                <ul class="bu">
+                    <li>Name : 김진솔</li>
+                    <li>Education : 충청대학교 일본어통역과 졸업 4.09/4.5 (’12.03 ~ ’14.02)</li>
+                </ul>
+            </div>
+            <div class="conbox">
+                <h1><span>CAREER</span></h1>
+                <ul class="bu">
+                    <li>
+                        <span>(주)한신정보기술 퍼블리셔팀 ’22.03 ~ <button type="button" class="doc">프로젝트 내역</button></span>
+                        <div class="popup">
+                            <div class="popup_wrap">
+                                <ul class="bu type2">
+                                    <li><span>’22.10 ~ ’22.10 제천 열린시장실 개편</span> : 메인페이지&서브페이지 레이아웃, 컨텐츠 작업 <a href="https://makewayforme.github.io/portfolio/project/jecheon-si/site/mayor2022/main.html" target="_blank" title="새창">[Link]</a></li>
+                                    <li><span>’22.10 ~ ’22.10 구리 신규사이트 2종 구축</span> : 메인/서브/컨텐츠 <a href="https://makewayforme.github.io/portfolio/project/guri-si/site/bike/main.html" target="_blank" title="새창">[Link1]</a> <a href="https://makewayforme.github.io/portfolio/project/guri-si/site/livinglab/main.html" target="_blank" title="새창">[Link2]</a></li>
+                                    <li><span>’22.09 ~ ’22.10 청주 미동산수목원 신규 구축</span> : 프로그램 페이지 및 컨텐츠 작업</li>
+                                    <li><span>’22.08 ~ ’22.08 광명 반려동물복합문화센터 신규 구축</span> : 프로그램 페이지 및 컨텐츠 작업</li>
+                                    <li><span>’22.07 ~ ’22.07 충북도민체전 신규 구축</span> : 컨텐츠 작업 <a href="https://www.oc.go.kr/sports/index.do" target="_blank" title="새창">[Link]</a></li>
+                                    <li><span>’22.06 ~ ’22.06 이천 열린시장실 개편</span> : 메인페이지 레이아웃 및 컨텐츠 작업 <a href="https://www.icheon.go.kr/mayor/index.do" target="_blank" title="새창">[Link]</a></li>
+                                    <li><span>’22.06 ~ ’22.06 태백 평생학습관 개편</span> : 예약페이지 및 관리자페이지 개편</li>
+                                    <li><span>’22.06 ~ ’22.06 수원 열린시장실 개편</span> : 컨텐츠 작업</li>
+                                    <li><span>’22.06 ~ ’22.06 원주 열린시장실 개편</span> : 메인페이지 및 신규 컨텐츠 작업</li>
+                                    <li><span>’22.06 ~ ’22.06 원주 문화관광 개편</span> : 메인페이지 및 신규 컨텐츠 작업, 서브페이지 레이아웃 수정 <a href="https://www.wonju.go.kr/tour/index.do" target="_blank" title="새창">[Link]</a></li>
+                                    <li><span>’22.04 ~ ’22.05 의정부 미래혁신교육협력센터 신규 구축</span> : 컨텐츠 작업</li>
+                                </ul>
+                                <button type="button" class="close">닫기</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li>(주)리나소프트 기획팀, ’19.02 ~ ’20.02</li>
+                </ul>
+            </div>
         </div>
-        <form>
-            <div>
-                <div>
-                    <p>Name</p>
-                    <input type="text" name="name" placeholder="성함을 입력해주세요">
-                </div>
-                <div>
-                    <p>e-mail</p>
-                    <input type="text" name="email" placeholder="메일주소를 입력해주세요">
-                </div>
-                <div>
-                    <p>Phone</p>
-                    <input type="text" name="phone" placeholder="연락처를 입력해주세요">
-                </div>
-            </div>
-            <div>
-                <p>Message</p>
-                <textarea name="message" rows="5" placeholder="전달하실 내용을 입력해주세요"></textarea>
-                <input class="submitbtn" type="button" name="submit" value="Send">
-            </div>
-        </form>
     </section>
-    <script src="js/ie-checker.js"></script>
+    <section class="works">
+        <div class="wrap">
+            <h1><span>WORKS</span></h1>
+            <div class="context">
+                <div class="swiper work1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/work1_1.png" alt="이미지1" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/work1_2.png" alt="이미지2" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/work1_3.png" alt="이미지3" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="textbox">
+                    <h2>SNS 클론코딩</h2>
+                    <div>react, firebase, module.css를 이용해 로그인, 피드, 좋아요, 프로필 기능을 구현했습니다.<br />테스트 계정 : test@test.com / 123qwe</div>
+                    <p><a href="https://makewayforme.github.io/portfolio/yawitter/" target="_blank" title="새창">[LINK]</a><a href="https://github.com/MakeWayForMe/yawitter" target="_blank" title="새창">[GITHUB]</a></p>
+                </div>
+            </div>
+            <div class="context">
+                <div class="swiper work1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/work2_1.png" alt="이미지1" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/work2_2.png" alt="이미지2" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/work2_3.png" alt="이미지3" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="textbox">
+                    <h2>생활계산기</h2>
+                    <div>javascript를 이용해 도량형 계산기, 퇴직금 계산기, 4대보험 계산기, 디데이 계산기, 주휴수당 계산기를 구현했습니다.</div>
+                    <p><a href="https://makewayforme.github.io/portfolio/calculator/" target="_blank" title="새창">[LINK]</a><a href="https://github.com/MakeWayForMe/portfolio/tree/gh-pages/calculator" target="_blank" title="새창">[GITHUB]</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/index.js"></script>
 </body>

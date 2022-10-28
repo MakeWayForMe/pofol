@@ -36,11 +36,9 @@ $('.menubtn').click(function() {
 });
 
 //숫자만입력
-class inNumber {
-    constructor() {
-        this.value = this.value.replace(/[^-0-9]/g, '');
-    }
-}
+var inNumber = function() {
+    this.value = this.value.replace(/[^-0-9]/g,'');
+};
 var inputNumber = document.querySelectorAll('#pay, #pluspay, #vacapay, .calList input, #insurpay, #after, #dDay, #dateinput, #hourpay');
 
 Array.prototype.forEach.call(inputNumber, function(eachInput) {
@@ -48,10 +46,8 @@ Array.prototype.forEach.call(inputNumber, function(eachInput) {
 });
 
 //날짜 하이픈
-class Hyphen {
-    constructor() {
-        this.value = this.value.replace(/[^-0-9]/g, '').replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3');
-    }
+var Hyphen = function() {
+    this.value = this.value.replace(/[^-0-9]/g,'').replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3');
 }
 var dates = document.querySelectorAll('#datepicker1, #datepicker2, #datepicker3, #dateinput');
 

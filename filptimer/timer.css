@@ -1,0 +1,25 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: Reddit Mono;line-height: 1;}
+
+.wrap{display: flex;justify-content: center;align-items: center;height: 100vh;background-color: black;}
+
+#flip-timer{display: flex;justify-content: center;pointer-events: none;user-select: none;}
+#flip-timer .flip-timer-box{display: flex;width: 220px;justify-content: space-between;}
+#flip-timer .flip-timer-box-min{margin: 0 60px;}
+#flip-timer .flip-timer-num{height: 150px;position:relative;}
+
+#flip-timer .flip-timer-half{width: 100px;color: white;text-align: center;height: 50%;perspective: 500px;position:relative;}
+#flip-timer .flip-timer-half.flip-timer-half-upper{z-index:1;border-bottom: 1px solid #121212;border-top: 1px solid #ccc;border-radius: 10px 10px 0 0;}
+#flip-timer .flip-timer-half.flip-timer-half-lower{border-top: 1px solid #121212;border-bottom: 1px solid #555;border-radius: 0 0 10px 10px;}
+#flip-timer .flip-timer-half .flip-timer-piece{width: 100%;font-size: 100px;overflow: hidden;transform-style: preserve-3d;font-weight: 700;position: absolute;visibility: hidden;backface-visibility: hidden;}
+#flip-timer .flip-timer-half .flip-timer-piece::selection{background-color: transparent;}
+#flip-timer .flip-timer-half .flip-timer-piece-upper{background: linear-gradient(to bottom, #262626, #121212);border-radius: 10px 10px 0 0;top: 0;height: 100%;transform-origin: bottom;line-height: 1.5;}
+#flip-timer .flip-timer-half .flip-timer-piece-lower{background: linear-gradient(to top, #262626, #121212);border-radius: 0 0 10px 10px;bottom: 0;height: 100%;transform-origin: top;line-height: 0;transform: rotateX(180deg);}
+
+#flip-timer .flip-timer-half .flip-timer-piece-active:first-child{z-index:1;}
+#flip-timer .flip-timer-half .flip-timer-piece-upper.flip-timer-piece-prev{visibility: visible;transform: rotateX(180deg);transition: 500ms linear;transition-property: visibility, transform;z-index:1;}
+#flip-timer .flip-timer-half .flip-timer-piece-upper.flip-timer-piece-active{visibility: visible;}
+#flip-timer .flip-timer-half .flip-timer-piece-lower.flip-timer-piece-prev{visibility: visible;transform: rotateX(0);}
+#flip-timer .flip-timer-half .flip-timer-piece-lower.flip-timer-piece-active{transform: rotateX(0);visibility: visible;transition: 500ms linear;transition-property: visibility, transform;}

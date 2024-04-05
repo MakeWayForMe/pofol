@@ -3,12 +3,14 @@
 
 *{margin: 0;padding: 0;box-sizing: border-box;font-family: Reddit Mono;line-height: 1;}
 
-.wrap{display: flex;justify-content: center;align-items: center;height: 100vh;background-color: black;}
+.wrap{display: flex;justify-content: center;align-items: center;height: 100vh;background-color: black;flex-direction: column;}
 
-#flip-timer{display: flex;justify-content: center;pointer-events: none;user-select: none;}
-#flip-timer .flip-timer-box{display: flex;width: 220px;justify-content: space-between;}
-#flip-timer .flip-timer-box-min{margin: 0 60px;}
+#timer2{margin: 30px 0;}
+
+#flip-timer{display: flex;justify-content: center;user-select: none;}
+#flip-timer .flip-timer-box{display: flex;margin: 0 15px;}
 #flip-timer .flip-timer-num{height: 150px;position:relative;}
+#flip-timer .flip-timer-num:first-child{margin-right: 5px;}
 
 #flip-timer .flip-timer-half{width: 100px;color: white;text-align: center;height: 50%;perspective: 500px;position:relative;}
 #flip-timer .flip-timer-half.flip-timer-half-upper{z-index:1;border-bottom: 1px solid #121212;border-top: 1px solid #ccc;border-radius: 10px 10px 0 0;}

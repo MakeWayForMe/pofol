@@ -177,20 +177,20 @@ const flipCounter = function(id, target) {
     let conterTarget = document.querySelector(id),
         targetTime = new Date(target);
     conterTarget.innerHTML = `<div id="flip-timer">
-        <div class="flip-timer-box flip-timer-box-hr">
+        <div class="flip-timer-box flip-timer-box-day">
             <div class="flip-timer-num">
-                <div class="flip-timer-half flip-timer-half-upper hr_half_upper">
+                <div class="flip-timer-half flip-timer-half-upper day_half_upper">
                     ${flipCounterDiv(9,1,'day','upper')}
                 </div>
-                <div class="flip-timer-half flip-timer-half-lower hr_half_lower">
+                <div class="flip-timer-half flip-timer-half-lower day_half_lower">
                     ${flipCounterDiv(9,1,'day','lower')}
                 </div>
             </div>
             <div class="flip-timer-num">
-                <div class="flip-timer-half flip-timer-half-upper hr_half_upper">
+                <div class="flip-timer-half flip-timer-half-upper day_half_upper">
                     ${flipCounterDiv(9,2,'day','upper')}
                 </div>
-                <div class="flip-timer-half flip-timer-half-lower hr_half_lower">
+                <div class="flip-timer-half flip-timer-half-lower day_half_lower">
                     ${flipCounterDiv(9,2,'day','lower')}
                 </div>
             </div>

@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /* error */
-.error{width:100%; min-height:100vh; background:url('/data/yuhancare/inc/img/404_bg.jpg') no-repeat center top / cover; text-align:center; color:#3e3e3e;}
+.error{width:100%; min-height:100vh; background:url('../data/yuhancare/inc/img/404_bg.jpg') no-repeat center top / cover; text-align:center; color:#3e3e3e;}
 .error img{width:100%;}
 .error .contentBox{width:1000px; background:#fff; padding:120px 0; box-sizing:border-box; border-radius:16px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); -webkit-transform:translate(-50%, -50%);}
 .error .logo{width:256px; margin:0 auto 45px;}
@@ -16,7 +16,7 @@
 
 @media (max-width:1000px){
 	/* error */
-  .error{background:url('/data/yuhancare/inc/img/m-404_bg.jpg') no-repeat center top / cover;}
+  .error{background:url('../data/yuhancare/inc/img/m-404_bg.jpg') no-repeat center top / cover;}
   .error .contentBox{width:92vw;height: 80vw; padding:10vw 0; border-radius:4vw;}
   .error .logo{width:35.777vw; margin:0 auto 6.666vw;}
   .error h2{font-size:4vw; line-height:6vw; margin-bottom:4vw;}

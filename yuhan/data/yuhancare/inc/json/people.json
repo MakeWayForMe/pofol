@@ -1,7 +1,7 @@
 [
     {
         "no": "5",
-        "img" : "/data/yuhancare/inc/img_new/culture/people/interview_5.jpg",
+        "img" : "../data/yuhancare/inc/img_new/culture/people/interview_5.jpg",
         "team" : "천연물연구소2팀",
         "class" : "연구원",
         "title" : "유한천연물라이브러리는 우리가 만든다!",
@@ -9,7 +9,7 @@
     },
     {
         "no": "4",
-        "img" : "/data/yuhancare/inc/img_new/culture/people/interview_4.jpg",
+        "img" : "../data/yuhancare/inc/img_new/culture/people/interview_4.jpg",
         "team" : "천연물연구소2팀",
         "class" : "연구원",
         "title" : "천연물연구를 위한 끝없는 노력!",
@@ -17,7 +17,7 @@
     },
     {
         "no": "3",
-        "img" : "/data/yuhancare/inc/img_new/culture/people/interview_3.jpg",
+        "img" : "../data/yuhancare/inc/img_new/culture/people/interview_3.jpg",
         "team" : "이커머스팀",
         "class" : "MD",
         "title" : "온라인에서 수많은 고객을 만나다!",
@@ -25,7 +25,7 @@
     },
     {
         "no": "2",
-        "img" : "/data/yuhancare/inc/img_new/culture/people/interview_2.jpg",
+        "img" : "../data/yuhancare/inc/img_new/culture/people/interview_2.jpg",
         "team" : "RM팀",
         "class" : "SCM",
         "title" : "회사의 모든 자산을 원활하게 움직이는 곳!",
@@ -33,7 +33,7 @@
     },
     {
         "no": "1",
-        "img" : "/data/yuhancare/inc/img_new/culture/people/interview_1.jpg",
+        "img" : "../data/yuhancare/inc/img_new/culture/people/interview_1.jpg",
         "team" : "BDM팀",
         "class" : "BM",
         "title" : "내 제품을 내 자식과 같이~!",

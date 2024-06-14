@@ -72,7 +72,7 @@
 
     .main_content .sec01{margin-bottom: 40px;}
     .main_content .main_video{display: none;}
-    .main_content .main_poster{display: block;background: url(/data/yuhancare/inc/img/test-main.jpg) no-repeat center / cover;height: 400px;}
+    .main_content .main_poster{display: block;background: url(../data/yuhancare/inc/img/test-main.jpg) no-repeat center / cover;height: 400px;}
     .main_content .main_text{width: 248px;height: 192px;padding: 0 20px;font-size: 32px;bottom: -40px;left: 60px;}
 
     .main_content .sec02{width: 100%;padding-top: 80px;padding-bottom: 75px;}
@@ -233,7 +233,7 @@
 .main .sec02 .linkbox a{font-size: 24px;color: #181818;font-weight: 600;position:relative;}
 .main .sec02 .linkbox a:after{content: "";display: inline-block;width: 9px;vertical-align: top;background: url(../img_new/common/arrow_right_black.svg) no-repeat center / contain;height: 24px;margin-left: 12px;}
 .main .sec02 .main_banner{clip-path:polygon(50% 0%, 50% 0%, 50% 100%, 50% 100%);overflow: hidden;}
-.main .sec02 .main_banner .bg{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: rgba(9, 9, 9, 0.27) url(/data/yuhancare/inc/img_new/main/banner1.jpg) no-repeat center top / cover;background-blend-mode: multiply;transition: 600ms ease-in-out;}
+.main .sec02 .main_banner .bg{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: rgba(9, 9, 9, 0.27) url(../data/yuhancare/inc/img_new/main/banner1.jpg) no-repeat center top / cover;background-blend-mode: multiply;transition: 600ms ease-in-out;}
 .main .sec02 .main_banner a{color: white;display: flex;justify-content: center;align-items: center;text-align: center;flex-direction: column;height: 460px;position:relative;}
 .main .sec02 .main_banner.on{transition: clip-path 800ms 100ms ease;clip-path:polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);}
 .main .sec02 .banner_name{font-size: 42px;font-weight: 700;margin-bottom: 25px;line-height: 52px;}

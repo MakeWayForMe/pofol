@@ -13,14 +13,14 @@
 .yuhancare_story .element_bar.animate{animation:glowUp 1s ease-in-out forwards; animation-fill-mode:both; height:0; -webkit-animation:glowUp 1s ease-in-out forwards; -webkit-animation-fill-mode:both;}
 .yuhancare_story .secCount{text-align:center;}
 .yuhancare_story .btn_link{font-size:24px; font-weight:600; color:#00943a;}
-.yuhancare_story .btn_link:after{content:''; width:22px; height:22px; display:inline-block; background:url('/data/yuhancare/inc/img/corporation/story_element_link.png') no-repeat center / contain; vertical-align:middle; margin-left:10px;}
+.yuhancare_story .btn_link:after{content:''; width:22px; height:22px; display:inline-block; background:url('../data/yuhancare/inc/img/corporation/story_element_link.png') no-repeat center / contain; vertical-align:middle; margin-left:10px;}
 
 .yuhancare_story .secCount p{font-size:56px; line-height:76px;}
 .yuhancare_story .secCount p.no{margin-bottom:20px;}
 .yuhancare_story .secCount p.keyword{margin-top:10px;}
 .yuhancare_story .secCount p.sub{font-size:18px; line-height:32px; font-weight:200; margin-top:55px;}
 
-.yuhancare_story .cont01{min-height:1757px; background:url('/data/yuhancare/inc/img/corporation/story_bg_cnt_01.jpg') no-repeat center top / 1920px; position:relative; overflow:hidden;}
+.yuhancare_story .cont01{min-height:1757px; background:url('../data/yuhancare/inc/img/corporation/story_bg_cnt_01.jpg') no-repeat center top / 1920px; position:relative; overflow:hidden;}
 .yuhancare_story .cont01 .category{color:#121212; margin-bottom:205px;}
 .yuhancare_story .cont01 .contentWrap{color:#23332d;}
 .yuhancare_story .cont01 .contentWrap h2{width:214px; margin:0 auto 25px;}
@@ -30,12 +30,12 @@
 .yuhancare_story .cont01 .lifeStyle li span{width:100%; height:100%; vertical-align:middle; display:table-cell; font-weight:600;}
 .yuhancare_story .cont01 .effectWrap{width:100%; height:auto; overflow:hidden;}
 .yuhancare_story .cont01 .effect{position:absolute;}
-.yuhancare_story .cont01 .effect.cloud01{width:526px; height:300px; top:730px/*623px*/; left:50%; margin-left:291px; background:url('/data/yuhancare/inc/img/corporation/story_element_cloud01.png') no-repeat center / cover;}
-.yuhancare_story .cont01 .effect.cloud02{width:543px; height:226px; top:773px; left:50%; margin-left:-816px; background:url('/data/yuhancare/inc/img/corporation/story_element_cloud02.png') no-repeat center / cover;}
-.yuhancare_story .cont01 .effect.cloud03{width:500px; height:208px; top:253px; left:50%; margin-left:389px; background:url('/data/yuhancare/inc/img/corporation/story_element_cloud03.png') no-repeat center / cover;}
-.yuhancare_story .cont01 .effect.cloud04{width:617px; height:176px; top:432px; left:50%; margin-left:-635px; background:url('/data/yuhancare/inc/img/corporation/story_element_cloud04.png') no-repeat center / cover;}
-.yuhancare_story .cont01 .effect.mountain01{width:893px; height:358px; top:1403px; left:50%; margin-left:-960px; background:url('/data/yuhancare/inc/img/corporation/story_element_mountain01.png') no-repeat center / cover;}
-.yuhancare_story .cont01 .effect.mountain02{width:1920px; height:755px; top:1343px; left:50%; margin-left:-960px; background:url('/data/yuhancare/inc/img/corporation/story_element_mountain02.png') no-repeat center / cover;}
+.yuhancare_story .cont01 .effect.cloud01{width:526px; height:300px; top:730px/*623px*/; left:50%; margin-left:291px; background:url('../data/yuhancare/inc/img/corporation/story_element_cloud01.png') no-repeat center / cover;}
+.yuhancare_story .cont01 .effect.cloud02{width:543px; height:226px; top:773px; left:50%; margin-left:-816px; background:url('../data/yuhancare/inc/img/corporation/story_element_cloud02.png') no-repeat center / cover;}
+.yuhancare_story .cont01 .effect.cloud03{width:500px; height:208px; top:253px; left:50%; margin-left:389px; background:url('../data/yuhancare/inc/img/corporation/story_element_cloud03.png') no-repeat center / cover;}
+.yuhancare_story .cont01 .effect.cloud04{width:617px; height:176px; top:432px; left:50%; margin-left:-635px; background:url('../data/yuhancare/inc/img/corporation/story_element_cloud04.png') no-repeat center / cover;}
+.yuhancare_story .cont01 .effect.mountain01{width:893px; height:358px; top:1403px; left:50%; margin-left:-960px; background:url('../data/yuhancare/inc/img/corporation/story_element_mountain01.png') no-repeat center / cover;}
+.yuhancare_story .cont01 .effect.mountain02{width:1920px; height:755px; top:1343px; left:50%; margin-left:-960px; background:url('../data/yuhancare/inc/img/corporation/story_element_mountain02.png') no-repeat center / cover;}
 
 .yuhancare_story .cont02{width:100%; background:#fff; color:#3e3e3e; position:relative;}
 .yuhancare_story .cont02 .secCountWrap{width:100%; padding:130px 0 55px; box-sizing:border-box;}
@@ -48,13 +48,13 @@
 .yuhancare_story .cont02 .swiper-slide{position:relative; overflow:hidden;}
 .yuhancare_story .cont02 .swiper-slide p{font-size:26px; line-height:46px; font-weight:bold; color:#fff; text-align:center; text-shadow:0 0 5px rgba(0,0,0,0.27); position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); -webkit-transform:translate(-50%, -50%);}
 .yuhancare_story .cont02 .slide1{width:100%; height:873px;}
-.yuhancare_story .cont02 .slide1 .swiper-slide.s1{background:url('/data/yuhancare/inc/img/corporation/story_img_cnt_02-1.jpg') no-repeat center / 1920px;}
-.yuhancare_story .cont02 .slide1 .swiper-slide.s2{background:url('/data/yuhancare/inc/img/corporation/story_img_cnt_02-2.jpg') no-repeat center / 1920px;}
-.yuhancare_story .cont02 .slide1 .swiper-slide.s3{background:url('/data/yuhancare/inc/img/corporation/story_img_cnt_02-3.jpg') no-repeat center / 1920px;}
+.yuhancare_story .cont02 .slide1 .swiper-slide.s1{background:url('../data/yuhancare/inc/img/corporation/story_img_cnt_02-1.jpg') no-repeat center / 1920px;}
+.yuhancare_story .cont02 .slide1 .swiper-slide.s2{background:url('../data/yuhancare/inc/img/corporation/story_img_cnt_02-2.jpg') no-repeat center / 1920px;}
+.yuhancare_story .cont02 .slide1 .swiper-slide.s3{background:url('../data/yuhancare/inc/img/corporation/story_img_cnt_02-3.jpg') no-repeat center / 1920px;}
 .yuhancare_story .cont02 .text{width:100%; text-align:center; padding:110px; box-sizing:border-box;}
 .yuhancare_story .cont02 .text p{font-size:18px; line-height:32px; font-weight:200; color:#3e3e3e; margin-bottom:50px;}
 
-.yuhancare_story .cont03{min-height:1400px; background:url('/data/yuhancare/inc/img/corporation/story_bg_cnt_02.jpg') no-repeat center top / 1920px; padding-top:145px; box-sizing:border-box;}
+.yuhancare_story .cont03{min-height:1400px; background:url('../data/yuhancare/inc/img/corporation/story_bg_cnt_02.jpg') no-repeat center top / 1920px; padding-top:145px; box-sizing:border-box;}
 .yuhancare_story .cont03 .secCount p{color:#3e3e3e;}
 .yuhancare_story .cont03 .secCount p.keyword{color:#80a5b7;}
 
@@ -65,14 +65,14 @@
 .yuhancare_story .cont04_brand{background:#f7f7f7; padding:100px 0 125px; box-sizing:border-box; text-align:center;}
 .yuhancare_story .cont04_brand h5{font-size:36px; font-weight:200; margin-bottom:55px; color:#3e3e3e;}
 .yuhancare_story .cont04_brand ul{width:100%; margin:0 auto 55px; overflow:hidden;}
-.yuhancare_story .cont04_brand ul li{width:390px; height:200px; background:#fff url('/data/yuhancare/inc/img/corporation/story_brand_a2.png') no-repeat center; float:left; display:table; margin-bottom:15px; margin-right:15px; cursor:pointer;}
+.yuhancare_story .cont04_brand ul li{width:390px; height:200px; background:#fff url('../data/yuhancare/inc/img/corporation/story_brand_a2.png') no-repeat center; float:left; display:table; margin-bottom:15px; margin-right:15px; cursor:pointer;}
 .yuhancare_story .cont04_brand ul li:nth-child(3n){margin-right:0;}
-.yuhancare_story .cont04_brand ul li:nth-child(1){background-image:url('/data/yuhancare/inc/img/corporation/story_brand_a2.png')}
-.yuhancare_story .cont04_brand ul li:nth-child(2){background-image:url('/data/yuhancare/inc/img/corporation/story_brand_innerflora.png')}
-.yuhancare_story .cont04_brand ul li:nth-child(3){background-image:url('/data/yuhancare/inc/img/corporation/story_brand_estrition.png')}
-.yuhancare_story .cont04_brand ul li:nth-child(4){background-image:url('/data/yuhancare/inc/img/corporation/story_brand_sooncho.png')}
-.yuhancare_story .cont04_brand ul li:nth-child(5){background-image:url('/data/yuhancare/inc/img/corporation/story_brand_corereset.png')}
-.yuhancare_story .cont04_brand ul li:nth-child(6){background-image:url('/data/yuhancare/inc/img/corporation/story_brand_neworigin.png')}
+.yuhancare_story .cont04_brand ul li:nth-child(1){background-image:url('../data/yuhancare/inc/img/corporation/story_brand_a2.png')}
+.yuhancare_story .cont04_brand ul li:nth-child(2){background-image:url('../data/yuhancare/inc/img/corporation/story_brand_innerflora.png')}
+.yuhancare_story .cont04_brand ul li:nth-child(3){background-image:url('../data/yuhancare/inc/img/corporation/story_brand_estrition.png')}
+.yuhancare_story .cont04_brand ul li:nth-child(4){background-image:url('../data/yuhancare/inc/img/corporation/story_brand_sooncho.png')}
+.yuhancare_story .cont04_brand ul li:nth-child(5){background-image:url('../data/yuhancare/inc/img/corporation/story_brand_corereset.png')}
+.yuhancare_story .cont04_brand ul li:nth-child(6){background-image:url('../data/yuhancare/inc/img/corporation/story_brand_neworigin.png')}
 .yuhancare_story .cont04_brand ul li p{width:100%; height:100%; display:table-cell; vertical-align:middle; color:#fff; font-size:24px; line-height:32px; font-weight:600; opacity:0; transition:all 0.3s ease-in-out;}
 .yuhancare_story .cont04_brand ul li:hover p{opacity:1;}
 .yuhancare_story .cont04_brand ul li:nth-child(1) p{background:#672074;}
@@ -82,7 +82,7 @@
 .yuhancare_story .cont04_brand ul li:nth-child(5) p{background:#633693;}
 .yuhancare_story .cont04_brand ul li:nth-child(6) p{background:#382f2d;}
 
-.yuhancare_story .cont05{min-height:1174px; background:url('/data/yuhancare/inc/img/corporation/story_bg_cnt_03.jpg') no-repeat center top / 1920px; padding-top:220px; box-sizing:border-box;}
+.yuhancare_story .cont05{min-height:1174px; background:url('../data/yuhancare/inc/img/corporation/story_bg_cnt_03.jpg') no-repeat center top / 1920px; padding-top:220px; box-sizing:border-box;}
 .yuhancare_story .cont05 .secCount p{color:#fff;}
 .yuhancare_story .cont05 .secCount p.keyword{color:#fff;}
 
@@ -114,13 +114,13 @@
 .yuhancare_story .cont06 .noPlastic ul{display:inline-block; overflow:hidden; margin-top:70px;}
 .yuhancare_story .cont06 .noPlastic ul li{width:212px; margin:0 40px; text-align:center; float:left;}
 .yuhancare_story .cont06 .noPlastic ul li p{width:100%; height:213px; position:relative; margin-bottom:35px;}
-.yuhancare_story .cont06 .noPlastic ul li p .nope{width:0; height:100%; display:block; position:absolute; top:0; right:0; margin:0; background:url('/data/yuhancare/inc/img/corporation/story_element_plastic_no.png') no-repeat center right / 212px;}
+.yuhancare_story .cont06 .noPlastic ul li p .nope{width:0; height:100%; display:block; position:absolute; top:0; right:0; margin:0; background:url('../data/yuhancare/inc/img/corporation/story_element_plastic_no.png') no-repeat center right / 212px;}
 .yuhancare_story .cont06 .noPlastic ul li p .nope.animate{animation:nope 1s linear; -webkit-animation:nope 1s linear; width:0; width:100%; animation-fill-mode:both; -webkit-animation-fill-mode:both;}
 .yuhancare_story .cont06 .noPlastic ul li .txt{font-size:24px; font-weight:200; opacity:0;}
 .yuhancare_story .cont06 .noPlastic ul li .txt.animate{animation:opacity 1s linear; -webkit-animation:opacity 1s linear; opacity:0; opacity:1; animation-fill-mode:both; -webkit-animation-fill-mode:both;}
 .yuhancare_story .cont06 .noPlastic ul li .txt strong{font-weight:600;}
 
-.yuhancare_story .cont07{background:#fff url('/data/yuhancare/inc/img/corporation/story_bg_cnt_04.jpg') no-repeat center top / 1920px; padding-top:130px; box-sizing:border-box;}
+.yuhancare_story .cont07{background:#fff url('../data/yuhancare/inc/img/corporation/story_bg_cnt_04.jpg') no-repeat center top / 1920px; padding-top:130px; box-sizing:border-box;}
 .yuhancare_story .cont07 .secCountWrap{margin-bottom:90px;}
 .yuhancare_story .cont07 .secCount p{color:#fff;}
 .yuhancare_story .cont07 .secCount p.keyword{margin-top:0; color:#b3b3b3;}
@@ -147,7 +147,7 @@
 .yuhancare_story .cont09{background:#3e3e3e; padding:115px 0 150px; box-sizing:border-box; color:#fff;}
 .yuhancare_story .cont09 .btnWrap{margin-top:50px; text-align:center; font-size:0;}
 .yuhancare_story .cont09 .btnWrap li{height:35px; display:inline-block; font-size:18px; line-height:35px; margin:0 30px;}
-.yuhancare_story .cont09 .btnWrap li a{width:100%; min-width:100px; height:100%; display:block; color:#fff; padding:0 22px 0 35px; border:2px solid #00943a; border-radius:17px; box-sizing:border-box; background:url('/data/yuhancare/inc/img/corporation/story_element_download.png') no-repeat 15px center / 13px; transition:all 0.7s ease-in-out;}
+.yuhancare_story .cont09 .btnWrap li a{width:100%; min-width:100px; height:100%; display:block; color:#fff; padding:0 22px 0 35px; border:2px solid #00943a; border-radius:17px; box-sizing:border-box; background:url('../data/yuhancare/inc/img/corporation/story_element_download.png') no-repeat 15px center / 13px; transition:all 0.7s ease-in-out;}
 .yuhancare_story .cont09 .btnWrap li a:hover{border:2px solid #fff;}
 
 
@@ -156,7 +156,7 @@
 .yuhancare_newilhan .bar{width:1px; height:150px; display:block; margin:0 auto;}
 .yuhancare_newilhan .bar p{width:100%; height:0/*150px*/; display:block; margin:0 auto; background:#000;}
 .yuhancare_newilhan .bar p.animate{animation:growDown 1s ease-in-out; -webkit-animation:growDown 1s ease-in-out; height:0; height:150px; animation-fill-mode:both; -webkit-animation-fill-mode:both;}
-.yuhancare_newilhan .cont01{min-height:1763px; background:url('/data/yuhancare/inc/img/corporation/newilhan_bg_cnt_01.jpg') no-repeat center top / cover; position:relative;}
+.yuhancare_newilhan .cont01{min-height:1763px; background:url('../data/yuhancare/inc/img/corporation/newilhan_bg_cnt_01.jpg') no-repeat center top / cover; position:relative;}
 .yuhancare_newilhan .cont01 .category{color:#fff;}
 .yuhancare_newilhan .cont01 .title1{width:334px; height:49px; position:absolute; top:313px; left:50%; transform:translateX(-50%); -webkit-transform:translateX(-50%);}
 .yuhancare_newilhan .cont01 .title2{width:727px; height:217px; position:absolute; top:394px; left:50%; transform:translateX(-50%); -webkit-transform:translateX(-50%);}
@@ -174,7 +174,7 @@
 .yuhancare_newilhan .cont02 h3{font-size:36px; color:#ff7241; line-height:1.38; margin-bottom:65px;}
 .yuhancare_newilhan .cont02 p{font-size:18px; color:#fff; line-height:1.65;}
 .yuhancare_newilhan .cont02 p strong{color:#ff7241;}
-.yuhancare_newilhan .cont03{min-height:1143px; background:url('/data/yuhancare/inc/img/corporation/newilhan_bg_cnt_03.jpg') no-repeat center top / cover; position:relative; text-align:center;}
+.yuhancare_newilhan .cont03{min-height:1143px; background:url('../data/yuhancare/inc/img/corporation/newilhan_bg_cnt_03.jpg') no-repeat center top / cover; position:relative; text-align:center;}
 .yuhancare_newilhan .cont03 .contentBox{padding-top:170px; box-sizing:border-box;}
 .yuhancare_newilhan .cont03 .category{color:#fff; text-align:left; margin-bottom:106px; font-size:18px;}
 .yuhancare_newilhan .cont03 h2{font-size:56px; line-height:80px; color:#fff; font-weight:bold;}
@@ -190,7 +190,7 @@
 .yuhancare_newilhan .cont05{min-height:738px; padding-top:84px; box-sizing:border-box; position:relative; background:#fff; overflow:visible;}
 .yuhancare_newilhan .cont05 h2{font-size:36px; font-weight:200; line-height:46px; color:#000; position:absolute; top:-30px; left:50%; margin-left:-567px;}
 .yuhancare_newilhan .cont05 .pin-spacer{background:linear-gradient(180deg, #000, #232523);}
-.yuhancare_newilhan .cont05 .pin-wrap{height:738px; background:url('/data/yuhancare/inc/img/corporation/newilhan_bg_cnt_05.jpg') repeat-x center top; color:#fff; overflow:hidden; padding-top:50px; box-sizing:border-box;}
+.yuhancare_newilhan .cont05 .pin-wrap{height:738px; background:url('../data/yuhancare/inc/img/corporation/newilhan_bg_cnt_05.jpg') repeat-x center top; color:#fff; overflow:hidden; padding-top:50px; box-sizing:border-box;}
 .yuhancare_newilhan .cont05.horizontal .item{height:100%; padding:0; flex:0 0 1120px;}
 .yuhancare_newilhan .cont05.horizontal .item .img{display:inline-block; position:relative; margin-top:105px; margin-left:30px;}
 .yuhancare_newilhan .cont05.horizontal .item .img .caption{font-size:13px; color:#a2a2a2; font-weight:200; position:absolute; bottom:-35px; line-height:35px;}
@@ -204,7 +204,7 @@
 .yuhancare_newilhan .cont05.horizontal .item:nth-of-type(1)::before{content:'1906';}
 .yuhancare_newilhan .cont05.horizontal .item:nth-of-type(2)::before{content:'1909';}
 .yuhancare_newilhan .cont05.horizontal .item:nth-of-type(3)::before{content:'1916';}
-.yuhancare_newilhan .cont06{min-height:840px; background:url('/data/yuhancare/inc/img/corporation/newilhan_bg_cnt_06.jpg') no-repeat center top / cover; position:relative; text-align:center;}
+.yuhancare_newilhan .cont06{min-height:840px; background:url('../data/yuhancare/inc/img/corporation/newilhan_bg_cnt_06.jpg') no-repeat center top / cover; position:relative; text-align:center;}
 .yuhancare_newilhan .cont06 .contentBox{padding-top:170px; box-sizing:border-box;}
 .yuhancare_newilhan .cont06 .category{color:#fff; text-align:left; margin-bottom:106px; font-size:18px;}
 .yuhancare_newilhan .cont06 h2{font-size:56px; line-height:80px; color:#fff; font-weight:bold;}
@@ -214,7 +214,7 @@
 .yuhancare_newilhan .cont07 .element{width:470px; height:325px; position:absolute; bottom:-184px; left:50%; margin-left:187px; z-index:3; opacity:0;}
 .yuhancare_newilhan .cont07 .element.animate{animation:bounce 1.5s ease-in-out; -webkit-animation:bounce 1.5s ease-in-out; animation-fill-mode:both; opacity:0; opacity:1;}
 .yuhancare_newilhan .cont07 img{display:block;}
-.yuhancare_newilhan .cont08{min-height:1946px; background:url('/data/yuhancare/inc/img/corporation/newilhan_bg_cnt_08.jpg') no-repeat center top / cover; position:relative; padding-top:160px; box-sizing:border-box;}
+.yuhancare_newilhan .cont08{min-height:1946px; background:url('../data/yuhancare/inc/img/corporation/newilhan_bg_cnt_08.jpg') no-repeat center top / cover; position:relative; padding-top:160px; box-sizing:border-box;}
 .yuhancare_newilhan .cont08 .contentWrap{width:94.5%; margin:0 auto;}
 .yuhancare_newilhan .cont08 .story{font-size:26px; line-height:40px; color:#fff; margin-bottom:100px;}
 .yuhancare_newilhan .cont08 .story strong{color:#ff7241;}
@@ -431,7 +431,7 @@
 .yuhancare_newilhan .naviBar ul li.active a:hover{color:#eb6234;}
 
 /* yuhancare_ceo */
-.yuhancare_ceo .cont01{min-height:1371px; background:#f6f6f6 url('/data/yuhancare/inc/img/corporation/ceo_bg_cnt_01_v4.jpg') no-repeat center bottom / 1920px;}
+.yuhancare_ceo .cont01{min-height:1371px; background:#f6f6f6 url('../data/yuhancare/inc/img/corporation/ceo_bg_cnt_01_v4.jpg') no-repeat center bottom / 1920px;}
 .yuhancare_ceo .cont01 .category{color:#3e3e3e;}
 .yuhancare_ceo .cont01 .contentWrap::before{background:#3e3e3e;}
 .yuhancare_ceo .cont01 .contentWrap{color:#3e3e3e;}
@@ -446,7 +446,7 @@
 .yuhancare_ceo .cont01 .ceoImg{width:560px; height:920px; border-radius:18px; box-shadow:6px 0 10px rgba(0,0,0,0.3); overflow:hidden; position:absolute; top:0; right:0;}
 .yuhancare_ceo .cont02{padding:222px 0; box-sizing:border-box;}
 .yuhancare_ceo .cont02 p{font-size:36px; line-height:52px; text-align:center;}
-.yuhancare_ceo .cont03{min-height:884px; background:url('/data/yuhancare/inc/img/corporation/ceo_bg_cnt_03.jpg') no-repeat center top / cover; padding-top:158px; box-sizing:border-box;}
+.yuhancare_ceo .cont03{min-height:884px; background:url('../data/yuhancare/inc/img/corporation/ceo_bg_cnt_03.jpg') no-repeat center top / cover; padding-top:158px; box-sizing:border-box;}
 .yuhancare_ceo .cont03 h3{font-size:36px; line-height:47px; color:#fff; text-align:center; margin-bottom:105px;}
 .yuhancare_ceo .cont03 .staffWrap{width:100%; height:320px; overflow:hidden;}
 .yuhancare_ceo .cont03 ul{width:100%; height:100%; white-space:nowrap; font-size:0;}
@@ -556,7 +556,7 @@
   .yuhancare_story .secCount p.no{margin-bottom:1.555vw;}
   .yuhancare_story .secCount p.keyword{margin-top:3vw;}
   .yuhancare_story .secCount p.sub{font-size:3.333vw; line-height:4.962vw; margin-top:11.111vw;}
-  .yuhancare_story .cont01{min-height:285.777vw; background:url('/data/yuhancare/inc/img/corporation/m-story_bg_cnt_01.jpg') no-repeat center top / contain;}
+  .yuhancare_story .cont01{min-height:285.777vw; background:url('../data/yuhancare/inc/img/corporation/m-story_bg_cnt_01.jpg') no-repeat center top / contain;}
   .yuhancare_story .cont01 .contentBox{padding-top:30%;}
   .yuhancare_story .cont01 .category{font-size:3.555vw; margin-bottom:26vw;}
   .yuhancare_story .cont01 .category span{font-weight:600;}
@@ -565,12 +565,12 @@
   .yuhancare_story .cont01 .contentWrap .subTitle{font-size:4.888vw; line-height:8vw; margin-bottom:4.888vw; letter-spacing:-1px;}
   .yuhancare_story .cont01 .lifeStyle{width:34.666vw; overflow:inherit; margin:3.777vw auto 0;}
   .yuhancare_story .cont01 .lifeStyle li{width:34.666vw; height:34.666vw; border:0.666vw solid #84c2a9; font-size:3.333vw; line-height:4.444vw; margin:0 0 3.777vw;}
-  .yuhancare_story .cont01 .effect.cloud01{width:63.333vw; height:36.222vw; top:127.555vw; margin-left:11.555vw; background:url('/data/yuhancare/inc/img/corporation/m-story_element_cloud01.png') no-repeat center / cover;}
-  .yuhancare_story .cont01 .effect.cloud02{width:65.333vw; height:27.333vw; top:142.888vw; margin-left:-87.555vw; background:url('/data/yuhancare/inc/img/corporation/m-story_element_cloud02.png') no-repeat center / cover;}
-  .yuhancare_story .cont01 .effect.cloud03{width:60vw; height:25.111vw; top:80.444vw; margin-left:6vw; background:url('/data/yuhancare/inc/img/corporation/m-story_element_cloud03.png') no-repeat center / cover;}
-  .yuhancare_story .cont01 .effect.cloud04{width:74.444vw; height:21.333vw; top:93.777vw; margin-left:-71.555vw; background:url('/data/yuhancare/inc/img/corporation/m-story_element_cloud04.png') no-repeat center / cover;}
-  .yuhancare_story .cont01 .effect.mountain01{width:44.222vw; height:36.888vw; top:229.333vw; margin-left:-50vw; background:url('/data/yuhancare/inc/img/corporation/m-story_element_mountain01.png') no-repeat center / cover;}
-  .yuhancare_story .cont01 .effect.mountain02{width:100vw; height:74.888vw; top:235.333vw/*227.333vw*/; margin-left:-50vw; background:url('/data/yuhancare/inc/img/corporation/m-story_element_mountain02.png') no-repeat center / cover;}
+  .yuhancare_story .cont01 .effect.cloud01{width:63.333vw; height:36.222vw; top:127.555vw; margin-left:11.555vw; background:url('../data/yuhancare/inc/img/corporation/m-story_element_cloud01.png') no-repeat center / cover;}
+  .yuhancare_story .cont01 .effect.cloud02{width:65.333vw; height:27.333vw; top:142.888vw; margin-left:-87.555vw; background:url('../data/yuhancare/inc/img/corporation/m-story_element_cloud02.png') no-repeat center / cover;}
+  .yuhancare_story .cont01 .effect.cloud03{width:60vw; height:25.111vw; top:80.444vw; margin-left:6vw; background:url('../data/yuhancare/inc/img/corporation/m-story_element_cloud03.png') no-repeat center / cover;}
+  .yuhancare_story .cont01 .effect.cloud04{width:74.444vw; height:21.333vw; top:93.777vw; margin-left:-71.555vw; background:url('../data/yuhancare/inc/img/corporation/m-story_element_cloud04.png') no-repeat center / cover;}
+  .yuhancare_story .cont01 .effect.mountain01{width:44.222vw; height:36.888vw; top:229.333vw; margin-left:-50vw; background:url('../data/yuhancare/inc/img/corporation/m-story_element_mountain01.png') no-repeat center / cover;}
+  .yuhancare_story .cont01 .effect.mountain02{width:100vw; height:74.888vw; top:235.333vw/*227.333vw*/; margin-left:-50vw; background:url('../data/yuhancare/inc/img/corporation/m-story_element_mountain02.png') no-repeat center / cover;}
 	.yuhancare_story .cont02 .secCountWrap{padding:20.888vw 0 10vw;}
 	.yuhancare_story .cont02 .secCount p.text{font-size:3.333vw; line-height:5.111vw; padding:12.888vw 0 0 0;}
   .yuhancare_story .cont02 .circle{width:100vw; height:100vw;}
@@ -583,7 +583,7 @@
   .yuhancare_story .cont02 .slide1 .swiper-slide.s3{background-size:cover;}
   .yuhancare_story .cont02 .text{padding:11.555vw 0 22.222vw;}
   .yuhancare_story .cont02 .text p{font-size:3.333vw; line-height:5.111vw; margin-bottom:10.666vw;}
-  .yuhancare_story .cont03{min-height:197.777vw; background:url('/data/yuhancare/inc/img/corporation/m-story_bg_cnt_02.jpg') no-repeat center top / contain; padding-top:24.444vw;}
+  .yuhancare_story .cont03{min-height:197.777vw; background:url('../data/yuhancare/inc/img/corporation/m-story_bg_cnt_02.jpg') no-repeat center top / contain; padding-top:24.444vw;}
   .yuhancare_story .cont04{padding:11.111vw 0 6.222vw;}
   .yuhancare_story .cont04 .contentBox{width:100%;}
   .yuhancare_story .cont04 h3{font-size:4vw; line-height:6.222vw; margin-bottom:8.888vw; letter-spacing:-0.5px;}
@@ -660,7 +660,7 @@
 	.yuhancare_story .cont09{padding:15.555vw 0 19.111vw;}
 	.yuhancare_story .cont09 .btnWrap{width:50vw; margin:6.666vw auto 0;}
 	.yuhancare_story .cont09 .btnWrap li{height:8.444vw; font-size:4.666vw; line-height:8.444vw; margin:0 0 3.111vw; display:inline-block;}
-	.yuhancare_story .cont09 .btnWrap li a{min-width:22.666vw; padding:0 3.555vw 0 8.444vw; border:0.444vw solid #00943a; border-radius:4.222vw; background:url('/data/yuhancare/inc/img/corporation/story_element_download.png') no-repeat 4vw center / 3.333vw;}
+	.yuhancare_story .cont09 .btnWrap li a{min-width:22.666vw; padding:0 3.555vw 0 8.444vw; border:0.444vw solid #00943a; border-radius:4.222vw; background:url('../data/yuhancare/inc/img/corporation/story_element_download.png') no-repeat 4vw center / 3.333vw;}
 	.yuhancare_story .cont09 .btnWrap li a:hover{border:0.444vw solid #fff;}
 
 
@@ -668,7 +668,7 @@
   .yuhancare_newilhan .category{font-size:3.555vw; line-height:5.777vw; margin-bottom:18.666vw;}
   .yuhancare_newilhan .bar{height:13.333vw;}
   .yuhancare_newilhan .bar p.animate{animation:growDownM 1s ease-in-out; -webkit-animation:growDownM 1s ease-in-out; height:0; height:13.333vw; animation-fill-mode:both; -webkit-animation-fill-mode:both;}
-  .yuhancare_newilhan .cont01{min-height:198.444vw/*179.777vw*/; background:url('/data/yuhancare/inc/img/corporation/newilhan_bg_cnt_01.jpg') no-repeat center top / cover; position:relative;}
+  .yuhancare_newilhan .cont01{min-height:198.444vw/*179.777vw*/; background:url('../data/yuhancare/inc/img/corporation/newilhan_bg_cnt_01.jpg') no-repeat center top / cover; position:relative;}
   .yuhancare_newilhan .cont01 .title1{width:35.333vw; height:5.111vw; top:52.444vw;}
   .yuhancare_newilhan .cont01 .title2{width:66.444vw; height:21.777vw; top:66.666vw;}
   .yuhancare_newilhan .cont01 .title3{top:118.222vw; margin-left:3.555vw;}
@@ -684,7 +684,7 @@
   .yuhancare_newilhan .cont02 .bar{margin-bottom:12.888vw;}
   .yuhancare_newilhan .cont02 h3{font-size:5.333vw; line-height:7.111vw; margin-bottom:10.666vw;}
   .yuhancare_newilhan .cont02 p{font-size:3.333vw; line-height:5.555vw; letter-spacing:-1px;}
-  .yuhancare_newilhan .cont03{min-height:155.111vw; background:url('/data/yuhancare/inc/img/corporation/m-newilhan_bg_cnt_03.jpg') no-repeat center top / cover;}
+  .yuhancare_newilhan .cont03{min-height:155.111vw; background:url('../data/yuhancare/inc/img/corporation/m-newilhan_bg_cnt_03.jpg') no-repeat center top / cover;}
   .yuhancare_newilhan .cont03 .contentBox{padding-top:18.888vw;}
   .yuhancare_newilhan .cont03 .category{margin-bottom:18.888vw; font-size:3.555vw;}
   .yuhancare_newilhan .cont03 h2{font-size:5.777vw; line-height:8vw;}
@@ -698,7 +698,7 @@
   .yuhancare_newilhan .cont04 .bar{margin-top:-53.777vw;}
   .yuhancare_newilhan .cont05{min-height:92.888vw;/**/ padding-top:15%;}
   .yuhancare_newilhan .cont05 h2{font-size:3.333vw; line-height:5.777vw; top:0; left:4vw; margin-left:0;}
-  .yuhancare_newilhan .cont05 .pin-wrap{height:92.888vw; background:url('/data/yuhancare/inc/img/corporation/newilhan_bg_cnt_05.jpg') repeat-x center top / contain; padding-top:10vw;}
+  .yuhancare_newilhan .cont05 .pin-wrap{height:92.888vw; background:url('../data/yuhancare/inc/img/corporation/newilhan_bg_cnt_05.jpg') repeat-x center top / contain; padding-top:10vw;}
   .yuhancare_newilhan .cont05.horizontal .item{height:100%; padding:0; flex:0 0 181.55vw/*1120px*/;}
   .yuhancare_newilhan .cont05.horizontal .item .img{margin-top:4.666vw; margin-left:0;}
   .yuhancare_newilhan .cont05.horizontal .item .img .caption{font-size:3.111vw; bottom:-6.444vw; line-height:6.444vw;}
@@ -718,7 +718,7 @@
   .yuhancare_newilhan .cont06 h3{font-size:5.777vw; line-height:8vw; margin-bottom:11.111vw;}
   .yuhancare_newilhan .cont06 p{font-size:4vw; line-height:6.666vw;}
   .yuhancare_newilhan .cont07 .element{width:44.222vw; height:32.444vw; bottom:-23.777vw; margin-left:7.555vw;}
-  .yuhancare_newilhan .cont08{min-height:292.222vw; background:url('/data/yuhancare/inc/img/corporation/m-newilhan_bg_cnt_08.jpg') no-repeat center top / cover; padding-top:18.222vw;}
+  .yuhancare_newilhan .cont08{min-height:292.222vw; background:url('../data/yuhancare/inc/img/corporation/m-newilhan_bg_cnt_08.jpg') no-repeat center top / cover; padding-top:18.222vw;}
   .yuhancare_newilhan .cont08 .contentBox{width:100%;}
   .yuhancare_newilhan .cont08 .contentWrap{width:100%; padding-left:4vw; box-sizing:border-box;}
   .yuhancare_newilhan .cont08 .story{font-size:3.333vw; line-height:5.555vw; margin-bottom:7vw;}
@@ -888,7 +888,7 @@
   .yuhancare_newilhan .cont18 .content2 .text{height:78vw; font-size:4vw; line-height:6.666vw;}
   .yuhancare_newilhan .cont18 .content3{width:100vw; margin-left:-4.444vw;}
   .yuhancare_newilhan .cont18 .content3 .img{width:100vw; height:100vh; display:block; margin:0 auto;}
-  .yuhancare_newilhan .cont18 .content3 .img{width:100vw; height:100vh; display:block; margin:0 auto; background:url('/data/yuhancare/inc/img/corporation/newilhan_img_cnt_18-4.jpg') no-repeat center / 100vw;}
+  .yuhancare_newilhan .cont18 .content3 .img{width:100vw; height:100vh; display:block; margin:0 auto; background:url('../data/yuhancare/inc/img/corporation/newilhan_img_cnt_18-4.jpg') no-repeat center / 100vw;}
   .yuhancare_newilhan .cont18 .content3 .img img{display:none;}
   .yuhancare_newilhan .cont18 .content3 .text{width:100%; height:150vh; background:linear-gradient(180deg, transparent, 25%, #1b1b1b);}
   .yuhancare_newilhan .cont18 .content3 .text p{text-align:left; font-size:3.333vw; line-height:5.555vw; padding:0 4.444vw; box-sizing:border-box; letter-spacing:-1px; background:none;}
@@ -913,13 +913,13 @@
   .yuhancare_newilhan .naviBarM .naviList ul>span{margin-top:2.906%; font-size:5.777vw; font-weight:600; line-height:20vw; text-align:center; display:block;}
   .yuhancare_newilhan .naviBarM .naviList ul li{width:90%; height:16vw/*22.666vw*/; margin:0 auto; border-bottom:0.222vw solid #d4d4d4; box-sizing:border-box;}
   .yuhancare_newilhan .naviBarM .naviList ul li:last-child{border-bottom:none;}
-  .yuhancare_newilhan .naviBarM .naviList ul li.active a{ background-image:url('/data/yuhancare/inc/img/corporation/newilhan_element_list_on.png');}
-  .yuhancare_newilhan .naviBarM .naviList ul li a{width:100%; line-height:16vw/*22.666vw*/; display:inline-block; color:#3e3e3e; background:url('/data/yuhancare/inc/img/corporation/newilhan_element_list.png') no-repeat right 2.666vw center / 4.444vw;}
+  .yuhancare_newilhan .naviBarM .naviList ul li.active a{ background-image:url('../data/yuhancare/inc/img/corporation/newilhan_element_list_on.png');}
+  .yuhancare_newilhan .naviBarM .naviList ul li a{width:100%; line-height:16vw/*22.666vw*/; display:inline-block; color:#3e3e3e; background:url('../data/yuhancare/inc/img/corporation/newilhan_element_list.png') no-repeat right 2.666vw center / 4.444vw;}
   .yuhancare_newilhan .naviBarM .animateDown{animation:downOut 1s ease-in-out; -webkit-animation:downOut 1s ease-in-out;}
   .yuhancare_newilhan .naviBarM .animateUp{animation:upIn 1s ease-in-out; -webkit-animation:upIn 1s ease-in-out;}
 
   /* yuhancare_ceo */
-  .yuhancare_ceo .cont01{min-height:inherit; background:#f6f6f6 url('/data/yuhancare/inc/img/corporation/m-ceo_bg_cnt_01_v4.jpg') no-repeat center -10vw / contain; padding-bottom:16.666vw; box-sizing:border-box;}
+  .yuhancare_ceo .cont01{min-height:inherit; background:#f6f6f6 url('../data/yuhancare/inc/img/corporation/m-ceo_bg_cnt_01_v4.jpg') no-repeat center -10vw / contain; padding-bottom:16.666vw; box-sizing:border-box;}
   .yuhancare_ceo .cont01 .contentBox{padding-top:30%;}
   .yuhancare_ceo .cont01 .category{font-size:3.555vw; margin-bottom:2%;}
   .yuhancare_ceo .cont01 .category span{font-weight:400;}
@@ -935,7 +935,7 @@
   .yuhancare_ceo .cont01 .ceoImg{width:82.222vw; height:124.444vw; border-radius:2vw; box-shadow:2.222vw 0 5.333vw rgba(0,0,0,0.5); position:inherit; top:inherit; right:inherit; margin:0 auto;}
   .yuhancare_ceo .cont02{padding:24.888vw 0;}
   .yuhancare_ceo .cont02 p{font-size:4vw; line-height:7.111vw;}
-  .yuhancare_ceo .cont03{min-height:auto; background:url('/data/yuhancare/inc/img/corporation/m-ceo_bg_cnt_03.jpg') no-repeat center top / cover; padding-top:25.333vw; padding-bottom:30vw;}
+  .yuhancare_ceo .cont03{min-height:auto; background:url('../data/yuhancare/inc/img/corporation/m-ceo_bg_cnt_03.jpg') no-repeat center top / cover; padding-top:25.333vw; padding-bottom:30vw;}
   .yuhancare_ceo .cont03 h3{font-size:8vw; line-height:10.444vw; margin-bottom:11.777vw;}
   .yuhancare_ceo .cont03 .staffWrap{height:72vw/*71.111vw*/;}
   .yuhancare_ceo .cont03 ul li{width:84.444vw; height:71.111vw; box-shadow:1.111vw 0 5.777vw rgba(0,0,0,0.1); border-radius:4.222vw; padding-top:6.666vw; margin-right:4.444vw;}

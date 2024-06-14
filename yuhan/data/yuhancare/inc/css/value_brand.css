@@ -40,7 +40,7 @@
 .brand_neworigin .cont02{background:#f5f2ed; margin-bottom:175px; position:relative;}
 .brand_neworigin .lineUpWrap .selectBox{width:250px; height:68px; position:absolute; top:-68px; left:50%; margin-left:-600px; cursor:pointer;}
 .brand_neworigin .lineUpWrap .selectBox p{font-size:24px; line-height:68px; font-weight:600;}
-.brand_neworigin .lineUpWrap .selectBox p::before{content:''; width:24px; height:24px; display:inline-block; background:url('/data/yuhancare/inc/img/brand/icon_dropDown.png') no-repeat left center; margin-right:16px; vertical-align:middle;}
+.brand_neworigin .lineUpWrap .selectBox p::before{content:''; width:24px; height:24px; display:inline-block; background:url('../data/yuhancare/inc/img/brand/icon_dropDown.png') no-repeat left center; margin-right:16px; vertical-align:middle;}
 .brand_neworigin .lineUpWrap .selectBox .depth{border:1px solid #a99883; padding:7px 12px; box-sizing:border-box; background:#fff; position:absolute; top:68px; left:40px; z-index:9; display:none;}
 .brand_neworigin .lineUpWrap .selectBox .depth li{width:100%; height:42px; line-height:42px; border-bottom:1px solid #dddddd; font-size:18px; font-weight:200; padding:0 8px; box-sizing:border-box;}
 .brand_neworigin .lineUpWrap .selectBox .depth li:last-child{border-bottom:none;}
@@ -56,8 +56,8 @@
 .brand_neworigin .lineUpWrap .paginationWrap .swiper-pagination-fraction{width:100px; height:100%; font-size:18px; font-weight:200; line-height:1.5; color:#2c2c2c; position:absolute; bottom:0; left:auto; right:0;}
 .brand_neworigin .lineUpWrap .swiperControlWrap{width:126px; height:62px; position:absolute; bottom:25px; left:50%; margin-left:-600px; font-size:0; z-index:1;}
 .brand_neworigin .lineUpWrap .swiperControl .swiper-button-prev,.lineUpWrap .swiperControl .swiper-button-next{width:62px; height:62px; background:#876e4c; top:0; margin-top:0;}
-.brand_neworigin .lineUpWrap .swiperControl .swiper-button-prev{background:#876e4c url('/data/yuhancare/inc/img/brand/btn_prev.png') no-repeat center / 11px; left:0;}
-.brand_neworigin .lineUpWrap .swiperControl .swiper-button-next{background:#876e4c url('/data/yuhancare/inc/img/brand/btn_next.png') no-repeat center / 11px; right:0;}
+.brand_neworigin .lineUpWrap .swiperControl .swiper-button-prev{background:#876e4c url('../data/yuhancare/inc/img/brand/btn_prev.png') no-repeat center / 11px; left:0;}
+.brand_neworigin .lineUpWrap .swiperControl .swiper-button-next{background:#876e4c url('../data/yuhancare/inc/img/brand/btn_next.png') no-repeat center / 11px; right:0;}
 .brand_neworigin .lineUpWrap .swiperControl .swiper-button-prev:after,.lineUpWrap .swiperControl .swiper-button-next:after{content:'';}
 .brand_neworigin .lineUpWrap .infoSlide{display:inline-block; width:470px; height:100%; overflow:hidden; vertical-align:top; position:absolute; top:0; left:50%; margin-left:-600px;}
 .brand_neworigin .lineUpWrap .infoSlide .swiper-slide{height:100%; padding-top:100px; box-sizing:border-box; background:#f5f2ed;}
@@ -76,7 +76,7 @@
 .brand_store h2 p.mo{display:none;}
 .brand_store h2 span{display:block; font-size:24px; line-height:52px;}
 .brand_store .cont01 .category{margin-bottom:104px;}
-.brand_store .cont02 .storeImg{width:100%; height:934px; background:url('/data/yuhancare/inc/img/brand/brand_store_01.jpg') no-repeat center / contain;}
+.brand_store .cont02 .storeImg{width:100%; height:934px; background:url('../data/yuhancare/inc/img/brand/brand_store_01.jpg') no-repeat center / contain;}
 .brand_store .cont02 .storeImg img{height:100%;}
 .brand_store .cont02 .storeContent{/*padding:0 0 114px 0;*/ box-sizing:border-box; overflow:hidden;}
 .brand_store .cont02 .storeContent .storeSlide{width:500px; height:688px; float:left; margin-right:100px; overflow:hidden;}
@@ -85,7 +85,7 @@
 .brand_store .cont02 .storeContent .txt p{font-size:16px; line-height:1.7; font-weight:200; margin-bottom:143px;}
 .brand_store .cont02 .storeContent .txt p:last-of-type{margin-bottom:0;}
 .brand_store .cont03{margin-bottom:145px;}
-.brand_store .cont03 .menuImg{width:100%; height:935px; background:url('/data/yuhancare/inc/img/brand/brand_store_02.jpg') no-repeat center / contain;}
+.brand_store .cont03 .menuImg{width:100%; height:935px; background:url('../data/yuhancare/inc/img/brand/brand_store_02.jpg') no-repeat center / contain;}
 .brand_store .cont03 .menuImg img{height:100%;}
 .brand_store .cont03 .menuContent{/*padding:0 0 114px 0;*/ box-sizing:border-box; overflow:hidden;}
 .brand_store .cont03 .menuContent .menuSlide{width:500px; height:688px; float:right; margin-left:100px; overflow:hidden;}
@@ -171,9 +171,9 @@
   .brand_neworigin .selectBox li:nth-child(3){right:0;}
   .brand_neworigin .selectBox li::before{content:''; display:block; width:100%; height:22.222vw; border-radius:50%; background-color:#d8d2ca; background-repeat:no-repeat; background-position:center; margin-bottom:3.555vw;}
   .brand_neworigin .selectBox li.on::before{background-color:#876e4c;}
-  .brand_neworigin .selectBox li:nth-child(1)::before{background-image:url('/data/yuhancare/inc/img/brand/brand_neworigin_tab1.png'); background-size:10.888vw;}
-  .brand_neworigin .selectBox li:nth-child(2)::before{background-image:url('/data/yuhancare/inc/img/brand/brand_neworigin_tab2.png'); background-size:8vw;}
-  .brand_neworigin .selectBox li:nth-child(3)::before{background-image:url('/data/yuhancare/inc/img/brand/brand_neworigin_tab3.png'); background-size:7.111vw;}
+  .brand_neworigin .selectBox li:nth-child(1)::before{background-image:url('../data/yuhancare/inc/img/brand/brand_neworigin_tab1.png'); background-size:10.888vw;}
+  .brand_neworigin .selectBox li:nth-child(2)::before{background-image:url('../data/yuhancare/inc/img/brand/brand_neworigin_tab2.png'); background-size:8vw;}
+  .brand_neworigin .selectBox li:nth-child(3)::before{background-image:url('../data/yuhancare/inc/img/brand/brand_neworigin_tab3.png'); background-size:7.111vw;}
   .brand_neworigin .lineUpWrap{background:#f5f2ed;}
   .brand_neworigin .lineUpWrap .list{min-height:124.444vw; height:auto; padding-bottom:17.777vw; box-sizing:border-box;}
   .brand_neworigin .lineUpWrap .imgSlideWrap{width:92vw; height:67.333vw; left:50%; top:-44.222vw; margin-left:-42vw;}
@@ -221,14 +221,14 @@
   .brand_store .cont01 .switchBtn{width:31.111vw; display:inline-block!important; font-size:5vw; font-weight:600; color:#382f2d; line-height:8vw; position:absolute; top:0;}
   .brand_store .cont01 .switchBtn.store{left:0; color:#fff;}
   .brand_store .cont01 .switchBtn.dining{right:0; margin-right:-2vw;}
-  .brand_store .cont02 .storeImg{height:133.333vw; background:url('/data/yuhancare/inc/img/brand/m-brand_store_01.jpg') no-repeat center / contain;}
+  .brand_store .cont02 .storeImg{height:133.333vw; background:url('../data/yuhancare/inc/img/brand/m-brand_store_01.jpg') no-repeat center / contain;}
   .brand_store .cont02 .storeContent{padding:0 0 8.888vw 0; overflow:visible;}
   .brand_store .cont02 .storeContent .storeSlide{width:100vw; height:88.888vw; float:none; margin-right:0; margin-left:-5vw;}
   .brand_store .cont02 .storeContent .txt{padding-top:12.444vw;}
   .brand_store .cont02 .storeContent .txt h3{font-size:5.777vw; margin-bottom:6vw;}
   .brand_store .cont02 .storeContent .txt p{font-size:3.333vw; line-height:5.555vw; margin-bottom:15.555vw; letter-spacing:-1px;}
   .brand_store .cont03{margin-bottom:0;}
-  .brand_store .cont03 .menuImg{height:133.333vw; background:url('/data/yuhancare/inc/img/brand/m-brand_store_02.jpg') no-repeat center / contain;}
+  .brand_store .cont03 .menuImg{height:133.333vw; background:url('../data/yuhancare/inc/img/brand/m-brand_store_02.jpg') no-repeat center / contain;}
   .brand_store .cont03 .menuContent{padding:0 0 8.888vw 0; overflow:visible;}
   .brand_store .cont03 .menuContent .menuSlide{width:100vw; height:88.888vw; float:none; margin-right:0; margin-left:-5vw;}
   .brand_store .cont03 .menuContent .txt{padding-top:12.444vw;}

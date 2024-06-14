@@ -1404,7 +1404,7 @@
 .yc_fnb .burdle .service_step{display:flex;justify-content:space-between;flex-wrap:wrap;margin-bottom:67px;}
 .yc_fnb .burdle .service_step li{position:relative;width:490px;height:174px;padding-top:45px;padding-left:230px;border-radius:10px;background-color:#f4f4f4;font-size:24px;font-weight:600;line-height:30px;}
 .yc_fnb .burdle .service_step li:nth-child(n+3){margin-top:20px;}
-.yc_fnb .burdle .service_step li:before{display:block;position:absolute;top:50%;width:100px;background:url(/data/yuhancare/inc/img_new/value/fnb/sprite.png) no-repeat left top;transform:translateY(-50%);content:"";}
+.yc_fnb .burdle .service_step li:before{display:block;position:absolute;top:50%;width:100px;background:url(../data/yuhancare/inc/img_new/value/fnb/sprite.png) no-repeat left top;transform:translateY(-50%);content:"";}
 .yc_fnb .burdle .service_step li:nth-child(1):before{left:63px;height:100px;}
 .yc_fnb .burdle .service_step li:nth-child(2):before{left:77px;height:104px;background-position-x:-100px;}
 .yc_fnb .burdle .service_step li:nth-child(3):before{left:92px;height:92px;background-position-x:-200px;}

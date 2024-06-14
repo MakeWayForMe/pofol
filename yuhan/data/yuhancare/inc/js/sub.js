@@ -8,8 +8,8 @@
     //패스박스 불러오기
     $.ajax({
         type: 'GET',
-        // url: '/data/yuhancare/inc/json/menu_'+lang+'.json',
-        url: '/data/yuhancare/inc/json/menu_test.json',
+        // url: '../data/yuhancare/inc/json/menu_'+lang+'.json',
+        url: '../data/yuhancare/inc/json/menu_test.json',
         async:false,
         dataType: 'json',
         success: function(data) {

@@ -62,7 +62,7 @@ videoEle.addEventListener('ended', function() {
 
 $.ajax({
     type: 'GET',
-    url: '/data/yuhancare/inc/json/news.json',
+    url: '../data/yuhancare/inc/json/news.json',
     dataType: 'json',
     async:false,
     success: function(data) {
@@ -84,7 +84,7 @@ $.ajax({
 
 $.ajax({
     type: 'GET',
-    url: '/data/yuhancare/inc/json/youtube.json',
+    url: '../data/yuhancare/inc/json/youtube.json',
     dataType: 'json',
     async:false,
     success: function(data) {

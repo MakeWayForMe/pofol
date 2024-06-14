@@ -54,7 +54,7 @@ if(!url.includes('_view.html')) { // 게시판 화면
 
     $.ajax({
         type: 'GET',
-        url: '/data/yuhancare/inc/json/' + htmlPath + '.json',
+        url: '../data/yuhancare/inc/json/' + htmlPath + '.json',
         async:false,
         dataType: 'json',
         success: function(data) {
@@ -63,16 +63,16 @@ if(!url.includes('_view.html')) { // 게시판 화면
             if(data.length <= showContent) { //컨텐츠가 한페이지를 못채울 경우
                 $.each(data, function(i, obj){
                     if(boardType === 'table') { //테이블 형식
-                        content += `<tr><td class="number" data-name="NO">${obj.no}</td><td><a href="/data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${obj.no}">${obj.title}</a></td><td class="date">${obj.date}</td></tr>`;
+                        content += `<tr><td class="number" data-name="NO">${obj.no}</td><td><a href="../data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${obj.no}">${obj.title}</a></td><td class="date">${obj.date}</td></tr>`;
                     } else if(boardType === 'video') { //유튜브링크
                         content += `<a class="context" href="${obj.url}" target="_blank" title="새창"><div class="imgbox link_icon" style="background-image:url(${obj.img});"></div><div class="title">${obj.title}</div></a>`;
                     } else if(boardType === 'magazine') { //매거진링크
                         content += `<a class="context" href="${obj.url}" target="_blank" title="새창"><div class="textbox"><div class="title">${obj.title}</div><div class="subtitle">${obj.subtitle}</div></div><div class="imgbox"><img src="${obj.img}" alt="${obj.title}"></div></a>`;
                     } else if(boardType === 'gallery') { //바둑판 형식
-                        content += `<a class="context" href="/data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${obj.no}"><div class="imgbox link_icon" style="background-image:url(${obj.img});"></div><div class="title">${obj.title}</div><div class="date">${obj.date}</div></a>`;
+                        content += `<a class="context" href="../data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${obj.no}"><div class="imgbox link_icon" style="background-image:url(${obj.img});"></div><div class="title">${obj.title}</div><div class="date">${obj.date}</div></a>`;
                     }
                 });
-                pageLink = `<a href="/data/yuhancare/${urlPath}/${htmlPath}?page=1" class="now">1</a>`;
+                pageLink = `<a href="../data/yuhancare/${urlPath}/${htmlPath}?page=1" class="now">1</a>`;
 
                 //이전&다음 페이지 화살표
                 $('.page_navi .prev_btn, .page_navi .next_btn, .page_navi .prev_btn5, .page_navi .next_btn5').on('click',function(e) {
@@ -89,7 +89,7 @@ if(!url.includes('_view.html')) { // 게시판 화면
                     let remainder = data.length % showContent;
                     if(boardType === 'table') { //테이블 형식
                         for(var i=count;i<count+remainder;i++) {
-                            content += `<tr><td class="number" data-name="NO">${data[i].no}</td><td><a href="/data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${data[i].no}">${data[i].title}</a></td><td class="date">${data[i].date}</td></tr>`;
+                            content += `<tr><td class="number" data-name="NO">${data[i].no}</td><td><a href="../data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${data[i].no}">${data[i].title}</a></td><td class="date">${data[i].date}</td></tr>`;
                         }
                     } else if(boardType === 'video') { //유튜브링크
                         for(var i=count;i<count+remainder;i++) {
@@ -101,13 +101,13 @@ if(!url.includes('_view.html')) { // 게시판 화면
                         }
                     } else if(boardType === 'gallery') {//바둑판 형식
                         for(var i=count;i<count+remainder;i++) {
-                            content += `<a class="context" href="/data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${data[i].no}"><div class="imgbox link_icon" style="background-image:url(${data[i].img});"></div><div class="title">${data[i].title}</div><div class="date">${data[i].date}</div></a>`;
+                            content += `<a class="context" href="../data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${data[i].no}"><div class="imgbox link_icon" style="background-image:url(${data[i].img});"></div><div class="title">${data[i].title}</div><div class="date">${data[i].date}</div></a>`;
                         }
                     }
                 } else { //마지막 페이지가 아닐때
                     if(boardType === 'table') { //테이블 형식
                         for(var i=count;i<count+showContent;i++) {
-                            content += `<tr><td class="number" data-name="NO">${data[i].no}</td><td><a href="/data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${data[i].no}">${data[i].title}</a></td><td class="date">${data[i].date}</td></tr>`;
+                            content += `<tr><td class="number" data-name="NO">${data[i].no}</td><td><a href="../data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${data[i].no}">${data[i].title}</a></td><td class="date">${data[i].date}</td></tr>`;
                         }
                     } else if(boardType === 'video') { //유튜브링크
                         for(var i=count;i<count+showContent;i++) {
@@ -120,7 +120,7 @@ if(!url.includes('_view.html')) { // 게시판 화면
                     } else if(boardType === 'gallery') {
                         //바둑판 형식
                         for(var i=count;i<count+showContent;i++) {
-                            content += `<a class="context" href="/data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${data[i].no}"><div class="imgbox link_icon" style="background-image:url(${data[i].img});"></div><div class="title">${data[i].title}</div><div class="date">${data[i].date}</div></a>`;
+                            content += `<a class="context" href="../data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${data[i].no}"><div class="imgbox link_icon" style="background-image:url(${data[i].img});"></div><div class="title">${data[i].title}</div><div class="date">${data[i].date}</div></a>`;
                         }
                     }
                 }
@@ -213,7 +213,7 @@ if(!url.includes('_view.html')) { // 게시판 화면
 
     $.ajax({
         type: 'GET',
-        url: '/data/yuhancare/' + urlPath + '/' + htmlPath + '_contents/' + key + '.html',
+        url: '../data/yuhancare/' + urlPath + '/' + htmlPath + '_contents/' + key + '.html',
         async:false,
         success: function(data) {
             $('#board_content').append(data);
@@ -225,7 +225,7 @@ if(!url.includes('_view.html')) { // 게시판 화면
 
     $.ajax({
         type: 'GET',
-        url: '/data/yuhancare/inc/json/' + htmlPath + '.json',
+        url: '../data/yuhancare/inc/json/' + htmlPath + '.json',
         async:false,
         dataType: 'json',
         success: function(data) {
@@ -236,14 +236,14 @@ if(!url.includes('_view.html')) { // 게시판 화면
                     $('a.prev').text('이전글이 없습니다').on('click',(e) => e.preventDefault()).addClass('disabled');
                 } else {
                     $('a.next').text('다음글이 없습니다').on('click',(e) => e.preventDefault()).addClass('disabled');
-                    $('a.prev').text(data[nowContent + 1].title).attr('href',`/data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${key - 1}`).siblings('span.date').text(data[nowContent + 1].date);
+                    $('a.prev').text(data[nowContent + 1].title).attr('href',`../data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${key - 1}`).siblings('span.date').text(data[nowContent + 1].date);
                 }
             } else if(key === 1) {
-                $('a.next').text(data[nowContent - 1].title).attr('href',`/data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${key + 1}`).siblings('span.date').text(data[nowContent - 1].date);
+                $('a.next').text(data[nowContent - 1].title).attr('href',`../data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${key + 1}`).siblings('span.date').text(data[nowContent - 1].date);
                 $('a.prev').text('이전글이 없습니다').on('click',(e) => e.preventDefault()).addClass('disabled');
             } else {
-                $('a.next').text(data[nowContent - 1].title).attr('href',`/data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${key + 1}`).siblings('span.date').text(data[nowContent - 1].date);
-                $('a.prev').text(data[nowContent + 1].title).attr('href',`/data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${key - 1}`).siblings('span.date').text(data[nowContent + 1].date);
+                $('a.next').text(data[nowContent - 1].title).attr('href',`../data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${key + 1}`).siblings('span.date').text(data[nowContent - 1].date);
+                $('a.prev').text(data[nowContent + 1].title).attr('href',`../data/yuhancare/${urlPath}/${htmlPath}_view.html?key=${key - 1}`).siblings('span.date').text(data[nowContent + 1].date);
             }
         }
     });

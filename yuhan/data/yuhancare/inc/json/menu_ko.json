@@ -1,0 +1,56 @@
+{
+    "depth1" : ["회사소개","사업소개","기업문화","지속가능성","미디어","고객지원"],
+    "depth2" : {
+        "회사소개" : ["기업소개","설립자 유일한","연혁"],
+        "사업소개" : ["브랜드","R&D","F&B"],
+        "기업문화" : ["인재상","복리후생","업무환경","채용"],
+        "지속가능성" : ["사회","환경","윤리경영","제보센터"],
+        "미디어" : ["보도자료","SNS"],
+        "고객지원" : ["공지사항","오시는 길","문의하기"]
+    },
+    "depth3" : {
+        "채용" : ["직무 인터뷰","FAQ"],
+        "SNS" : ["INSTAGRAM","YOUTUBE","매거진"]
+    },
+    "link" : {
+        "기업소개" : "/corporation/about_yuhancare",
+        "설립자 유일한" : "/corporation/yuhancare_newilhan",
+        "연혁" : "/corporation/yuhancare_history",
+
+        "브랜드" : "/value/brand",
+        "R&D" : "/value/rnd",
+        "F&B" : "/value/fnb",
+
+        "인재상" : "/culture/talent",
+        "복리후생" : "/culture/benefit",
+        "업무환경" : "/culture/office",
+        "직무 인터뷰" : "/culture/people",
+        "FAQ" : "/culture/faq",
+
+        "사회" : "/esg/social",
+        "환경" : "/esg/environment",
+        "윤리경영" : "/ethics/yuhancare_ethics",
+        "제보센터" : "/ethics/ethics_accuse",
+
+        "보도자료" : "/media/news",
+        "INSTAGRAM" : "/media/instagram",
+        "YOUTUBE" : "/media/youtube",
+        "매거진" : "/media/magazine",
+
+        "공지사항" : "/contact/notice",
+        "오시는 길" : "/contact/location",
+        "문의하기" : "/contact/contactUs",
+
+
+        "채용" : "/culture/recruit",
+        "SNS" : "/media/instagram",
+
+
+        "회사소개" : "/corporation/about_yuhancare",
+        "사업소개" : "/value/brand",
+        "기업문화" : "/culture/talent",
+        "지속가능성" : "/ethics/social",
+        "미디어" : "/media/news",
+        "고객지원" : "/contact/notice"
+    }
+}

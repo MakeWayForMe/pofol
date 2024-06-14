@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+div, p, span, em, strong, li, h1, h2, h3, h4, h5, h6, dt, dd{word-break: keep-all;}
+
+/* header */
+#header .logo_box .logo{background-image: url(../img/yuhancare_logo_black_eng.png);}
+#header .logo_box .logo_inner_type{background-image: url(../img/yuhancare_logo_white_eng.png);}
+.white #header{background-color: transparent;}
+.white #header:before{border-bottom-color: rgba(255, 255, 255, 0.2);}
+.white #header .logo_box .logo{background-image:url(../img/yuhancare_logo_white_eng.png)}
+body[data-top="no-top"].white #header .logo{background-image: url(../img/yuhancare_logo_all_white_eng.png);}
+body[data-top="no-top"] #header .logo_box .logo{background-image: url(../img/yuhancare_logo_all_white_eng.png);}
+@media (min-width:1001px) {
+    .depth1 .depth1_list .depth1_text{color:#181818;}
+    .depth2 .depth2_list .depth3_text{color:#c0bfbf;}
+	.gnb_open #header .logo_box .logo{background-image:url(../img_new/common/yuhancare_logo_all_white_eng.png);}
+    .depth1 .depth1_list .depth1_item{width: calc(100% / 5);}
+    .option .language .lang_select{color: #121212;}
+    .option .language .lang_select:after{background-position-y:0;}
+
+    .white .depth1 .depth1_list .depth1_text{color: white;}
+	.white .option .language .lang_select{color: white;}
+	.white .option .language .lang_select:after{background-position-y: -7px;}
+
+	.gnb_open .depth .depth_list .depth_text{color:white;}
+    .gnb_open .option .language .lang_select:after{background-position-y:-7px;}
+}
+
+
+/* footer */
+.footer_bot{justify-content: space-between;}
+.footer_top .link_list{width: 220px;}
+@media (max-width:640px) {
+    .footer_top .link_list{width: 100%;}
+}
+/* 유한건강생활 소개 */
+.yuhancare_story .cont06 .upSlide .slideText li p{font-size: 40px;}
+@media (max-width:1000px) {
+    .yuhancare_story .cont02 .text p br{display: none;}
+    .yuhancare_story .cont03 .secCount p br{display: none;}
+    .yuhancare_story .cont04 h3 br{display: none;}
+    .yuhancare_story .secCount p.sub br{display: none;}
+    .yuhancare_story .cont06 .subtitle br{display: none;}
+}
+
+/* 유일한 */
+.yuhancare_newilhan .cont05.horizontal .item .story{width: 500px;}
+.yuhancare_newilhan .cont11{padding-top: 120px;}
+.yuhancare_newilhan .cont11.horizontal .item .content4 p{top: 300px;}
+.yuhancare_newilhan .cont11.horizontal .item .yearSec h4{bottom: 40px;}
+.yuhancare_newilhan .cont11.horizontal .item .content6 p{top: 300px;}
+.yuhancare_newilhan .cont11.horizontal .item .content8 p{top: 300px;}
+.yuhancare_newilhan .cont13 .contentWrap .pictureWrap .picture p{line-height: 24px;}
+.yuhancare_newilhan .cont16.horizontal .item .yearSec{padding-top: 0;}
+.yuhancare_newilhan .cont16.horizontal .item .yearSec h4{font-size: 50px;}
+.yuhancare_newilhan .cont16.horizontal .item .yearSec h5{margin-top: 20px;}
+.yuhancare_newilhan .cont16.horizontal .item .content5 p{margin-top: 20px;}
+.yuhancare_newilhan .cont16.horizontal .item .yearSec.content7{padding-top: 0;}
+.yuhancare_newilhan .cont16.horizontal .item .content7 p{margin-top: 10px;}
+@media (max-width:1000px) {
+    .yuhancare_newilhan .cont04 .story br{display: none;}
+    .yuhancare_newilhan .cont05.horizontal .item .story{width: 100%;}
+    .yuhancare_newilhan .cont11.horizontal .item .content4 p{top: 37.333vw;}
+    .yuhancare_newilhan .cont11.horizontal .item .yearSec h4{bottom: 0;}
+    .yuhancare_newilhan .cont11.horizontal .item .content1 h4{bottom: -10vw;}
+    .yuhancare_newilhan .cont11.horizontal .item .content6 p{top: 54.666vw;}
+    .yuhancare_newilhan .cont11.horizontal .item .content8 p{top: 51.111vw;}
+    .yuhancare_newilhan .cont16.horizontal .item .yearSec{padding-top: 14vw;}
+    .yuhancare_newilhan .cont16.horizontal .item .yearSec h4{font-size: 5.333vw;}
+    .yuhancare_newilhan .cont16.horizontal .item .yearSec h5{margin-top: 6.666vw;}
+    .yuhancare_newilhan .cont16.horizontal .item .content1 p.mo{left:22.222vw;top: auto;}
+    .yuhancare_newilhan .cont16.horizontal .item .content3 p.mo{left: 22.222vw;top: auto;}
+    .yuhancare_newilhan .cont16.horizontal .item .content5 p.mo{left: 22.222vw;top: auto;}
+    .yuhancare_newilhan .cont16.horizontal .item .content7 p.mo{left: 22.222vw;top: auto;}
+}
+
+/* 연혁 */
+@media (max-width:1000px) {
+    .yuhancare_history .timeline-header__subtitle{line-height: 30px;}
+    .yuhancare_history .timeline__content-desc > br:nth-child(n+4){display: block;}
+    .yuhancare_history .timeline__content-desc > br:nth-child(n+6){display: none;}
+}
+
+/* 사업영역 */
+.yuhancare_brand .sec02 .linkbox .link .link_text{padding: 0 40px;}
+@media (max-width:1000px) {
+    .yuhancare_brand .sec02 .linkbox .link .link_text{padding: 0 5vw;}
+}
+
+/* 브랜드 상세 */
+.brand_neworigin .sec02 .fake_select .select_btn{width: 270px;}
+@media (max-width:1000px) {
+    .brand_neworigin .sec02 .fake_select .select_btn{width: 100%;}
+}
+
+/* 스토어 */
+@media (min-width:1001px) {
+    .brand_intro .sec02 .flexbox .twin_box.left .context p:last-child{margin-top: 60px;}
+}
+
+/* 연구와 혁신 */
+.rnd .cont01 .circleWrap>div .txt p span{margin-top: 0;}
+.rnd .cont02 .hd3{font-size: 40px;}
+.rnd .cont02 .stageWrap dl dd .hd4{line-height: 30px;}
+.rnd .cont02 .stageWrap dl dd p{margin-top: 10px;}
+.rnd .keyTechnology .tabBox>ul>li>a{line-height: 1.2;}
+.rnd .cont03 .listWrap ul li{line-height: 1.2;display: flex;justify-content: center;align-items: center;font-size: 20px;}
+.rnd .cont04 ul.tabList li a{font-size: 16px;}
+.rnd .cont04 .contentsList dt{padding: 20px;}
+.rnd .contNetwork .hd4{background-image: url(../img/yuhancare_logo_all_white_eng.png);}
+@media (max-width:1000px) {
+    .rnd .cont02 .hd3{font-size: 20px;}
+    .rnd .cont02 .hd3 br{display: none;}
+    .rnd .cont02 .stageWrap dl dt p{font-size: 3vw;padding: 0 10px;}
+    .rnd .keyTechnology .tabBox>ul>li>a{line-height: 40px;}
+    .rnd .cont03 .listWrap ul li{height: 120px;}
+    .rnd .cont04 ul.tabList li{height: 100px;}
+}
+
+/* 원료이야기 상세 */
+@media(min-width:1001px) {
+    .ingredients_detail .sec01 .detail_info dt{width: 90px;}
+    .ingredients_detail .sec01 .detail_info dd{width: calc(100% - 90px);}
+}
+
+/* 기업문화 */
+.culture_intro .cultureWrap .cont05 .work .way li{padding: 8vh 10px 0;}
+
+/* 업무문화 */
+.culture_culture .sec02 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet .big_text{line-height: 30px;font-size: 20px;}
+@media (max-width:640px) {
+    .culture_culture .sec02 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet .big_text{line-height: 4vw;font-size: 3.5vw;}
+    .culture_culture .sec02 .swiper.mySwiper .slidebox .text br{display: none;}
+}

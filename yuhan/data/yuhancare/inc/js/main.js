@@ -67,7 +67,7 @@ $.ajax({
         let newsItem = '';
         for(var i=0;i<3;i++) {
             newsItem += `<div class="news_item">
-                <a href="/media/news_view?key=${data[i].no}">
+                <a href="/data/yuhancare/media/news_view.html?key=${data[i].no}">
                     <div class="news_thumb link_icon">
                         <img src="${data[i].img}" alt="${data[i].title}">
                     </div>
@@ -137,11 +137,11 @@ $(function() {
         $('.sec02 .matchbox .matchtext').eq(thisIndex - 1).addClass('active').siblings().removeClass('active');
 
         if(thisIndex === 1) {
-            $('.sec02 .linkbox a').attr('href','/corporation/about_yuhancare');
+            $('.sec02 .linkbox a').attr('href','/data/yuhancare/corporation/about_yuhancare.html');
         } else if(thisIndex === 2) {
-            $('.sec02 .linkbox a').attr('href','/value/brand');
+            $('.sec02 .linkbox a').attr('href','/data/yuhancare/value/brand.html');
         } else {
-            $('.sec02 .linkbox a').attr('href','/culture/talent');
+            $('.sec02 .linkbox a').attr('href','/data/yuhancare/culture/talent.html');
         }
     });
 });

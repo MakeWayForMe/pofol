@@ -1,7 +1,9 @@
-let setVideo;
-//let videoEle = document.querySelector('#slide_video');
-$('.visual_slide .holding .change').eq(0).addClass('on');
-$('.slide_paging li').eq(0).addClass('on');
+let setVideo,
+    videoEle = document.querySelector('#slide_video');
+
+$('.visual_slide .textbox .change span').eq(0).addClass('active');
+$('.visual_slide .slide_paging li').eq(0).addClass('active');
+$('.visual_slide .slogan span').eq(0).addClass('active');
 
 let visualSlide = new Swiper('.visual_slide', {
     speed : 1000,
@@ -10,6 +12,10 @@ let visualSlide = new Swiper('.visual_slide', {
     loopAdditionalSlides : 1,
     mousewheel: false,
     watchSlidesProgress: true,
+    navigation: {
+        nextEl: '.visual-parallax-slider .nav_right',
+        prevEl: '.visual-parallax-slider .nav_left'
+    },
     autoplay: {
         delay: 3000,
         disableOnInteraction: false,
@@ -23,41 +29,40 @@ let visualSlide = new Swiper('.visual_slide', {
                 this.slides[i].querySelector('.bg').style.transform = `translate3d(${innerTranslate}px,0,0)`;
             }
         },
-        setTransition: function(swiper,speed) {
+        setTransition: function(swiper, speed) {
             for (var i = 0; i < this.slides.length; i++) {
                 this.slides[i].style.transition = speed + 'ms';
                 this.slides[i].querySelector('.bg').style.transition = speed + 'ms';
             }
         },
         slideChange : function() {
+            $('.visual_slide .textbox .change span').eq(this.realIndex).addClass('active').siblings().removeClass('active');
             $('.visual_slide .slide_paging li').eq(this.realIndex).addClass('active').siblings().removeClass('active on');
             $('.visual_slide .slogan span').eq(this.realIndex).addClass('active').siblings().removeClass('active');
-            // if(this.realIndex === 3) {
-            //     $('.visual_slide .holding .change').addClass('on');
-            //     this.autoplay.stop();
-            // } else {
-            $('.visual_slide .holding .change').eq(this.realIndex).addClass('on').siblings().removeClass('on');
-                // clearInterval(setVideo);
-                // this.autoplay.start();
-                // videoEle.pause();
-            // }
+            if(this.realIndex === 3) {
+                this.autoplay.stop();
+            } else {
+                clearInterval(setVideo);
+                this.autoplay.start();
+                videoEle.pause();
+            }
         },
         slideChangeTransitionEnd : function() {
             $('.slide_paging li').eq(this.realIndex).addClass('on');
-            // if(this.realIndex === 3) {
-            //     videoEle.play();
-            //     videoEle.playbackRate = 1.5;
-            //     setVideo = setInterval(function() {
-            //         document.querySelector('.slide_paging .video-slide .btn_bar').style.width = videoEle.currentTime/videoEle.duration*100 + '%';
-            //     },500);
-            // }
+            if(this.realIndex === 3) {
+                videoEle.play();
+                videoEle.playbackRate = 1.5;
+                setVideo = setInterval(function() {
+                    document.querySelector('.slide_paging .video-slide .btn_bar').style.width = videoEle.currentTime/videoEle.duration*100 + '%';
+                },500);
+            }
         }
     }
 });
-// videoEle.addEventListener('ended', function() {
-//     visualSlide.slideNext();
-//     this.currentTime = 0;
-// });
+videoEle.addEventListener('ended', function() {
+    visualSlide.slideNext();
+    this.currentTime = 0;
+});
 
 $.ajax({
     type: 'GET',

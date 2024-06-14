@@ -2,7 +2,7 @@ let setVideo,
     videoEle = document.querySelector('#slide_video');
 
 $('.visual_slide .textbox .change span').eq(0).addClass('active');
-$('.visual_slide .slide_paging li').eq(0).addClass('active');
+$('.visual_slide .slide_paging li').eq(0).addClass('active on');
 $('.visual_slide .slogan span').eq(0).addClass('active');
 
 let visualSlide = new Swiper('.visual_slide', {

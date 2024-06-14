@@ -20,7 +20,7 @@
 .main .sec01 .visual_slide .textbox .holding{font-size: 70px;font-weight: 700;letter-spacing: 0;margin-bottom: 5px;}
 .main .sec01 .visual_slide .textbox .change{font-size: 0;position:relative;height: 70px;width: 100%;margin-bottom: 50px;overflow: hidden;}
 .main .sec01 .visual_slide .textbox .change span{position: absolute;font-size: 70px;font-weight: 700;letter-spacing: 0;white-space: nowrap;visibility: hidden;transform: translateY(100%);}
-.main .sec01 .visual_slide .textbox .change span.active{transition: 500ms ease-out;transform: translateY(0);visibility: visible;}
+.main .sec01 .visual_slide .textbox .change span.active{transition: 500ms ease-out;visibility: visible;}
 .main .sec01 .visual_slide .textbox .slogan{position:relative;}
 .main .sec01 .visual_slide .textbox .slogan span{font-size: 20px;letter-spacing: 0;line-height: 32px;position: absolute;white-space: nowrap;visibility: hidden;transform: translateX(100px);opacity:0;transition: 500ms ease-in-out;}
 .main .sec01 .visual_slide .textbox .slogan span.active{transform: translateX(0);visibility: visible;opacity:1;}

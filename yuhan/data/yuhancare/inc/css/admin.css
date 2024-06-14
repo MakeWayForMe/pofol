@@ -22,7 +22,7 @@ iframe body{margin:0;}
 .lnb h1{width:280px; padding:115px 0 110px; box-sizing:border-box; border-bottom:1px solid #acacac; margin:0 auto 77px; text-align:center;}
 .lnb h1 img{width:232px; height:50px;}
 .lnb ul li{height:80px; font-size:28px; line-height:80px; font-weight:600; padding-left:30px;}
-.lnb ul li.on{background:#1d944d url('../data/yuhancare/inc/img/admin/element_lnb.png') no-repeat right center;}
+.lnb ul li.on{background:#1d944d url('/portfolio/yuhan/data/yuhancare/inc/img/admin/element_lnb.png') no-repeat right center;}
 .lnb ul li a{color:#fff;}
 .lnb ul li a:hover{text-decoration:underline;}
 .lnb ul.depth{display:none; margin-top:8px;}

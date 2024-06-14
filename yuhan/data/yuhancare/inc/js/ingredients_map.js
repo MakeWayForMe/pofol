@@ -8,7 +8,7 @@ const gData = [];
 
 $.ajax({
     type: 'GET',
-    url: '../data/yuhancare/inc/json/globe.json',
+    url: '/portfolio/yuhan/data/yuhancare/inc/json/globe.json',
     dataType: 'json',
     async: false,
     success: function(data) {
@@ -61,8 +61,8 @@ const world = Globe({animateIn: false}).width(winInner).height(canvasHeight).bac
         });
         return el;
     })
-    .globeImageUrl('../data/yuhancare/inc/img/value/globeImage1.jpg')
-    .bumpImageUrl('../data/yuhancare/inc/img/value/globeImage2.png')
+    .globeImageUrl('/portfolio/yuhan/data/yuhancare/inc/img/value/globeImage1.jpg')
+    .bumpImageUrl('/portfolio/yuhan/data/yuhancare/inc/img/value/globeImage2.png')
     (document.getElementById('globeViz'));
 
 world.controls().autoRotate = true;
@@ -75,7 +75,7 @@ const globeMaterial = world.globeMaterial();
 globeMaterial.bumpScale = 10;
 
 //광원
-new THREE.TextureLoader().load('../data/yuhancare/inc/img/value/globeImage3.png', texture => {
+new THREE.TextureLoader().load('/portfolio/yuhan/data/yuhancare/inc/img/value/globeImage3.png', texture => {
     globeMaterial.specularMap = texture;
     globeMaterial.specular = new THREE.Color('grey');
     globeMaterial.shininess = 15;

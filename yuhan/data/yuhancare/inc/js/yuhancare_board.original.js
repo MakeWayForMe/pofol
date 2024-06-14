@@ -54,7 +54,7 @@ if(!url.includes('_view')) { // 게시판 화면
 
     $.ajax({
         type: 'GET',
-        url: '../data/yuhancare/inc/json/' + htmlPath + '.json',
+        url: '/portfolio/yuhan/data/yuhancare/inc/json/' + htmlPath + '.json',
         async:false,
         dataType: 'json',
         success: function(data) {
@@ -213,7 +213,7 @@ if(!url.includes('_view')) { // 게시판 화면
 
     $.ajax({
         type: 'GET',
-        url: '../data/yuhancare/' + urlPath + '/' + htmlPath + '_contents/' + key + '.html',
+        url: '/portfolio/yuhan/data/yuhancare/' + urlPath + '/' + htmlPath + '_contents/' + key + '.html',
         async:false,
         success: function(data) {
             $('#board_content').append(data);
@@ -225,7 +225,7 @@ if(!url.includes('_view')) { // 게시판 화면
 
     $.ajax({
         type: 'GET',
-        url: '../data/yuhancare/inc/json/' + htmlPath + '.json',
+        url: '/portfolio/yuhan/data/yuhancare/inc/json/' + htmlPath + '.json',
         async:false,
         dataType: 'json',
         success: function(data) {

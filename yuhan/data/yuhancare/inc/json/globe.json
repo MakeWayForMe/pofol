@@ -7,7 +7,7 @@
         "nameENG": "Ginseng",
         "location": "김포 파주",
         "locationENG": "KOREA PAJU",
-        "img": "../data/yuhancare/inc/img_new/value/globe/globe_redGinseng.png",
+        "img": "/portfolio/yuhan/data/yuhancare/inc/img_new/value/globe/globe_redGinseng.png",
         "text": "유한건강생활의 홍삼 사용에 있어서 가장 큰 특징이자 차별점은 뿌리뿐 아니라 인삼의 잎과 열매 모두를 사용한다는 점입니다.",
         "textENG": "Yuhan Care's ginseng sets itself apart by not only using the roots, but also the leaves and fruits.",
         "link": "/value/ingredients_detail_redGinseng"
@@ -20,7 +20,7 @@
         "nameENG": "Deer Antlers",
         "location": "뉴질랜드",
         "locationENG": "NEW ZEALAND",
-        "img": "../data/yuhancare/inc/img_new/value/globe/globe_deerAntlers.png",
+        "img": "/portfolio/yuhan/data/yuhancare/inc/img_new/value/globe/globe_deerAntlers.png",
         "text": "녹용의 분골, 상대, 하대 각 부분의 영양이 다르기에 녹용 전체를 이용하여 녹용의 영양을 온전하게 담아냅니다.",
         "textENG": "Yuhan Care uses whole deer velvet to fully capture its nutrition as each part of deer velvet has different nutrient content.",
         "link": "/value/ingredients_detail_deerAntlers"
@@ -33,7 +33,7 @@
         "nameENG": "Deer Milk",
         "location": "뉴질랜드",
         "locationENG": "NEW ZEALAND",
-        "img": "../data/yuhancare/inc/img_new/value/globe/globe_deerMilk.png",
+        "img": "/portfolio/yuhan/data/yuhancare/inc/img_new/value/globe/globe_deerMilk.png",
         "text": "사슴 유에 풍부한 유단백 성분은 피부 장벽의 주 성분인 지질과 단백질을 모사해 무너진 장벽 사이를 촘촘히 메워 마르지 않는 속 수분을 선사하는 뷰티 원료입니다.",
         "textENG": "",
         "link": "/value/ingredients_detail_deerMilk"
@@ -46,7 +46,7 @@
         "nameENG": "A2 Protein",
         "location": "뉴질랜드",
         "locationENG": "NEW ZEALAND",
-        "img": "../data/yuhancare/inc/img_new/value/globe/globe_a2Protein.png",
+        "img": "/portfolio/yuhan/data/yuhancare/inc/img_new/value/globe/globe_a2Protein.png",
         "text": "아기에게 소화불편감를 일으키지 않는 변형되지 않는 태초 그대로의 우유 단백질, 모유의 단백질 구조 역시 A2 타입 단백질 입니다.",
         "textENG": "The unaltered, original milk protein that does not cause digestive issues in babies and also has the same protein structure as breast milk is A2 type protein.",
         "link": "/value/ingredients_detail_protein"
@@ -59,7 +59,7 @@
         "nameENG": "Vitamin D",
         "location": "캘리포니아",
         "locationENG": "AMERICA CALIFORNIA",
-        "img": "../data/yuhancare/inc/img_new/value/globe/globe_vitaminD.png",
+        "img": "/portfolio/yuhan/data/yuhancare/inc/img_new/value/globe/globe_vitaminD.png",
         "text": "빛을 받고 자라 비타민D가 풍성한 버섯을 그대로 갈아 넣어 원물 본연의 성분이 담긴 비타민D.",
         "textENG": "Freshly ground mushrooms rich in vitamin D grown under sunlight, preserving the natural state of the mushrooms for authentic vitamin D.",
         "link": "/value/ingredients_detail_vitaminD"
@@ -72,7 +72,7 @@
         "nameENG": "Lutein",
         "location": "인도 카트라",
         "locationENG": "INDIA KATRA",
-        "img": "../data/yuhancare/inc/img_new/value/globe/globe_lutein.png",
+        "img": "/portfolio/yuhan/data/yuhancare/inc/img_new/value/globe/globe_lutein.png",
         "text": "인도 천혜의 환경이 만든 마리골드꽃 추출물의 영양을 그대로 보존하기 위해 헥산 없이 오직 온도와 압력을 통해 원물을 추출하는 초임계추출법을 사용합니다.",
         "textENG": "Yuhan Care's Lutein is a safe and residue-free source of nutrition obtained through supercritical extraction, which preserves the nutrients of marigold flowers grown in India's natural environment, without the use of any chemicals.",
         "link": "/value/ingredients_detail_lutein"
@@ -85,7 +85,7 @@
         "nameENG": "Milk Thistle",
         "location": "히말라야",
         "locationENG": "HIMALAYA",
-        "img": "../data/yuhancare/inc/img_new/value/globe/globe_milkThistle.png",
+        "img": "/portfolio/yuhan/data/yuhancare/inc/img_new/value/globe/globe_milkThistle.png",
         "text": " 인도 북쪽 카슈미르 고원에서 자란 야생 밀크씨슬은 인공 재배가 아닌 자연적으로 성장, 핸드픽 수확 과정을 거쳐 밀크씨슬 본연의 영양성분 그대로를 가지고 있습니다.",
         "textENG": "Yuhan Care's wild milk thistle, grown in the rugged terrain of the Kashemir hills in northern India, is naturally grown and hand-picked to preserve its original nutritious components.",
         "link": "/value/ingredients_detail_milkThistle"
@@ -98,7 +98,7 @@
         "nameENG": "Calcium",
         "location": "뉴질랜드",
         "locationENG": "NEW ZEALAND",
-        "img": "../data/yuhancare/inc/img_new/value/globe/globe_calcium.png",
+        "img": "/portfolio/yuhan/data/yuhancare/inc/img_new/value/globe/globe_calcium.png",
         "text": "생선 뼈의 칼슘과 인의 비율 2:1의 비율을 가지고 있어 섭취 시 좀 더 안정적이고 높은 체내 흡수율 및 이용률을 기대할 수 있습니다.",
         "textENG": "The calcium-to-phosphorus ratio of fish bones is 2:1, making it more stable and leading to a higher absorption and utilization rate in the body when consumed.",
         "link": "/value/ingredients_detail_calcium"
@@ -111,7 +111,7 @@
         "nameENG": "Omega3",
         "location": "국내 배양 및 제조",
         "locationENG": "HAWAII",
-        "img": "../data/yuhancare/inc/img_new/value/globe/globe_omega3.png",
+        "img": "/portfolio/yuhan/data/yuhancare/inc/img_new/value/globe/globe_omega3.png",
         "text": "유한건강생활은 화학적 용매 없이, 저온 효소 추출한 ‘자연종’ 미세조류만을 사용합니다.",
         "textENG": "Yuhan Care obtains EPA and DHA from 100% pure Hawaiian microalgae obtained through low-temperature enzyme extraction, without the use of chemical solvents.",
         "link": "/value/ingredients_detail_omega3"
@@ -124,7 +124,7 @@
         "nameENG": "UREX Probiotics",
         "location": "덴마크",
         "locationENG": "DENMARK",
-        "img": "../data/yuhancare/inc/img_new/value/globe/globe_urex.png",
+        "img": "/portfolio/yuhan/data/yuhancare/inc/img_new/value/globe/globe_urex.png",
         "text": "여성만을 위해 특별히 설계된 특허받은 프로바이오틱스로 장, 그리고 질까지 살아남아 정착하는 매커니즘을 가지고 있습니다.",
         "textENG": "UREX Probiotics is a patented probiotic designed specifically for women, with the ability to survive and thrive in both the gut and vagina.",
         "link": "/value/ingredients_detail_urex"
@@ -137,7 +137,7 @@
         "nameENG": "Baeksuo",
         "location": "충북 제천",
         "locationENG": "KOREA JECHEON",
-        "img": "../data/yuhancare/inc/img_new/value/globe/globe_baeksuo.png",
+        "img": "/portfolio/yuhan/data/yuhancare/inc/img_new/value/globe/globe_baeksuo.png",
         "text": "국내 최초, 국내 유일 에스트로겐 수용체와 결합하지 않는 여성 갱년기 원료",
         "textENG": "The first and only menopause relief in Korea that does not bind to estrogen receptors.",
         "link": "/value/ingredients_detail_baeksuo"

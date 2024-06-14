@@ -1,7 +1,7 @@
 [
     {
         "no": "1",
-        "img" : "../data/yuhancare/inc/img_new/media/news/1.png",
+        "img" : "/portfolio/yuhan/data/yuhancare/inc/img_new/media/news/1.png",
         "title" : "11111",
         "date" : "23.03.09"
     }

@@ -5,7 +5,7 @@
     <div class="wrap">
         <div class="footer_top">
             <div class="footer_logo">
-                <img src="../data/yuhancare/inc/img_new/common/footer_logo.png" alt="유한건강생활">
+                <img src="/portfolio/yuhan/data/yuhancare/inc/img_new/common/footer_logo.png" alt="유한건강생활">
             </div>
             <div class="dropdown_box">
                 <div class="family_site link_list">
@@ -20,9 +20,9 @@
                 <div class="company_info link_list">
                     <button type="button" class="link_open" title="열기">회사소개서</button>
                     <ul>
-                        <li><a href="../data/yuhancare/inc/download/yuhancare_Introduction_kor.pdf" class="download" target="_blank">한국어</a></li>
-                        <li><a href="../data/yuhancare/inc/download/yuhancare_Introduction_eng.pdf" class="download" target="_blank">ENG</a></li>
-                        <li><a href="../data/yuhancare/inc/download/yuhancare_Introduction_chn.pdf" class="download" target="_blank">中文</a></li>
+                        <li><a href="/portfolio/yuhan/data/yuhancare/inc/download/yuhancare_Introduction_kor.pdf" class="download" target="_blank">한국어</a></li>
+                        <li><a href="/portfolio/yuhan/data/yuhancare/inc/download/yuhancare_Introduction_eng.pdf" class="download" target="_blank">ENG</a></li>
+                        <li><a href="/portfolio/yuhan/data/yuhancare/inc/download/yuhancare_Introduction_chn.pdf" class="download" target="_blank">中文</a></li>
                     </ul>
                 </div>
             </div>
@@ -31,8 +31,8 @@
             <div class="linkbox">
                 <ul>
                     <li><a href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=1828600679" target="_blank">사업자정보확인</a></li>
-                    <li><a href="../data/yuhancare/corporation/policy_personal.html" target="_blank">개인정보처리방침</a></li>
-                    <li><a href="../data/yuhancare/corporation/policy_email.html" target="_blank">이메일무단수집거부</a></li>
+                    <li><a href="/portfolio/yuhan/data/yuhancare/corporation/policy_personal.html" target="_blank">개인정보처리방침</a></li>
+                    <li><a href="/portfolio/yuhan/data/yuhancare/corporation/policy_email.html" target="_blank">이메일무단수집거부</a></li>
                     <li><a href="/contact/contactUs">문의하기</a></li>
                 </ul>
             </div>

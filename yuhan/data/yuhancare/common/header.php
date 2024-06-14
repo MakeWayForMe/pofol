@@ -15,16 +15,16 @@
     <meta property="og:url" content="www.yuhancare.com/">
     <meta property="og:title" content="유한건강생활">
     <meta property="og:description" content="천연물의 잠재력을 건강 그 이상의 가치로 연결하는 유한건강생활">
-    <meta property="og:image" content="../data/yuhancare/inc_/img_new/common/openGraph.jpg">
-    <link rel="shortcut icon" href="../data/yuhancare/inc/img_new/common/favicon_yuhancare.png">
-    <link rel="icon" href="../data/yuhancare/inc/img_new/common/favicon_yuhancare.png" type="image/x-icon">
-    <link rel="stylesheet" href="../data/yuhancare/inc/css/swiper.min.css">
-    <link rel="stylesheet" href="../data/yuhancare/inc/css/contents.css">
-    <script src="../data/yuhancare/inc/js/vendor/jquery-3.5.1.min.js"></script>
-    <script src="../data/yuhancare/inc/js/flowup.js"></script>
-    <script src="../data/yuhancare/inc/js/swiper.min.js"></script>
-    <script src="../data/yuhancare/inc/js/slick1.8.1.min.js"></script>
-    <script src="../data/yuhancare/inc/js/common.js"></script>
+    <meta property="og:image" content="/portfolio/yuhan/data/yuhancare/inc_/img_new/common/openGraph.jpg">
+    <link rel="shortcut icon" href="/portfolio/yuhan/data/yuhancare/inc/img_new/common/favicon_yuhancare.png">
+    <link rel="icon" href="/portfolio/yuhan/data/yuhancare/inc/img_new/common/favicon_yuhancare.png" type="image/x-icon">
+    <link rel="stylesheet" href="/portfolio/yuhan/data/yuhancare/inc/css/swiper.min.css">
+    <link rel="stylesheet" href="/portfolio/yuhan/data/yuhancare/inc/css/contents.css">
+    <script src="/portfolio/yuhan/data/yuhancare/inc/js/vendor/jquery-3.5.1.min.js"></script>
+    <script src="/portfolio/yuhan/data/yuhancare/inc/js/flowup.js"></script>
+    <script src="/portfolio/yuhan/data/yuhancare/inc/js/swiper.min.js"></script>
+    <script src="/portfolio/yuhan/data/yuhancare/inc/js/slick1.8.1.min.js"></script>
+    <script src="/portfolio/yuhan/data/yuhancare/inc/js/common.js"></script>
     <title>유한건강생활</title>
 </head>
 <body data-top="top">

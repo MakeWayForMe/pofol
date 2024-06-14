@@ -350,3 +350,50 @@
     .full_layer .ly_close{width:300px;}
 	.full_layer .fix_close{bottom: 30px;right: 20px;}
 }
+
+/* 주주총회 안내 */
+.shareholders{text-align:center;}
+.shareholders .subtitle{position:relative;padding:38px 0;font-size:24px;font-weight:600;line-height:38px;}
+.shareholders .hd{margin-top:70px;margin-bottom:64px;font-size:22px;}
+.shareholders .detail_info{text-align:left;}
+.shareholders .detail_info > ol > li{font-size:22px;line-height:42px;}
+.shareholders .detail_info > ol > li > span{font-weight:600;}
+.shareholders .detail_info > ol > li .box2{padding:27px 50px;}
+.shareholders .detail_info > ol > li .box2 .box_inner{padding:51px 40px;background-color:#f5f5f5;}
+.shareholders .detail_info > ol > li .box2 .box_inner > li{font-size:18px;font-weight:600;line-height:34px;}
+.shareholders .detail_info > ol > li .box2 .box_inner > li > ol{padding:20px 36px;}
+.shareholders .detail_info > ol > li .box2 .box_inner > li > ol > li{font-weight:400;}
+.shareholders .detail_info > ol > li .box_inner2{padding:30px 80px;}
+.shareholders .detail_info > ol > li .box_inner2 p{font-size:0;}
+.shareholders .detail_info > ol > li .box_inner2 p + p{margin-top:0;}
+.shareholders .detail_info > ol > li .box_inner2 p span{display:inline-block;font-size:18px;line-height:39px;vertical-align:top;}
+.shareholders .detail_info > ol > li .box_inner2 p .txt_hd{width:80px;}
+.shareholders .detail_info > ol > li .box_inner2 p .txt_tail{width:calc(100% - 80px);}
+.shareholders .outro{position:relative;margin-top:70px;font-size:22px;}
+.shareholders .outro div{font-weight:600;}
+.shareholders .outro .cop{margin:33px 0 16px;}
+.shareholders .outro .name{color:black;}
+
+@media (max-width:1000px) {
+    .shareholders{padding-bottom:70px;}
+    .shareholders .subtitle{padding:30px 0;font-size:20px;line-height:30px;}
+    .shareholders .hd{margin-top:46px;margin-bottom:42px;font-size:18px;}
+    .shareholders .detail_info > ol > li{font-size:18px;line-height:25px;}
+    .shareholders .detail_info > ol > li .box2{padding:8px 0;}
+    .shareholders .detail_info > ol > li .box2 .box_inner{padding:15px 40px;}
+    .shareholders .detail_info > ol > li .box2 .box_inner > li{font-size:18px;line-height:30px;}
+    .shareholders .detail_info > ol > li .box2 .box_inner > li > ol{padding:0 30px;}
+    .shareholders .detail_info > ol > li .box_inner2{padding:0 30px;}
+    .shareholders .detail_info > ol > li .box_inner2 p span{font-size:18px;line-height:30px;}
+    .shareholders .detail_info > ol > li .box_inner2 p .txt_hd{width:74px;}
+    .shareholders .detail_info > ol > li .box_inner2 p .txt_tail{width:calc(100% - 74px);}
+    .shareholders .outro div{font-size:18px;}
+    .shareholders .outro .cop{margin:20px 0 12px;}
+}
+
+@media (max-width:640px) {
+    .shareholders .subtitle{font-size:18px;}
+    .shareholders .subtitle br:last-child{display:none;}
+    .shareholders .detail_info > ol > li .box2 .box_inner{padding:15px 20px;}
+    .shareholders .detail_info > ol > li .box2 .box_inner > li > ol{padding:0 15px;}
+}

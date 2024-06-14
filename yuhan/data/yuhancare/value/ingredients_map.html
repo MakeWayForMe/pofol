@@ -27,7 +27,7 @@
 
 <header id="header">
     <div class="wrap">
-        <h1 class="logo_box"><a href="/" class="logo">유한건강생활</a></h1>
+        <h1 class="logo_box"><a href="/portfolio/yuhan/" class="logo">유한건강생활</a></h1>
         <button type="button" class="menu_open">메뉴열기</button>
         <div class="gnb_curtain"></div>
         <div class="gnb">
@@ -138,7 +138,7 @@
                         <div class="gd_name">${d.name}</div>
                         <div class="origin">원산지 : ${d.location}</div>
                         <p class="text">${d.text}</p>
-                        <a href="/en${d.link}" class="link_btn">더보기</a>
+                        <a href="${d.link}" class="link_btn">더보기</a>
                     </div>
                     <button type="button" class="close_btn">닫기</button>
                 </div>`;
@@ -167,7 +167,7 @@
     globeMaterial.bumpScale = 10;
 
     //광원
-    new THREE.TextureLoader().load('/portfolio/yuhan/data/yuhancare/inc/img/value/globeImage3.png', texture => {
+    new THREE.TextureLoader().load('/portfolio/yuhan/data/yuhancare/inc/img_new/value/globe/globeImage3.png', texture => {
         globeMaterial.specularMap = texture;
         globeMaterial.specular = new THREE.Color('grey');
         globeMaterial.shininess = 15;

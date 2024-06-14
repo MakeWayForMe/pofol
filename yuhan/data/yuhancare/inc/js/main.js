@@ -1,5 +1,7 @@
 let setVideo;
 //let videoEle = document.querySelector('#slide_video');
+$('.visual_slide .holding .change').eq(0).addClass('on');
+$('.slide_paging li').eq(0).addClass('on');
 
 let visualSlide = new Swiper('.visual_slide', {
     speed : 1000,
@@ -21,11 +23,10 @@ let visualSlide = new Swiper('.visual_slide', {
                 this.slides[i].querySelector('.bg').style.transform = `translate3d(${innerTranslate}px,0,0)`;
             }
         },
-        setTransition: function(speed) {
+        setTransition: function(swiper,speed) {
             for (var i = 0; i < this.slides.length; i++) {
                 this.slides[i].style.transition = speed + 'ms';
                 this.slides[i].querySelector('.bg').style.transition = speed + 'ms';
-                console.log(this.slides[i].querySelector('.bg').style.transition = speed + 'ms');
             }
         },
         slideChange : function() {

@@ -27,11 +27,6 @@ h3, .h3{font-size:36px;font-weight:600;line-height:80px;}
 }
 
 
-
-
-.con_wrap{position:relative;width:1200px;margin:0 auto;padding:120px 0;}
-.con_wrap .cap{margin-bottom:40px;font-size:20px;line-height:26px;}
-
 @media (min-width:1201px){
 	#footer .wrap{width:1200px;}
 }
@@ -41,13 +36,9 @@ h3, .h3{font-size:36px;font-weight:600;line-height:80px;}
 }
 @media (max-width:1200px) {
 	.wrap{width:94vw;}
-	.con_wrap{width:1000px;}
 }
 @media (max-width:1000px) {
 	h3, .h3{font-size:24px;line-height:50px;}
-
-	.con_wrap{width:92%;padding:100px 0;}
-	.con_wrap .cap{margin-bottom:22px;font-size:18px;line-height:26px;}
 }
 
 

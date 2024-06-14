@@ -31,7 +31,7 @@
 
 <header id="header">
     <div class="wrap">
-        <h1 class="logo_box"><a href="/" class="logo">유한건강생활</a></h1>
+        <h1 class="logo_box"><a href="/portfolio/yuhan/" class="logo">유한건강생활</a></h1>
         <button type="button" class="menu_open">메뉴열기</button>
         <div class="gnb_curtain"></div>
         <div class="gnb">

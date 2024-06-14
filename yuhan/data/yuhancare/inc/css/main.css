@@ -1,5 +1,15 @@
 @charset "utf-8";
 
+.main .waypoint{opacity:0;transform: translateY(100px);}
+.main .waypoint.on{opacity:1;transform: translateY(0);transition: transform 600ms ease;}
+
+.main .main_inner{width: 1200px;margin: 0 auto;position:relative;}
+@media (max-width:1200px) {
+    .main .main_inner{width: 1000px;}
+}
+@media (max-width:1000px) {
+    .main .main_inner{width: calc(100% - 50px);}
+}
 
 /*** 메인 리뉴얼 231204 김진솔 ***/
 @keyframes slideProgress {to{width: 100%;}}

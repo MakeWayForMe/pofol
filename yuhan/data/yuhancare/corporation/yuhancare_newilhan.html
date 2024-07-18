@@ -475,30 +475,33 @@
         const $target2 = document.querySelector('.matchbox3 .film_inner');
         const $target3 = document.querySelector('.matchbox5 .film_inner');
 
-        let tab6 = false;
+        let tabIndex = location.hash;
 
-        filmDrag($target1);
+        if(tabIndex == '#1') {
+            filmDrag($target1);
+        } else if (tabIndex == '#3') {
+            filmDrag($target2);
+        } else if (tabIndex == '#5') {
+            filmDrag($target3);
+        }
+
         $('.sub_tabbox .tab_list li .tab_btn').on('click',function() {
-            let parentIndex = $(this).parent().index();
-            if(parentIndex === 0) {
+            tabIndex = location.hash;
+
+            if(tabIndex == '#1') {
                 filmDrag($target1);
-            } else if (parentIndex === 2) {
+            } else if (tabIndex == '#3') {
                 filmDrag($target2);
-            } else if (parentIndex === 4) {
+            } else if (tabIndex == '#5') {
                 filmDrag($target3);
             }
 
-            if(parentIndex === 5) {
-                tab6 = true;
-            } else {
-                tab6 = false;
-            }
-            $('.lastwill .will').removeClass('fixed');
+            if(tabIndex != '#6') $('.lastwill .will').removeClass('fixed');
         });
 
 
         $(window).scroll(function() {
-            if(tab6) {
+            if(tabIndex == '#6') {
                 let nowTop = $(document).scrollTop();
 
                 if(nowTop > $('.lastwill').offset().top) {

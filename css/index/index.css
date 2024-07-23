@@ -21,6 +21,7 @@
 }
 
 body{overflow-x: hidden;}
+body.lock{overflow-y: hidden;}
 ul.bu > li{position:relative;padding-left: 20px;font-size: 30px;color: white;margin-bottom: 10px;line-height: 1.2;}
 ul.bu > li:before{content: "";display: block;position: absolute;width: 6px;height: 6px;background-color: white;border-radius: 50%;left: 0;top: 15px;}
 ul.bu.type2 > li{color: white;font-size: 24px;margin-bottom: 10px;}

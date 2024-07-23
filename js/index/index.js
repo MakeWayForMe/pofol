@@ -40,9 +40,11 @@ window.onload = () => {
     //팝업
     $('.doc').on('click', function() {
         $(this).parent().siblings('.popup').addClass('on');
+        document.body.classList.add('lock');
     });
     $('.close').on('click', function() {
         $(this).parents('.popup').removeClass('on');
+        document.body.classList.remove('lock');
     });
 
     //슬라이드

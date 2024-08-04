@@ -52,14 +52,14 @@
     .main .sec01 .visual_slide .textbox .change{height: 56px;margin-bottom: 40px;}
     .main .sec01 .visual_slide .textbox .change span{font-size: 56px;}
     .main .sec01 .visual_slide .textbox .slogan span{font-size: 18px;line-height: 28px;}
-    .main .sec01 .visual_slide .textbox .slide_paging{left: 30px;bottom: 50px;transform: translate(0);width: 100%;}
-    .main .sec01 .visual_slide .textbox .slide_paging li{width: auto;}
-    .main .sec01 .visual_slide .textbox .slide_paging li + li{margin-left: 15px;}
-    .main .sec01 .visual_slide .textbox .slide_paging li button{display: flex;align-items: center;width: auto;position:relative;}
-    .main .sec01 .visual_slide .textbox .slide_paging .btn_name{width: auto;margin-bottom: 0;}
-    .main .sec01 .visual_slide .textbox .slide_paging .btn_name .mo_hide{display: none;}
-    .main .sec01 .visual_slide .textbox .slide_paging .btn_gage{margin-left: 15px;width: 0px;transition: width 500ms ease-in-out;}
-    .main .sec01 .visual_slide .textbox .slide_paging li.active .btn_gage{width: 200px;}
+    .main .sec01 .visual_slide .slide_paging{left: 30px;bottom: 50px;transform: translate(0);width: 100%;}
+    .main .sec01 .visual_slide .slide_paging li{width: auto;}
+    .main .sec01 .visual_slide .slide_paging li + li{margin-left: 15px;}
+    .main .sec01 .visual_slide .slide_paging li button{display: flex;align-items: center;width: auto;position:relative;}
+    .main .sec01 .visual_slide .slide_paging .btn_name{width: auto;margin-bottom: 0;}
+    .main .sec01 .visual_slide .slide_paging .btn_name .mo_hide{display: none;}
+    .main .sec01 .visual_slide .slide_paging .btn_gage{margin-left: 15px;width: 0px;transition: width 500ms ease-in-out;}
+    .main .sec01 .visual_slide .slide_paging li.active .btn_gage{width: 200px;}
 }
 @media (max-width:640px) {
     .main .sec01{margin-bottom: 80px;}
@@ -68,7 +68,7 @@
     .main .sec01 .visual_slide .textbox .change{height: 52px;margin-bottom: 30px;}
     .main .sec01 .visual_slide .textbox .change span{font-size: 52px;}
     .main .sec01 .visual_slide .textbox .slogan span{font-size: 16px;line-height: 26px;}
-    .main .sec01 .visual_slide .textbox .slide_paging li.active .btn_gage{width: 120px;}
+    .main .sec01 .visual_slide .slide_paging li.active .btn_gage{width: 120px;}
     .main .sec01 .scrolling{right: 30px;}
 }
 

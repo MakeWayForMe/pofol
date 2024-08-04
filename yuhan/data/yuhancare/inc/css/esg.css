@@ -49,8 +49,8 @@
 .yc_social .matchbox1 .part3 .triggerbox .g_nm{font-size: 42px;font-weight: 700;margin-bottom: 46px;}
 .yc_social .matchbox1 .part3 .triggerbox .g_text{font-size: 24px;font-weight: 500;line-height: 38px;}
 .yc_social .matchbox1 .part3 .triggerbox .g_text span{font-size: 20px;line-height:26px;font-weight: 400;}
-.yc_social .matchbox1 .part3 .triggerbox .imgbox{position: absolute;top: 42px;right: 0;}
-.yc_social .matchbox1 .part3 .triggerbox .imgbox img{border-bottom-right-radius: 100px;width: 320px;}
+.yc_social .matchbox1 .part3 .triggerbox .imgbox{position: absolute;top: 30px;right: 0;}
+.yc_social .matchbox1 .part3 .triggerbox .imgbox img{border-bottom-right-radius: 100px;width: 280px;}
 
 .yc_social .matchbox2{padding-bottom: 100px;}
 .yc_social .matchbox2 .chessbox{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;width:820px;margin:0 auto;}
